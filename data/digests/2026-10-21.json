@@ -1,133 +1,125 @@
 {
   "date": "2026-10-21",
   "timezone": "Asia/Shanghai",
-  "generatedAt": "2026-10-21T03:12:55.880Z",
+  "generatedAt": "2026-10-21T04:00:24.626Z",
   "items": [
     {
-      "title": "GardenBench: A lightweight, daily evaluation of LLM capabilities",
-      "url": "https://arxiv.org/abs/2610.23866",
-      "summary": "We introduce GardenBench, a benchmark with 11 test suites that evaluate the capabilities of Large Language Models (LLMs) across a range of tasks. By systematically prompting LLMs with various lightweight queries, we document day-to-day changes in model performance, including run costs and times, that other benchmarks miss. This allows us to compare the accu…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "author": "Benedict Cummins-Mburu, Mariana Garcia Mejia, Oscar Heath, Sabrina Kreyzerman, Ellie Murray, Arusan Surendiran, Rohan Alexander",
-      "tags": [
-        "cs.AI",
-        "cs.CL"
-      ],
-      "sourceId": "arxiv-cs-ai",
-      "sourceName": "arXiv cs.AI",
-      "category": "papers",
-      "id": "f1d2125c10ab9bae"
-    },
-    {
-      "title": "Doing Less with More: A First-Principles Exploration of the Suitability of Agentic Computing over Alternative Architectural Choices",
-      "url": "https://arxiv.org/abs/2610.23921",
-      "summary": "There is growing interest in automating business activities with Agentic Artificial Intelligence (AI) due to latter's seeming ease of use. Never has it been easier, or costlier, to do less with more. However, little is known about when agents are preferable to established alternatives such as local computation, Representational State Transfer (REST), the Si…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "author": "Ritvik Garimella, Biplav Srivastava, Amit Sheth",
+      "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+      "url": "https://arxiv.org/abs/2610.26887",
+      "summary": "Large language model (LLM) agents are evolving from conversational assistants into Cowork Agents capable of autonomous planning, tool use, and complex task execution. Financial analysis requires these agents to integrate cross-document evidence and perform multistep numerical reasoning, but expert task authoring is costly, while direct LLM synthesis struggl…",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Hengqi Liu, Ziyuan Liu, Yang Qin, Wanting Zhou, Zichuan Wang, Jiachen Liang, Xu Chu, Shaowei Chen, Zhaokai Luo, Mu Chuan",
       "tags": [
         "cs.AI"
       ],
       "sourceId": "arxiv-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "papers",
-      "id": "4f25073757678c55"
+      "id": "321cffa584ccddca"
     },
     {
-      "title": "A Controlled LLM Workflow for Evidence-Grounded Diagnosis of Risk Score Differences",
-      "url": "https://arxiv.org/abs/2610.23962",
-      "summary": "We propose a controlled Large Language Model (LLM) workflow for explaining risk score differences using similar historical transactions. The workflow combines reference retrieval and contrastive SHapley Additive exPlanations (SHAP) evidence with reference-based LLM reasoning and deterministic validation. Experiments on a test dataset show that the workflow…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "author": "Hanqing Dou, Zijia Cao",
-      "tags": [
-        "cs.AI",
-        "cs.LG"
-      ],
-      "sourceId": "arxiv-cs-ai",
-      "sourceName": "arXiv cs.AI",
-      "category": "papers",
-      "id": "fcd28ec43c43c464"
-    },
-    {
-      "title": "What Social Media Teaches Us About Accumulative AI Risks",
-      "url": "https://arxiv.org/abs/2610.24006",
-      "summary": "Prominent AI safety discussions emphasize existential threats and catastrophic events, such as AI-enabled nuclear conflict or engineered biological outbreaks. This position paper argues that there is another type of AI risk that arises and accumulates from the widespread use of AI. Drawing on lessons from social media, we argue that safety assessments must…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "author": "Dawei Li, Bohan Jiang, Huan Liu",
+      "title": "Large language model and reinforcement learning based autonomous construction and progress updates",
+      "url": "https://arxiv.org/abs/2610.26899",
+      "summary": "Due to the rapid growth of the global population, traditional construction methods are gradually unable to meet the current housing demand. The advancement of machine learning algorithms has encouraged researchers to explore their applications in the construction industry, leading to more intelligent and efficient building processes. In particular, the rise…",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Yifei Xiao, Huasheng Lin, T. Y. Yang",
       "tags": [
         "cs.AI"
       ],
       "sourceId": "arxiv-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "papers",
-      "id": "bd2e7ce0c5344719"
+      "id": "93731f42a7ad5e98"
     },
     {
-      "title": "Beyond Explicit Intent: Discovering and Shaping Artistic Intent through Human-AI Co-Creation",
-      "url": "https://arxiv.org/abs/2610.24010",
-      "summary": "Generative AI is becoming an important medium for artistic creation, yet existing interactions often assume that creators can specify intentions in advance and accurately communicate them through text prompts. Artistic intentions, however, may be vague, latent, or recognizable only after seeing concrete visual possibilities. We propose a human-AI co-creatio…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "author": "Renye Yan, Jialun Zhong, Jikang Cheng, Yi Gao, Yanzeng Li, Ling Liang",
+      "title": "Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models",
+      "url": "https://arxiv.org/abs/2610.26904",
+      "summary": "Recent studies have proposed reinforcement learning with verifiable rewards (RLVR) methods that enable LLMs to generate high-quality RTL circuits from natural-language specifications. Existing approaches optimize circuit PPA (Power, Performance, Area) by aggregating multiple objectives into a single scalar reward, making it difficult to simultaneously gener…",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Koki Takeshita, Kenji Uebayashi, Hikaru Tomonari, Masaya Tsunokake, Koichiro Yawata, Tatsuya Sasaki, Yusuke Ohtsubo, Kota Dohi, Yasuhiro…",
       "tags": [
-        "cs.AI",
-        "cs.CV",
-        "cs.HC"
+        "cs.AI"
       ],
       "sourceId": "arxiv-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "papers",
-      "id": "c8995f7fb2daa49f"
+      "id": "46178924d1dbab42"
     },
     {
-      "title": "Unified Multiparadigm Fusion Intelligence for Rare Disease Diagnosis",
-      "url": "https://arxiv.org/abs/2610.24024",
-      "summary": "Rare diseases (RDs) affect an estimated 300 million people globally, leaving patients to navigate a protracted diagnostic odyssey constrained by clinical scarcity and fragmented medical knowledge. Artificial intelligence (AI) has progressively advanced RD diagnostics, from symbolic methods and deep learning to large language model (LLM)-based systems. Howev…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "author": "Jian Yang, Peiling Liu, Songda Li, Yu Cao, Yuqing Feng, Lan Yu, Jiarong Pan, Jing Ye, Xinwen Huang, Chaochun Zou, Xudong Lu, Huilong Duan…",
+      "title": "MedPAO-Assist: Edge-Deployable, Modality-Aware Agentic AI for Radiology Report Structuring",
+      "url": "https://arxiv.org/abs/2610.26913",
+      "summary": "The adoption of Large Language Models for radiology report structuring has been largely dominated by either proprietary cloud-based models or large open models requiring high-end GPUs for deployment, which is a critical bottleneck for clinical adoption in radiology workflows that demand data privacy and offline operation. To address this, we present MedPAO-…",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Shrish Shrinath Vaidya, Minmini Selvam, Ganapathy Krishnamurthi",
       "tags": [
-        "cs.AI",
-        "cs.LG"
+        "cs.AI"
       ],
       "sourceId": "arxiv-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "papers",
-      "id": "4a6eaefef3476f21"
+      "id": "a75390adc4db4398"
     },
     {
-      "title": "LogicVal:A Logic-Formalized Benchmark for Constraint Satisfaction in Text-to-Image Generation",
-      "url": "https://arxiv.org/abs/2610.24051",
-      "summary": "Text-to-Image (T2I) generative models have made significant progress in producing high-fidelity images from natural-language prompts. Alongside this progress, numerous benchmarks have been developed to evaluate capabilities such as attribute binding, numeracy, spatial reasoning, and commonsense reasoning. In this work, we propose a new perspective on T2I ev…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "author": "Savitha Sam Abraham, Marjan Alirezaie, Hossein Rahnama",
+      "title": "DataPraxis: Scaling Analytics Tasks via Verified Workspace Evolution",
+      "url": "https://arxiv.org/abs/2610.26924",
+      "summary": "General-purpose agents are increasingly expected to perform professional analytics work, which requires sustained reasoning, iterative investigation, and reliable evidence. Training these capabilities requires diverse and challenging tasks. However, generating tasks directly from raw data often overlooks deeper questions that emerge through analysis and pro…",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Nan Jia, Wenxuan Shi, Jingqing Ruan, Zhizhao Zeng, Tianyi Zhai, Zhongda Su, Feng Hong, Zhengyu Chen, Wenhao Yan, Haojin Yang, Siqi Dai, W…",
       "tags": [
-        "cs.AI",
-        "cs.CL",
-        "cs.LO"
+        "cs.AI"
       ],
       "sourceId": "arxiv-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "papers",
-      "id": "69b7a7c67931d147"
+      "id": "2fbb462a3743ef79"
     },
     {
-      "title": "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
-      "url": "https://arxiv.org/abs/2610.24061",
-      "summary": "As teams of AI agents take on larger projects and long-standing open problems, agent collaboration offers another dimension for scaling inference-time compute. To understand what makes such collaboration effective and scalable, we develop Software World, a framework for simulating multi-agent coworking in realistic software ecosystems. It comes with a pipel…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
-      "author": "Shannon Zejiang Shen, Yapei Chang, Qiyao Liang, Benjamin Newman, Jenny Liang, Rulin Shao, Ziqiao Ma, Junjie Oscar Yin, Yung-Sung Chuang,…",
+      "title": "Industrial Agentic AI: LLM-Driven New-Generation Agents for Smart Manufacturing",
+      "url": "https://arxiv.org/abs/2610.26941",
+      "summary": "Large language models (LLMs) are enabling agents to move beyond predefined workflows toward autonomous planning and execution, creating new opportunities for smart manufacturing. However, dynamic environments, complex physical constraints, and stringent reliability requirements hinder the direct deployment of general-purpose agents in smart manufacturing. T…",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Lei Ren, Haiteng Wang, Shixiang Li, Jing Zhang, Yuqing Wang, Jingwei Guo, Yunfei Zhu, Yuanjun Laili, Yang Tang, Lihui Wang",
       "tags": [
-        "cs.AI",
-        "cs.CL"
+        "cs.AI"
       ],
       "sourceId": "arxiv-cs-ai",
       "sourceName": "arXiv cs.AI",
       "category": "papers",
-      "id": "d87cdce41fccff99"
+      "id": "3410e52a9f5f6033"
+    },
+    {
+      "title": "Fix, Not Just Resample: Bounded Compiler-Guided Repair in Lean 4",
+      "url": "https://arxiv.org/abs/2610.26942",
+      "summary": "Automated theorem provers often rely on sampling language models, but proof assistants like Lean reject each failed step with a precise error message --- information that pure sampling discards. To overcome this, we introduce a bounded, online step-level repair module. Our search samples $K$ candidate tactics at each step and repairs a failed tactic at most…",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Haotian Deng, Chris Farber, Sonal Narasimha, Samskrithi Sivakumar, Yexiang Xue",
+      "tags": [
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "66981a97c4d493d0"
+    },
+    {
+      "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+      "url": "https://arxiv.org/abs/2610.26943",
+      "summary": "Mathematical reasoning is a fundamental capability for educational applications of Large Language Models (LLMs), where reliable problem solving requires not only correct answers but also coherent and verifiable reasoning processes. Multi-agent systems (MASs) have shown growing potential in this domain by leveraging collaboration and verification among multi…",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Xinping Wang, Jie Ma, Rui Xing, Wensong Guo, Xiayi Zhang, Jianhao Deng, Zihao Zhou, Boqian Yang, Feijuan He",
+      "tags": [
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "4dadc7afdfda6c93"
     },
     {
       "title": "Web Agent Agentic Reinforcement Learning Decision Model Under Multi-Cost and Failure Risk",
       "url": "https://arxiv.org/abs/2610.23857",
       "summary": "Intelligent agent interactions in real-world web environments are commonly constrained by request budgets, time delays, anti-crawling restrictions, and operational failure risks. Strategies solely optimizing task success rates often exhibit unusable phenomena such as \"high success but high cost\" or \"low risk but conservative failure.\" This paper proposes a…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Qianli Ma, Limengxi Yue, Shuyang Xu, Yanpei Shi, Hongrui Liu",
       "tags": [
         "cs.LG",
@@ -142,7 +134,7 @@
       "title": "PolyGraph: Plan-Buffered CUDA Graphs for Adaptive Speculative Decoding",
       "url": "https://arxiv.org/abs/2610.23861",
       "summary": "Adaptive speculative decoding changes the active batch size B and draft length d from one decode step to the next, whereas a CUDA Graph replays a fixed launch configuration. The resulting verification width M = B d forces serving systems to pre-capture many shapes, capture new ones on the serving path, or pad every step to the largest draft. We present Poly…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Junchao Yang",
       "tags": [
         "cs.LG"
@@ -156,7 +148,7 @@
       "title": "Forecasting Patient Trajectories from the Electronic Health Records with Action-Conditioned World Models",
       "url": "https://arxiv.org/abs/2610.23862",
       "summary": "We introduce a predictive world model for electronic health records (EHR) that represents patient histories as action conditioned latent trajectories. Rather than modeling clinical events solely through autoregressive token prediction, our framework explicitly separates patient states from observed clinical actions and learns their evolution through a state…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Simon A. Lee, Jiahang Hank Sha, Soomin Chung, Kai Akamatsu, Eran Halperin, Jeffrey N. Chiang",
       "tags": [
         "cs.LG"
@@ -170,7 +162,7 @@
       "title": "SAGE-CP: When Marginal Coverage Hides Route-Conditional Failures in Adaptive VLM Ensembles",
       "url": "https://arxiv.org/abs/2610.23864",
       "summary": "Adaptive VLM ensembles save computation by stopping early on easy images and escalating harder ones. Although a single conformal threshold can make the final predictor marginally valid, it can still fail severely along individual computational routes. We characterize this failure precisely: if a route has prevalence pi, marginal 1-alpha coverage allows its…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Mushir Akhtar, M. Tanveer",
       "tags": [
         "cs.LG",
@@ -185,7 +177,7 @@
       "title": "Announced Breaks Separate Conformal Reliability from Frequency Calibration",
       "url": "https://arxiv.org/abs/2610.23917",
       "summary": "An announced boundary reveals the partition before the first affected outcome, and a reset there serves one of two audits. The per-time audit reads conformal reliability, the expected distance of the threshold's coverage from nominal at miscoverage 0.1. The frequency audit reads frequency calibration, whether a closed window's error rate matched it. The res…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Karl Li (Columbia University)",
       "tags": [
         "cs.LG",
@@ -201,7 +193,7 @@
       "title": "Zero-Shot Tabular Learning via Hypergraph Reasoning with LLMs",
       "url": "https://arxiv.org/abs/2610.23923",
       "summary": "Tabular data are prevalent across diverse domains such as healthcare and finance. Zero-shot tabular learning aims to make predictions without labeled data. However, existing LLM-based approaches rely on row-wise prompting, resulting in high inference cost and limited use of inter-row dependencies. In this work, we propose TABHGR+, an efficient relation-awar…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Geon Lee, Kyungho Kim, Dongwon Choi, Juyeon Kim, Shinhwan Kang, Kijung Shin",
       "tags": [
         "cs.LG",
@@ -216,7 +208,7 @@
       "title": "Improving Fake Profile Detection Through Multimodal Learning and Research-Guided Feature Integration",
       "url": "https://arxiv.org/abs/2610.23926",
       "summary": "Fake accounts continue to undermine online platforms, yet it remains unclear whether multimodal learning offers meaningful improvements over strong metadata baselines or graph-based approaches. In this work, we study bot detection by integrating textual, visual, and account metadata signals on the TwiBot-22 benchmark using a subsample of 30,000 users. We pr…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Jean Claude Hirwa, Jamiu Dahunsi, Candide Giramata, Lowami Uwimana, Thierry Henry Ishimwe",
       "tags": [
         "cs.LG",
@@ -231,7 +223,7 @@
       "title": "miniTE: Diagnosing and Bridging the Execution Gap in Native NVFP4 Reinforcement Learning",
       "url": "https://arxiv.org/abs/2610.23928",
       "summary": "Native NVFP4 promises to accelerate reinforcement learning (RL) for large language models (LLMs), but achieving stable learning across separate training and sampling engines remains challenging. We show that matching model weights and numerical formats is insufficient to ensure consistent policy evaluation, highlighting the importance of cross-engine numeri…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Zhen Li, Mingfa Feng, Yiming Zhang, Yang Yu, Changhai Zhou, Pengxiang Li, Dongkuan Wu, Congkai Xie, Hongxia Yang",
       "tags": [
         "cs.LG",
@@ -247,7 +239,7 @@
       "title": "Modeling Human Behavior in the Prisoner's Dilemma with Large Language Models",
       "url": "https://arxiv.org/abs/2610.23860",
       "summary": "The Prisoner's Dilemma has long served as a foundational framework for studying human decision-making and cooperative outcomes across social scenarios, yet human behavior consistently deviates from predictions of fully rational economic theory. Previous works have studied human and LLM outcomes in the Prisoner's Dilemma; however, these studies have lacked a…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Raina Gao, Tristan Raffo",
       "tags": [
         "cs.CL",
@@ -262,7 +254,7 @@
       "title": "Composable Parametric Demographic Injection for Values Survey Simulation",
       "url": "https://arxiv.org/abs/2610.23867",
       "summary": "Large language models (LLMs) are increasingly used as simulated respondents in computational social science, yet accurately reproducing population-specific heterogeneous response distributions remains challenging. Existing methods such as demographic prompting are sensitive to prompt design and increase inference overhead, while parameter-based methods stru…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Xinyuan Cao, Qingyi Pan, Bangde Du, Yujia Zhou, Hexi Wang, Weihang Su, Yiqun Liu, Yueyue Wu, Min Zhang, Qingyao Ai",
       "tags": [
         "cs.CL",
@@ -278,7 +270,7 @@
       "title": "Translating in style: An open-weight alternative to GPT-4 for culturally aligned machine translation",
       "url": "https://arxiv.org/abs/2610.23868",
       "summary": "Machine translation systems often preserve meaning but systematically flatten linguistic style, a failure that is most acute when translating into non-Western languages. The RASTA framework of Havaldar et al. (2025a) addresses this through retrieval-augmented stylistic alignment, but relies on GPT-4, a closed, proprietary model. We investigate whether an op…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Thomas Rietman, Hadi Mohammadi, Robert A. Bagheri",
       "tags": [
         "cs.CL"
@@ -292,7 +284,7 @@
       "title": "The Window Is in the Reasoning: When LLM Agents Decide to Follow Prompt Injections",
       "url": "https://arxiv.org/abs/2610.24048",
       "summary": "LLM agents that read untrusted content can be hijacked by prompt injections. Runtime monitors that try to catch a hijack before the agent acts, and benchmarks that score each task with a single run, share an assumption: whether an agent follows an injection is settled when the injection is read. We test this assumption with branching rollouts that replay an…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Haoxuan Jia, Yang Liu, Bin Chong, Yingguang Yang, Yancheng Chen, Jiayu Liang, Qian Li, Hanning Lu, Kefu Xu, Hao Zheng, Chongyang Zhang, Y…",
       "tags": [
         "cs.CL",
@@ -308,7 +300,7 @@
       "title": "Discuss More, Comment Less: Boosting Automated Research via Multi-Perspective Collaborative Review",
       "url": "https://arxiv.org/abs/2610.24050",
       "summary": "As automated research is increasingly adopted for writing papers, automated review has become a critical link between paper generation and quality control. However, existing methods largely rely on single-model feedback or simple review aggregation, failing to explicitly model expert responsibilities or collective deliberation in actual peer reviews, which…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Junkai Zhou, Jiajia Wu, Zhaoyi Zhang, Shiting Guan, Chuanguang Yang",
       "tags": [
         "cs.CL"
@@ -322,7 +314,7 @@
       "title": "OR-License: Evaluating LLM Agents as Real-World Operations Research Practitioners",
       "url": "https://arxiv.org/abs/2610.24087",
       "summary": "Can large language model (LLM) agents deliver expert-level operations research (OR) solutions directly from original client materials, without prior expert reformulation? Existing OR benchmarks typically begin with self-contained descriptions or predefined optimization tasks, underrepresenting the translation of original business materials into professional…",
-      "publishedAt": "2026-10-20T04:00:00.000Z",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
       "author": "Peisong Wang, Feixue Liu, Yize Meng, Bowen Liu, Ruoyu Chen, Gaoyang Dai, Xing He, Aiqian Li, Fengchi Yuan, Aochuan Chen, Chenyi Zi, Yuhan…",
       "tags": [
         "cs.CL",
@@ -531,8 +523,8 @@
       "category": "research",
       "id": "28dc766197a74380",
       "metrics": {
-        "points": 691,
-        "comments": 347
+        "points": 728,
+        "comments": 349
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50166579"
     },
@@ -906,7 +898,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "Python",
-        "stars": "60,928",
+        "stars": "61,043",
         "starsToday": "3,861"
       },
       "sourceId": "github-trending",
@@ -921,7 +913,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "JavaScript",
-        "stars": "34,440",
+        "stars": "34,502",
         "starsToday": "1,712"
       },
       "sourceId": "github-trending",
@@ -936,7 +928,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "TypeScript",
-        "stars": "99,924",
+        "stars": "99,975",
         "starsToday": "1,565"
       },
       "sourceId": "github-trending",
@@ -951,7 +943,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "JavaScript",
-        "stars": "169,933",
+        "stars": "170,017",
         "starsToday": "1,208"
       },
       "sourceId": "github-trending",
@@ -966,7 +958,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "Python",
-        "stars": "140,881",
+        "stars": "140,911",
         "starsToday": "1,206"
       },
       "sourceId": "github-trending",
@@ -981,7 +973,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "TypeScript",
-        "stars": "77,912",
+        "stars": "77,923",
         "starsToday": "684"
       },
       "sourceId": "github-trending",
@@ -996,7 +988,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "Python",
-        "stars": "130,393",
+        "stars": "130,443",
         "starsToday": "802"
       },
       "sourceId": "github-trending",
@@ -1011,7 +1003,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "TypeScript",
-        "stars": "219,048",
+        "stars": "219,089",
         "starsToday": "1,240"
       },
       "sourceId": "github-trending",
@@ -1026,7 +1018,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "Shell",
-        "stars": "162,444",
+        "stars": "162,488",
         "starsToday": "562"
       },
       "sourceId": "github-trending",
@@ -1041,7 +1033,7 @@
       "publishedAt": "",
       "metrics": {
         "language": "Python",
-        "stars": "76,809",
+        "stars": "76,831",
         "starsToday": "549"
       },
       "sourceId": "github-trending",
@@ -1101,8 +1093,8 @@
       "author": "pcai",
       "discussionUrl": "https://news.ycombinator.com/item?id=50170593",
       "metrics": {
-        "points": 617,
-        "comments": 308
+        "points": 638,
+        "comments": 326
       },
       "sourceId": "hackernews",
       "sourceName": "Hacker News",
@@ -1110,20 +1102,20 @@
       "id": "f933f1f1a760390e"
     },
     {
-      "title": "Learning to live with Waymos",
-      "url": "https://www.newyorker.com/magazine/2026/10/19/were-learning-to-live-with-waymos-its-going-weird",
+      "title": "The Future of CSS",
+      "url": "https://www.joshwcomeau.com/css/interop-2027",
       "summary": "",
-      "publishedAt": "2026-10-21T01:44:34.000Z",
-      "author": "njrc",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50175057",
+      "publishedAt": "2026-10-21T01:47:28.000Z",
+      "author": "soheilpro",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50175070",
       "metrics": {
-        "points": 26,
-        "comments": 50
+        "points": 59,
+        "comments": 22
       },
       "sourceId": "hackernews",
       "sourceName": "Hacker News",
       "category": "community",
-      "id": "6f640e8fdf16f218"
+      "id": "a71ada760e840fe6"
     },
     {
       "title": "In Hilbert space, all things are quantumly possible",
@@ -1133,8 +1125,8 @@
       "author": "unprovable",
       "discussionUrl": "https://news.ycombinator.com/item?id=50175185",
       "metrics": {
-        "points": 18,
-        "comments": 4
+        "points": 33,
+        "comments": 10
       },
       "sourceId": "hackernews",
       "sourceName": "Hacker News",
@@ -1149,45 +1141,13 @@
       "author": "Bender",
       "discussionUrl": "https://news.ycombinator.com/item?id=50173487",
       "metrics": {
-        "points": 121,
-        "comments": 45
+        "points": 131,
+        "comments": 50
       },
       "sourceId": "hackernews",
       "sourceName": "Hacker News",
       "category": "community",
       "id": "7fac30bf1b34c205"
-    },
-    {
-      "title": "Good type against all odds",
-      "url": "https://unsung.aresluna.org/good-type-against-all-odds",
-      "summary": "",
-      "publishedAt": "2026-10-21T01:45:07.000Z",
-      "author": "firloop",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50175059",
-      "metrics": {
-        "points": 30,
-        "comments": 4
-      },
-      "sourceId": "hackernews",
-      "sourceName": "Hacker News",
-      "category": "community",
-      "id": "c4d2856467124273"
-    },
-    {
-      "title": "The Future of CSS",
-      "url": "https://www.joshwcomeau.com/css/interop-2027",
-      "summary": "",
-      "publishedAt": "2026-10-21T01:47:28.000Z",
-      "author": "soheilpro",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50175070",
-      "metrics": {
-        "points": 35,
-        "comments": 2
-      },
-      "sourceId": "hackernews",
-      "sourceName": "Hacker News",
-      "category": "community",
-      "id": "a71ada760e840fe6"
     },
     {
       "title": "Voxtral 3",
@@ -1197,13 +1157,45 @@
       "author": "ilreb",
       "discussionUrl": "https://news.ycombinator.com/item?id=50168396",
       "metrics": {
-        "points": 548,
-        "comments": 145
+        "points": 559,
+        "comments": 146
       },
       "sourceId": "hackernews",
       "sourceName": "Hacker News",
       "category": "community",
       "id": "4c6292fc5ecba5f2"
+    },
+    {
+      "title": "Good type against all odds",
+      "url": "https://unsung.aresluna.org/good-type-against-all-odds",
+      "summary": "",
+      "publishedAt": "2026-10-21T01:45:07.000Z",
+      "author": "firloop",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50175059",
+      "metrics": {
+        "points": 38,
+        "comments": 8
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "c4d2856467124273"
+    },
+    {
+      "title": "The Other Epidemic: Trying to get off benzodiazepines",
+      "url": "https://www.thebeliever.net/the-other-epidemic",
+      "summary": "",
+      "publishedAt": "2026-10-20T23:04:09.000Z",
+      "author": "gaplong",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50173891",
+      "metrics": {
+        "points": 100,
+        "comments": 67
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "c4df30578de3be5b"
     },
     {
       "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
@@ -1213,8 +1205,8 @@
       "author": "ilreb",
       "discussionUrl": "https://news.ycombinator.com/item?id=50169053",
       "metrics": {
-        "points": 277,
-        "comments": 64
+        "points": 288,
+        "comments": 65
       },
       "sourceId": "hackernews",
       "sourceName": "Hacker News",
@@ -1229,29 +1221,13 @@
       "author": "Curiositry",
       "discussionUrl": "https://news.ycombinator.com/item?id=50169707",
       "metrics": {
-        "points": 294,
-        "comments": 362
+        "points": 310,
+        "comments": 376
       },
       "sourceId": "hackernews",
       "sourceName": "Hacker News",
       "category": "community",
       "id": "3182b8cd885a906e"
-    },
-    {
-      "title": "Academics have a duty to defend open knowledge systems like Wikipedia",
-      "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2026/10/19/academics-have-a-duty-to-defend-open-knowledge-systems-like-wikipedia",
-      "summary": "",
-      "publishedAt": "2026-10-20T18:51:40.000Z",
-      "author": "jruohonen",
-      "discussionUrl": "https://news.ycombinator.com/item?id=50170917",
-      "metrics": {
-        "points": 162,
-        "comments": 99
-      },
-      "sourceId": "hackernews",
-      "sourceName": "Hacker News",
-      "category": "community",
-      "id": "e0b9d8bcbf0c1ada"
     },
     {
       "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
@@ -1261,8 +1237,8 @@
       "author": "dhorthy",
       "discussionUrl": "https://news.ycombinator.com/item?id=50108717",
       "metrics": {
-        "points": 192,
-        "comments": 81
+        "points": 200,
+        "comments": 86
       },
       "sourceId": "hackernews",
       "sourceName": "Hacker News",
@@ -1270,158 +1246,108 @@
       "id": "4ff4c21b5a15c319"
     },
     {
-      "title": "Claude新模型曝光！能跳出思维定势，修Bug治标又治本",
-      "url": "https://www.qbitai.com/2026/10/504314.html",
-      "summary": "OpenAI只掏出一个6.1 Terra…",
-      "publishedAt": "2026-10-20T01:09:43.000Z",
-      "author": "梦晨",
-      "sourceId": "qbitai",
-      "sourceName": "量子位",
-      "category": "cn",
-      "id": "aead2886d0630dfd"
-    },
-    {
-      "title": "从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务",
-      "url": "https://www.qbitai.com/2026/10/504277.html",
-      "summary": "同步搭建千比特规模量子算力云平台",
-      "publishedAt": "2026-10-19T14:33:26.000Z",
-      "author": "克雷西",
-      "sourceId": "qbitai",
-      "sourceName": "量子位",
-      "category": "cn",
-      "id": "b9cc2555c6089ec2"
-    },
-    {
-      "title": "通研院孵化的团队，也盯上了RSI",
-      "url": "https://www.qbitai.com/2026/10/504294.html",
-      "summary": "当AI越来越懂你，如何让智能真正属于你？",
-      "publishedAt": "2026-10-19T14:31:12.000Z",
-      "author": "思邈",
-      "sourceId": "qbitai",
-      "sourceName": "量子位",
-      "category": "cn",
-      "id": "ea84d0a00aa0d3f0"
-    },
-    {
-      "title": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
-      "url": "https://www.qbitai.com/2026/10/504266.html",
-      "summary": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行",
-      "publishedAt": "2026-10-19T10:27:39.000Z",
-      "author": "量子位的朋友们",
-      "sourceId": "qbitai",
-      "sourceName": "量子位",
-      "category": "cn",
-      "id": "dfa130e86ec3f865"
-    },
-    {
-      "title": "全栈自研！国产高端互连芯片，稳了!",
-      "url": "https://www.qbitai.com/2026/10/504225.html",
+      "title": "Upcoming critical PHP security release",
+      "url": "https://news-web.php.net/php.announce/509",
       "summary": "",
-      "publishedAt": "2026-10-19T10:15:19.000Z",
+      "publishedAt": "2026-10-20T20:15:50.000Z",
+      "author": "xd",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50172041",
+      "metrics": {
+        "points": 191,
+        "comments": 60
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "1cbe655ec9e53c5e"
+    },
+    {
+      "title": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
+      "url": "https://www.qbitai.com/2026/10/504608.html",
+      "summary": "",
+      "publishedAt": "2026-10-21T02:37:39.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "b7ac1931c2343e60"
+    },
+    {
+      "title": "理想宣布：电池自燃报废赔新车！自研6年后有底气了",
+      "url": "https://www.qbitai.com/2026/10/504551.html",
+      "summary": "电池、电驱、超充一把梭，冬天多跑30公里",
+      "publishedAt": "2026-10-21T01:04:35.000Z",
+      "author": "杰西卡",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "84e82f373430d441"
+    },
+    {
+      "title": "国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价",
+      "url": "https://www.qbitai.com/2026/10/504517.html",
+      "summary": "兔皮底下，竟然是MiniMax！",
+      "publishedAt": "2026-10-20T13:29:54.000Z",
+      "author": "Jay",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "559c511f2f275c0e"
+    },
+    {
+      "title": "RSI三块关键拼图，MemT 1.0从模型层补上「记忆」",
+      "url": "https://www.qbitai.com/2026/10/504456.html",
+      "summary": "把记忆原生焊进Transformer",
+      "publishedAt": "2026-10-20T12:50:34.000Z",
+      "author": "鹭羽",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "fcea0ecb0c806cf9"
+    },
+    {
+      "title": "比亚迪成为2026年APEC会议官方合作伙伴",
+      "url": "https://www.qbitai.com/2026/10/504452.html",
+      "summary": "2026年10月16日，比亚迪集团正式成为亚太经合组织第三十三次领导人非正式会议官方合作伙伴",
+      "publishedAt": "2026-10-20T09:57:35.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "e9e15e3f1979ed60"
+    },
+    {
+      "title": "技术赋能全球化深耕 比亚迪携多品牌亮相2026巴黎车展",
+      "url": "https://www.qbitai.com/2026/10/504435.html",
+      "summary": "当地时间10月12日，2026巴黎国际车展正式启幕。",
+      "publishedAt": "2026-10-20T09:13:14.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "bdee76a25b0bf774"
+    },
+    {
+      "title": "首Token延迟降低32.4%！是石科技集群调度大招，国产推理再提效",
+      "url": "https://www.qbitai.com/2026/10/504421.html",
+      "summary": "最新发布TokenFleet调度框架",
+      "publishedAt": "2026-10-20T08:01:25.000Z",
       "author": "思邈",
       "sourceId": "qbitai",
       "sourceName": "量子位",
       "category": "cn",
-      "id": "d80fca4379acc85c"
+      "id": "4cba84006fd15545"
     },
     {
-      "title": "AI 开始挑战最复杂的系统：生命",
-      "url": "https://www.qbitai.com/2026/10/504242.html",
-      "summary": "10 月 17 日，哲源科技发布 WHIRLPO 计算医学平台。",
-      "publishedAt": "2026-10-19T10:04:18.000Z",
+      "title": "Meshy推出Meshy Edit：基于全新自研AI模型，一句指令实现3D模型局部编辑",
+      "url": "https://www.qbitai.com/2026/10/504415.html",
+      "summary": "圈选修改区域，一句话描述改动，约一分钟生成新模型，未选中区域保持原样",
+      "publishedAt": "2026-10-20T04:59:04.000Z",
       "author": "量子位的朋友们",
       "sourceId": "qbitai",
       "sourceName": "量子位",
       "category": "cn",
-      "id": "5345ffe4ba44f4b8"
-    },
-    {
-      "title": "达摩院玄铁出席RISC-V中国峰会，首发车规产品路线图",
-      "url": "https://www.qbitai.com/2026/10/504238.html",
-      "summary": "10月19日，RISC-V中国峰会在深圳举行。",
-      "publishedAt": "2026-10-19T09:56:38.000Z",
-      "author": "量子位的朋友们",
-      "sourceId": "qbitai",
-      "sourceName": "量子位",
-      "category": "cn",
-      "id": "c26f16047f0a584e"
-    },
-    {
-      "title": "赛场交卷 未来已来——首届全球具身智能应用创新挑战赛暨2026中国机器人大赛闭幕",
-      "url": "https://www.qbitai.com/2026/10/504199.html",
-      "summary": "10月18日下午，首届全球具身智能应用创新挑战赛暨2026中国机器人大赛落下帷幕。",
-      "publishedAt": "2026-10-19T08:12:45.000Z",
-      "author": "量子位的朋友们",
-      "sourceId": "qbitai",
-      "sourceName": "量子位",
-      "category": "cn",
-      "id": "ea4e2e6fad81a4b8"
-    },
-    {
-      "title": "王友清教授团队论文被ACM MM 2026录用｜ACM MM 2026",
-      "url": "https://www.leiphone.com/category/private/JI8CBnLPkIokurs6.html",
-      "summary": "王友清教授团队论文被多媒体 领域CCF-A类会议ACM MM 2026录用 近日，第34届ACM国际多媒体会议（The 34th ACM International Conference on Multimedia, ACM MM 2026）录用结果揭晓，我院王友清教授团队研究论文《Global-and-Local Collaborative Mixture-of-Experts with Dual Contrastive Learning for Deep Multi-view Clustering》被成功录用。该论文第一作者为王友清教授（研究生指导教师），第二作者为信息科学与技术学院2023级硕士研究生肖斌，通讯作者为郭继鹏副教授（合作指导教师），北京化工大学为第一完成单位/唯一通讯单位。 该研究针对现有深度多视图聚类方法忽略跨视图异质性和不同视图之间语义对齐难问题，提出了一种新颖的全局-局部协同混合专家框架（GLCMoE）。该框架主要由局部混合专家（LM…",
-      "publishedAt": "2026-10-20T15:37:00.000Z",
-      "author": "",
-      "sourceId": "leiphone",
-      "sourceName": "雷峰网",
-      "category": "cn",
-      "id": "419c4d9dd2100185"
-    },
-    {
-      "title": "停止加薪！大众计划冻结全球大量员工薪酬至2030年；突发！美国发布DeepSeek禁令；马斯克：明年向全美儿童赠送SpaceX股票",
-      "url": "https://www.leiphone.com/category/zaobao/Y7039p8HsmmeQClm.html",
-      "summary": "要闻提示 1.停止加薪！大众计划冻结员工薪酬至2030年，涉及全球大量员工 2.突发！美国发布DeepSeek禁令 3.花钱之前先问网友意见！「钱包请等等」突然爆火：主打「劝你别买」 4.豆包辟谣超一半算力在造爽剧：不靠谱，只有10% 5.特斯拉喊话：没有「速成车」 6.“山姆品质暴跌你还敢去吗”热搜第一，山姆回应：热搜视频系AI造假 7.字节Seed模型评测负责人黄文灏离职 8.马斯克：明年向全美儿童赠送 SpaceX 股票 今日头条 停止加薪！大众计划冻结员工薪酬至2030年，涉及全球大量员工 10 月 19 日消息，外媒披露的高管内部文件显示，大众汽车计划在 2030 年之前，冻结（不加薪）其全球 60 万名员工中大部分人的薪资。在被问及此事时，大众汽车表示不对“此类猜测”置评，仅表示即将展开的新一轮集体薪酬谈判，才是劳资双方在企业内部沟通并敲定各项协议的正规渠道。 这一不涨薪的计划将使大众汽车在德国的员工面临进一步的压力。作为 2024 年成本削减方案的一部分，大众汽车旗下受全公司集体谈判协议覆盖的 13 万名员工，此前已同意推迟原定 5.5% 的加薪。 报道称，由于通货膨胀…",
-      "publishedAt": "2026-10-20T10:39:00.000Z",
-      "author": "",
-      "sourceId": "leiphone",
-      "sourceName": "雷峰网",
-      "category": "cn",
-      "id": "19fccd8cf925c8df"
-    },
-    {
-      "title": "喊出300万张订单，英伟达RTX PRO 5500为何遭到提前疯抢？",
-      "url": "https://www.leiphone.com/category/chips/STx9ZzfDNh5W80Bm.html",
-      "summary": "在AI算力市场，等风声传开再下注，往往已经慢了半拍。 早在8月份，服务器产品经理夏寅卿已经开始向客户推介还未面世的RTX PRO 5500。一个月后，这张最新PRO系列专业工作站显卡才默默出现在英伟达官网。 然而，RTX PRO 5500在中国市场引发的动静，远不如它正式亮相时那般低调——有大厂被传计划采购100万张；跨界布局算力租赁的天阳科技，签订2万张采购合同的消息经公众号平台发布当天，股价上涨12.38%。 夏寅卿用“疯狂”来形容国内采购热潮，称订购规模已达数百万张，接近英伟达预计的全球产能。 与此同时，这张尚未批量交付，实际性能也有待验证的新卡，还被卷入了另一张热门显卡的停产风波。 有海外社媒爆料称，英伟达计划将GB202芯片的后续供应转向包含RTX PRO 5500在内的RTX PRO系列，不再向旗舰游戏显卡RTX 5090分配芯片产能。 消息尚未得到英伟达正式确认，但价格本就水涨船高的5090，国内部分渠道报价已进一步攀升至5.7万元左右。 一边是新卡尚未交付，买家已经争相下注；另一边，现有的专业卡、消费级显卡的供需和价格也被推到了新的风口。英伟达非数据中心卡在中国的生意…",
-      "publishedAt": "2026-10-20T10:27:00.000Z",
-      "author": "",
-      "sourceId": "leiphone",
-      "sourceName": "雷峰网",
-      "category": "cn",
-      "id": "f0f867345b78992b"
-    },
-    {
-      "title": "双11 iPhone Duo货源大战：苹果为什么把更多货交给天猫？",
-      "url": "https://www.leiphone.com/category/industrynews/1kN394wi9h0iFG43.html",
-      "summary": "10月20日晚8点，天猫双11将正式开卖。iPhone Duo首发的货源之战，也成了今年双11各大电商平台实力较量的一个缩影。 10月16日晚8点，苹果首款折叠屏手机iPhone Duo正式开启预售。毫无悬念，首批货源短时间内迅速售罄，苹果官网发货周期甚至已排至2027年，二手平台上更出现了加价近万元的盛况。开售2个小时后，经多平台实测对比，全网还能正常下单的渠道仅剩两个：苹果官网，以及苹果天猫官方旗舰店。社交媒体的网友晒单揭开了背后的货源差距：在预售开启后的短时间内，苹果天猫官方旗舰店连续补货6次：发货时间分别排在首批10月23日、11月7日、11月14日、11月21日、11月28日、12月5日等。这意味着，在全网一机难求的时刻，天猫依然握有持续且稳定的货源供给。 这并非偶然。早在今年苹果秋季新品发布会之前，苹果与天猫的合作范围就已进一步扩大：除直营的Apple Store官方旗舰店外，今年还新增了20多家中国区授权店在天猫同步开售新品；同时，淘宝闪购通过超千家线下门店接入，实现了消费者下单后最快30分钟就能拿到新款iPhone的即时履约。今年，苹果天猫官旗的配件还首次可用消费券，…",
-      "publishedAt": "2026-10-20T10:04:00.000Z",
-      "author": "",
-      "sourceId": "leiphone",
-      "sourceName": "雷峰网",
-      "category": "cn",
-      "id": "61c70dde3486f0eb"
-    },
-    {
-      "title": "亚太唯一！阿里云连续4年获评 Gartner 容器管理领导者象限",
-      "url": "https://www.leiphone.com/category/industrynews/z75kiSSlXYqfCza6.html",
-      "summary": "近日，国际权威咨询公司Gartner正式发布2026年度《容器管理魔力象限》报告，阿里云连续4年入选该报告，稳居“领导者”象限，是亚太地区唯一获此殊荣的科技公司。 Gartner在报告中将“丰富的AI集成”、“全面的功能覆盖”和“在严苛生产环境中的广泛使用”列为阿里云的核心优势。在同期发布的《容器管理关键能力》报告中，阿里云在六大场景中有四项位居前二, 进一步彰显AI时代的技术领先优势。 Gartner2026《容器管理魔力象限》 Gartner：容器服务正进入AI与Agent生产时代 容器管理市场的关键词，正在从“采用Kubernetes”转向“规模化生产”。 Gartner指出，随着企业优先发展AI和复杂应用架构，企业更加关注如何通过统一控制平面，管理从本地遗留系统到云原生、AI驱动型工作负载的多样化环境。面向规模化生产，容器平台不仅要提供编排能力，还要同时提供治理、安全、可观测性和开发者自助服务，降低日益异构的IT环境带来的复杂度。 AI进一步改变了容器平台的任务边界。模型训练需要高效调度异构算力，模型推理需要在时延、吞吐与成本之间动态平衡，Agent则需要安全隔离、弹性伸缩、…",
-      "publishedAt": "2026-10-20T09:54:00.000Z",
-      "author": "",
-      "sourceId": "leiphone",
-      "sourceName": "雷峰网",
-      "category": "cn",
-      "id": "965b64060577ccd6"
-    },
-    {
-      "title": "580天暗战，爱奇艺的AI闯关路",
-      "url": "https://www.leiphone.com/category/industrynews/jJI2TPXI1eYWxECq.html",
-      "summary": "今年4月，在北京的一场影视行业论坛上，爱奇艺基础架构与智能分发事业群总裁刘文峰正通过大屏幕演示手机端的一个新功能“跳看”：前一秒还是画师在寺庙中留下一幅未完成点睛的画作，手指一滑，屏幕中一个黑衣人潜入寺中，还未走出几步，便在惊雷中暴毙而亡。一段原本8分钟的开场戏，就浓缩成3分钟，紧凑又充满悬念。 “这不跟看短剧一样么？”这一刻起，长视频不再只有一种打开方式。而能够实现“长剧短看”、进退自如切换剧情的秘密武器正是生成式AI。 时间拨回三个月前，一次内部会议上，爱奇艺创始人、CEO龚宇提出了“跳看”这个构想。这源于他对用户的洞察：面对相同内容，不同用户的兴趣点和关注点也不同，而在这个缺乏耐心的时代，用户的注意力也在变得稀缺。那么，如何通过供给侧改革，抓住用户注意力、为用户提供更个性化的观影需求？爱奇艺的解法是：在大语言模型加持下，基于对用户个性化观看行为的分析，自动识别并推荐精彩剧情点。 当一众编剧导演还在惊叹AI时代长视频的观看逻辑快要被颠覆时，距离北京1400公里外的横店片场，导演金哲勇正盯着眼前的监视器。屏幕上，演员土豆正踏过青山、草原和沙漠，每一次晨昏交汇的光线映照在他脸上、树影…",
-      "publishedAt": "2026-10-20T06:15:00.000Z",
-      "author": "",
-      "sourceId": "leiphone",
-      "sourceName": "雷峰网",
-      "category": "cn",
-      "id": "60fbed67f4977058"
+      "id": "43356d8480cc0716"
     },
     {
       "title": "字节阿里腾讯订购了逾 350 亿美元的 RTX PRO 5500 显卡",
@@ -1578,6 +1504,17 @@
       "id": "0f9652ddaad9618d"
     },
     {
+      "title": "EasyGoAdmin 敏捷开发框架 GoFrame+EleVue 版本 v2.8.0 发布",
+      "url": "https://www.oschina.net/news/503126",
+      "summary": "v2.8.0 更新内容： 1、新版本重构升级； :books: 项目介绍 基于 GoFrame v2、Vue3、TypeScript、ElementPlus 打造的模块化、高性能前后端分离敏捷开发框架，可快速搭建企业级后台管理系统。框架以简化开发、提升效率为初衷，内置代码生成器，可根据已建表结构一键生成整个模块的增删改查代码，并同步创建菜单、权限节点与...",
+      "publishedAt": "2026-10-21T03:27:56.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "329d8318995c3f8e"
+    },
+    {
       "title": "Linux 7.4 引入 1.7 万行 Rust 内核代码，Zerocopy 一次跨八个版本",
       "url": "https://www.oschina.net/news/503125",
       "summary": "Linux 7.4 的合并窗口刚开，Rust for Linux 就送来了一份「大礼」：约 1.7 万行新 Rust 内核代码，由项目负责人 Miguel Ojeda 提交。这是近期 Rust 内核支持里体量较大的一次更新。 最显眼的动作是 Zerocopy crate 的升级——一口气向前推进了八个版本。这个库负责原始字节序列与结构化类型之间的安全转换（trait 和宏）...",
@@ -1631,17 +1568,6 @@
       "sourceName": "开源中国",
       "category": "cn",
       "id": "310ea8ecd3102979"
-    },
-    {
-      "title": "Jync 捷同 v1.7.6发布 首次全量同步大幅提速",
-      "url": "https://www.oschina.net/news/503118",
-      "summary": "Jync v1.7.6 首次全量同步大幅提速；新增只读数据预览、项目克隆与列清洗规则；修复 Oracle 11g / GBK 与若干同步正确性问题。 性能 全量分块并行：默认 2 路并行（上限 8，按连接池自动收敛），可按项目覆盖；仅单列整数主键表启用。 断点续跑：keyset 分页 + 分块检查点，中断、重启后从已完成的分块继续，检查点绑定区...",
-      "publishedAt": "2026-10-20T13:44:25.000Z",
-      "author": "",
-      "sourceId": "oschina",
-      "sourceName": "开源中国",
-      "category": "cn",
-      "id": "0c2c22f4606763b4"
     }
   ],
   "reports": [
@@ -1782,8 +1708,9 @@
       "id": "leiphone",
       "name": "雷峰网",
       "category": "cn",
-      "status": "ok",
-      "count": 6
+      "status": "error",
+      "count": 0,
+      "message": "The operation was aborted due to timeout"
     },
     {
       "id": "solidot",
