@@ -1,0 +1,161 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="检索" description="在已收录的前沿动态里按标题和摘要查找。" current="search">
+  <div class="shell">
+    <header class="mast">
+      <p class="kicker">检索</p>
+      <h1 class="page-title">查找全部归档</h1>
+      <p class="lede">匹配在浏览器里完成，索引只包含已经收录的标题、来源和摘要。</p>
+    </header>
+    <form class="search-form" role="search">
+      <label for="q">关键词</label>
+      <input id="q" name="q" type="search" placeholder="模型、论文、仓库、公司…" autocomplete="off" enterkeyhint="search" />
+    </form>
+    <p id="search-status">正在载入索引…</p>
+    <div id="search-results"></div>
+  </div>
+
+<script>
+  type Row = {
+    t: string;
+    u: string;
+    s: string;
+    c: string;
+    cn: string;
+    d: string;
+    x: string;
+    id: string;
+  };
+
+  const input = document.querySelector<HTMLInputElement>('#q');
+  const status = document.querySelector<HTMLElement>('#search-status');
+  const results = document.querySelector<HTMLElement>('#search-results');
+  const indexUrl = `${import.meta.env.BASE_URL}search-index.json`;
+  let rows: Row[] = [];
+
+  function tokensOf(query: string) {
+    return [...new Set(query.trim().toLowerCase().split(/\s+/).filter(Boolean))];
+  }
+
+  function highlight(text: string, tokens: string[]) {
+    const fragment = document.createDocumentFragment();
+    if (!tokens.length || !text) {
+      fragment.append(document.createTextNode(text));
+      return fragment;
+    }
+    const lower = text.toLowerCase();
+    let cursor = 0;
+    while (cursor < text.length) {
+      let next = -1;
+      let token = '';
+      for (const candidate of tokens) {
+        const found = lower.indexOf(candidate, cursor);
+        if (found !== -1 && (next === -1 || found < next)) {
+          next = found;
+          token = candidate;
+        }
+      }
+      if (next === -1) {
+        fragment.append(document.createTextNode(text.slice(cursor)));
+        break;
+      }
+      if (next > cursor) fragment.append(document.createTextNode(text.slice(cursor, next)));
+      const mark = document.createElement('mark');
+      mark.textContent = text.slice(next, next + token.length);
+      fragment.append(mark);
+      cursor = next + token.length;
+    }
+    return fragment;
+  }
+
+  function render(query: string) {
+    if (!results || !status) return;
+    results.replaceChildren();
+    const tokens = tokensOf(query);
+    if (!tokens.length) {
+      status.textContent = rows.length
+        ? `索引里有 ${rows.length} 条。输入关键词开始查找。`
+        : '索引是空的。';
+      return;
+    }
+    const matched = rows
+      .map((row) => {
+        const hay = `${row.t}\n${row.x}\n${row.s}\n${row.cn}`.toLowerCase();
+        if (!tokens.every((token) => hay.includes(token))) return null;
+        const titleHits = tokens.reduce((sum, token) => sum + (row.t.toLowerCase().includes(token) ? 1 : 0), 0);
+        return { row, titleHits };
+      })
+      .filter((entry): entry is { row: Row; titleHits: number } => Boolean(entry))
+      .sort((a, b) => b.titleHits - a.titleHits || b.row.d.localeCompare(a.row.d));
+
+    const shown = matched.slice(0, 50);
+    status.textContent = matched.length
+      ? `${matched.length} 条匹配${matched.length > shown.length ? '，先显示前 50 条' : ''}`
+      : '没有匹配的条目。';
+
+    const list = document.createElement('ul');
+    list.className = 'items';
+    for (const { row } of shown) {
+      const item = document.createElement('li');
+      item.className = 'item';
+      const meta = document.createElement('div');
+      meta.className = 'item-meta';
+      const source = document.createElement('span');
+      source.className = 'source';
+      source.textContent = row.s;
+      const category = document.createElement('span');
+      category.textContent = row.cn;
+      const archive = document.createElement('a');
+      archive.href = `${import.meta.env.BASE_URL}archive/${row.d}/#item-${row.id}`;
+      archive.textContent = row.d;
+      meta.append(source, category, archive);
+
+      const heading = document.createElement('h3');
+      const link = document.createElement('a');
+      link.href = row.u;
+      link.target = '_blank';
+      link.rel = 'noopener noreferrer';
+      link.append(highlight(row.t, tokens));
+      heading.append(link);
+
+      item.append(meta, heading);
+      if (row.x) {
+        const summary = document.createElement('p');
+        summary.className = 'summary';
+        summary.append(highlight(row.x, tokens));
+        item.append(summary);
+      }
+      list.append(item);
+    }
+    results.append(list);
+  }
+
+  async function start() {
+    if (!input || !status) return;
+    try {
+      const response = await fetch(indexUrl);
+      if (!response.ok) throw new Error(String(response.status));
+      rows = await response.json();
+    } catch {
+      status.textContent = '索引加载失败，请刷新重试。';
+      return;
+    }
+    const params = new URLSearchParams(window.location.search);
+    const initial = params.get('q') || '';
+    input.value = initial;
+    render(initial);
+    input.addEventListener('input', () => {
+      const value = input.value;
+      const url = new URL(window.location.href);
+      if (value.trim()) url.searchParams.set('q', value);
+      else url.searchParams.delete('q');
+      window.history.replaceState(null, '', url);
+      render(value);
+    });
+  }
+
+  start();
+</script>
+</Base>

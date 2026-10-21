@@ -1,0 +1,90 @@
+name: Daily digest
+
+on:
+  schedule:
+    # 00:00 UTC = 08:00 Asia/Shanghai. GitHub may start the job later.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Test
+        run: npm test
+
+      - name: Fetch sources
+        env:
+          SUMMARY_API_KEY: ${{ secrets.SUMMARY_API_KEY }}
+          SUMMARY_API_BASE: ${{ secrets.SUMMARY_API_BASE }}
+          SUMMARY_MODEL: ${{ secrets.SUMMARY_MODEL }}
+        run: npm run fetch
+
+      - name: Commit digest
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/digests
+          if git diff --staged --quiet; then
+            echo "No digest changes to commit."
+          else
+            DATE="$(node --input-type=module -e "import { shanghaiDate } from './scripts/lib/text.mjs'; process.stdout.write(shanghaiDate())")"
+            git commit -m "chore: update digest for ${DATE}"
+            for delay in 0 4 8 16; do
+              if [ "$delay" -gt 0 ]; then
+                echo "Push failed, retrying in ${delay}s"
+                sleep "$delay"
+                git pull --rebase origin "${GITHUB_REF_NAME}"
+              fi
+              if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+                exit 0
+              fi
+            done
+            echo "Could not push the digest commit."
+            exit 1
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

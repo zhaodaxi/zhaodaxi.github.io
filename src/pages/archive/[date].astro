@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import DigestView from '../../components/DigestView.astro';
+import { loadConfig, loadDigests } from '../../lib/content';
+import { chineseDate } from '../../lib/format';
+
+export function getStaticPaths() {
+  const config = loadConfig();
+  return loadDigests().map((digest) => ({
+    params: { date: digest.date },
+    props: { digest, categories: config.categories },
+  }));
+}
+
+const { digest, categories } = Astro.props;
+const date = chineseDate(digest.date, digest.timezone);
+---
+
+<Base title={date.label} description={`${date.label}的前沿动态，共 ${digest.items.length} 条。`} current="archive">
+  <DigestView digest={digest} categories={categories} />
+</Base>
