@@ -1,0 +1,27 @@
+---
+import Base from '../layouts/Base.astro';
+import DigestView from '../components/DigestView.astro';
+import { loadConfig, loadDigests } from '../lib/content';
+import { chineseDate, todayInTimeZone } from '../lib/format';
+
+const config = loadConfig();
+const digests = loadDigests();
+const latest = digests[0];
+const today = todayInTimeZone(config.timezone || 'Asia/Shanghai');
+const notice = latest && latest.date !== today
+  ? `今天的条目还没生成，下面是最近一次更新（${chineseDate(latest.date).label}）。`
+  : '';
+const description = config.site.description || '聚合论文、研究、开源与中文科技媒体的前沿动态，每天更新。';
+---
+
+<Base title="前沿动态" description={description} current="today">
+  {latest ? (
+    <DigestView digest={latest} categories={config.categories} notice={notice} />
+  ) : (
+    <div class="shell empty-state">
+      <p class="kicker">前沿动态</p>
+      <h1>还没有日报</h1>
+      <p>运行 <code>npm run fetch</code> 生成 <code>data/digests</code> 里的数据，然后重新构建。</p>
+    </div>
+  )}
+</Base>

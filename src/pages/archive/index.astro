@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import { categoryName, loadConfig, loadDigests } from '../../lib/content';
+import { chineseDate, formatCount } from '../../lib/format';
+
+const config = loadConfig();
+const digests = loadDigests();
+---
+
+<Base title="归档" description="按日期浏览已经收录的前沿动态。" current="archive">
+  <div class="shell">
+    <header class="mast">
+      <p class="kicker">归档</p>
+      <h1 class="page-title">按日期回看</h1>
+      <p class="lede">每一天的文件都提交在仓库里，所以这里的目录不会随着来源更新而消失。</p>
+    </header>
+    {digests.length === 0 ? (
+      <p>还没有可浏览的日期。</p>
+    ) : (
+      <ol class="days">
+        {digests.map((digest) => {
+          const date = chineseDate(digest.date, digest.timezone);
+          const preview = digest.items.slice(0, 3).map((item) => item.title).join('  /  ');
+          const counts = config.categories
+            .map((category) => {
+              const count = digest.items.filter((item) => item.category === category.id).length;
+              return count ? `${categoryName(config.categories, category.id)} ${count}` : '';
+            })
+            .filter(Boolean)
+            .join(' · ');
+          return (
+            <li class="day">
+              <a href={`/archive/${digest.date}/`}>
+                <span class="day-date">{date.label}</span>
+                <span class="day-count">{formatCount(digest.items.length)} 条</span>
+                <span class="day-week">{date.weekday}{counts ? ` · ${counts}` : ''}</span>
+                {preview && <p class="day-preview">{preview}</p>}
+              </a>
+            </li>
+          );
+        })}
+      </ol>
+    )}
+  </div>
+</Base>

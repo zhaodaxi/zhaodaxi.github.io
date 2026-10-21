@@ -1,0 +1,228 @@
+{
+  "_help": "添加来源：复制一条 sources 记录。type 可选 rss、arxiv、hackernews、github-trending。category 必须是 categories 里的 id。enabled 设为 false 可暂时停用。改完后手动运行 Daily digest 工作流，或等到次日 08:00（北京时间）。",
+  "timezone": "Asia/Shanghai",
+  "site": {
+    "name": "前沿动态",
+    "tagline": "开发者的每日科技速递",
+    "description": "聚合论文、研究、开源与中文科技媒体的前沿动态，每天更新。",
+    "updateHint": "每日约 08:00（北京时间）更新"
+  },
+  "categories": [
+    { "id": "papers", "name": "论文", "description": "arXiv 新提交" },
+    { "id": "research", "name": "研究", "description": "实验室、公司与独立作者" },
+    { "id": "opensource", "name": "开源", "description": "正在上升的仓库" },
+    { "id": "community", "name": "社区", "description": "开发者正在讨论" },
+    { "id": "cn", "name": "中文", "description": "中文科技媒体" }
+  ],
+  "sources": [
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI",
+      "category": "papers",
+      "type": "arxiv",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "categoryQuery": "cs.AI",
+      "limit": 8,
+      "maxAgeDays": 5
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "name": "arXiv cs.LG",
+      "category": "papers",
+      "type": "arxiv",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "categoryQuery": "cs.LG",
+      "limit": 8,
+      "maxAgeDays": 5
+    },
+    {
+      "id": "arxiv-cs-cl",
+      "name": "arXiv cs.CL",
+      "category": "papers",
+      "type": "arxiv",
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "categoryQuery": "cs.CL",
+      "limit": 6,
+      "maxAgeDays": 5
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "category": "research",
+      "type": "rss",
+      "url": "https://openai.com/news/rss.xml",
+      "limit": 5,
+      "maxAgeDays": 21
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "category": "research",
+      "type": "rss",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
+      "limit": 5,
+      "maxAgeDays": 21
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "category": "research",
+      "type": "rss",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "limit": 5,
+      "maxAgeDays": 45
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "category": "research",
+      "type": "rss",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "limit": 5,
+      "maxAgeDays": 14
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "category": "research",
+      "type": "rss",
+      "url": "https://simonwillison.net/atom/everything/",
+      "limit": 6,
+      "maxAgeDays": 10
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "category": "research",
+      "type": "rss",
+      "url": "https://www.latent.space/feed",
+      "limit": 4,
+      "maxAgeDays": 21
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "category": "research",
+      "type": "rss",
+      "url": "https://www.interconnects.ai/feed",
+      "limit": 4,
+      "maxAgeDays": 21
+    },
+    {
+      "id": "import-ai",
+      "name": "Import AI",
+      "category": "research",
+      "type": "rss",
+      "url": "https://jack-clark.net/feed/",
+      "limit": 3,
+      "maxAgeDays": 21
+    },
+    {
+      "id": "mit-tech-review",
+      "name": "MIT Technology Review",
+      "category": "research",
+      "type": "rss",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
+      "limit": 5,
+      "maxAgeDays": 14
+    },
+    {
+      "id": "the-verge-ai",
+      "name": "The Verge AI",
+      "category": "research",
+      "type": "rss",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "limit": 5,
+      "maxAgeDays": 7
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA Developer",
+      "category": "research",
+      "type": "rss",
+      "url": "https://developer.nvidia.com/blog/feed",
+      "limit": 4,
+      "maxAgeDays": 14
+    },
+    {
+      "id": "bair",
+      "name": "BAIR",
+      "category": "research",
+      "type": "rss",
+      "url": "https://bair.berkeley.edu/blog/feed.xml",
+      "limit": 3,
+      "maxAgeDays": 120
+    },
+    {
+      "id": "github-trending",
+      "name": "GitHub Trending",
+      "category": "opensource",
+      "type": "github-trending",
+      "url": "https://github.com/trending?since=daily",
+      "fallbackUrl": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+      "limit": 10
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "category": "opensource",
+      "type": "rss",
+      "url": "https://github.blog/feed/",
+      "limit": 4,
+      "maxAgeDays": 14
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "category": "community",
+      "type": "hackernews",
+      "url": "https://hacker-news.firebaseio.com/v0",
+      "limit": 12
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "category": "cn",
+      "type": "rss",
+      "url": "https://www.qbitai.com/feed",
+      "limit": 8,
+      "maxAgeDays": 7
+    },
+    {
+      "id": "leiphone",
+      "name": "雷峰网",
+      "category": "cn",
+      "type": "rss",
+      "url": "https://www.leiphone.com/feed",
+      "limit": 6,
+      "maxAgeDays": 7
+    },
+    {
+      "id": "solidot",
+      "name": "Solidot",
+      "category": "cn",
+      "type": "rss",
+      "url": "https://www.solidot.org/index.rss",
+      "limit": 8,
+      "maxAgeDays": 4
+    },
+    {
+      "id": "infoq-cn",
+      "name": "InfoQ 中文",
+      "category": "cn",
+      "type": "rss",
+      "url": "https://www.infoq.cn/feed",
+      "limit": 6,
+      "maxAgeDays": 14
+    },
+    {
+      "id": "oschina",
+      "name": "开源中国",
+      "category": "cn",
+      "type": "rss",
+      "url": "https://www.oschina.net/news/rss",
+      "limit": 6,
+      "maxAgeDays": 5
+    }
+  ]
+}

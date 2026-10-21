@@ -1,0 +1,94 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  current?: 'today' | 'archive' | 'search';
+}
+
+const {
+  title = '前沿动态',
+  description = '聚合论文、研究、开源与中文科技媒体的前沿动态，每天更新。',
+  current,
+} = Astro.props;
+
+const fullTitle = title === '前沿动态' ? '前沿动态' : `${title} · 前沿动态`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="zh_CN" />
+    <meta name="theme-color" content="#f3efe6" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#131411" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script is:inline>
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          if (saved === 'light' || saved === 'dark') {
+            document.documentElement.dataset.theme = saved;
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到内容</a>
+    <Header current={current} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>('#theme-toggle');
+      const times = document.querySelectorAll<HTMLTimeElement>('time.rel-time');
+
+      function currentTheme() {
+        const explicit = document.documentElement.dataset.theme;
+        if (explicit === 'light' || explicit === 'dark') return explicit;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+
+      toggle?.addEventListener('click', () => {
+        const next = currentTheme() === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        try {
+          localStorage.setItem('theme', next);
+        } catch (e) {}
+      });
+
+      function relative(iso: string) {
+        const time = Date.parse(iso);
+        if (Number.isNaN(time)) return '';
+        const minutes = Math.round((Date.now() - time) / 60000);
+        if (minutes < 1) return '刚刚';
+        if (minutes < 60) return `${minutes} 分钟前`;
+        const hours = Math.round(minutes / 60);
+        if (hours < 24) return `${hours} 小时前`;
+        const days = Math.round(hours / 24);
+        if (days < 14) return `${days} 天前`;
+        return '';
+      }
+
+      for (const node of times) {
+        const iso = node.dateTime;
+        const label = relative(iso);
+        if (label) node.textContent = label;
+      }
+    </script>
+  </body>
+</html>
