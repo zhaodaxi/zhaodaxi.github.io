@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import '../styles/themes/editorial.css';
+import '../styles/themes/original.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 
@@ -32,17 +34,35 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:type" content="website" />
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content="zh_CN" />
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#141414" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <script is:inline>
       (function () {
+        /* Keep in sync with THEMES in the module script below. */
+        var THEMES = ['editorial', 'original'];
+        var COLORS = {
+          editorial: { light: '#ffffff', dark: '#141414' },
+          original: { light: '#f3efe6', dark: '#131411' }
+        };
+        var root = document.documentElement;
+        var theme = 'editorial';
+        var mode = '';
         try {
-          var saved = localStorage.getItem('theme');
-          if (saved === 'light' || saved === 'dark') {
-            document.documentElement.dataset.theme = saved;
+          var legacy = localStorage.getItem('theme');
+          if (legacy === 'light' || legacy === 'dark') {
+            if (!localStorage.getItem('color-mode')) localStorage.setItem('color-mode', legacy);
+            localStorage.removeItem('theme');
           }
+          var savedTheme = localStorage.getItem('site-theme');
+          if (THEMES.indexOf(savedTheme) !== -1) theme = savedTheme;
+          var savedMode = localStorage.getItem('color-mode');
+          if (savedMode === 'light' || savedMode === 'dark') mode = savedMode;
         } catch (e) {}
+        root.dataset.theme = theme;
+        if (mode) root.dataset.mode = mode;
+        var resolved = mode || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta && COLORS[theme]) meta.setAttribute('content', COLORS[theme][resolved]);
       })();
     </script>
   </head>
@@ -54,21 +74,70 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     </main>
     <Footer />
     <script>
-      const toggle = document.querySelector<HTMLButtonElement>('#theme-toggle');
+      const THEMES = ['editorial', 'original'];
+      const COLORS: Record<string, { light: string; dark: string }> = {
+        editorial: { light: '#ffffff', dark: '#141414' },
+        original: { light: '#f3efe6', dark: '#131411' },
+      };
+      const root = document.documentElement;
+      const switcher = document.querySelector<HTMLElement>('.theme-switch');
+      const modeToggle = document.querySelector<HTMLButtonElement>('#mode-toggle');
+      const choices = [...document.querySelectorAll<HTMLButtonElement>('[data-theme-choice]')];
       const times = document.querySelectorAll<HTMLTimeElement>('time.rel-time');
 
-      function currentTheme() {
-        const explicit = document.documentElement.dataset.theme;
+      function currentMode() {
+        const explicit = root.dataset.mode;
         if (explicit === 'light' || explicit === 'dark') return explicit;
         return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
       }
 
-      toggle?.addEventListener('click', () => {
-        const next = currentTheme() === 'dark' ? 'light' : 'dark';
-        document.documentElement.dataset.theme = next;
+      function paintChrome(theme: string) {
+        const meta = document.querySelector('meta[name="theme-color"]');
+        const color = COLORS[theme]?.[currentMode()];
+        if (meta && color) meta.setAttribute('content', color);
+      }
+
+      function applyTheme(theme: string) {
+        if (!THEMES.includes(theme)) theme = 'editorial';
+        root.dataset.theme = theme;
+        for (const button of choices) {
+          const selected = button.dataset.themeChoice === theme;
+          button.setAttribute('aria-checked', selected ? 'true' : 'false');
+          button.tabIndex = selected ? 0 : -1;
+        }
         try {
-          localStorage.setItem('theme', next);
+          localStorage.setItem('site-theme', theme);
         } catch (e) {}
+        paintChrome(theme);
+      }
+
+      for (const button of choices) {
+        button.addEventListener('click', () => {
+          applyTheme(button.dataset.themeChoice || 'editorial');
+        });
+      }
+
+      switcher?.addEventListener('keydown', (event) => {
+        const index = choices.findIndex((button) => button === document.activeElement);
+        if (index < 0) return;
+        let next = index;
+        if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % choices.length;
+        else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index - 1 + choices.length) % choices.length;
+        else return;
+        event.preventDefault();
+        applyTheme(choices[next].dataset.themeChoice || 'editorial');
+        choices[next].focus();
+      });
+
+      applyTheme(root.dataset.theme || 'editorial');
+
+      modeToggle?.addEventListener('click', () => {
+        const next = currentMode() === 'dark' ? 'light' : 'dark';
+        root.dataset.mode = next;
+        try {
+          localStorage.setItem('color-mode', next);
+        } catch (e) {}
+        paintChrome(root.dataset.theme || 'editorial');
       });
 
       function relative(iso: string) {
@@ -85,8 +154,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       }
 
       for (const node of times) {
-        const iso = node.dateTime;
-        const label = relative(iso);
+        const label = relative(node.dateTime);
         if (label) node.textContent = label;
       }
     </script>
