@@ -6,21 +6,20 @@ interface Props {
 const { current } = Astro.props;
 ---
 
-<header class="top">
-  <a class="brand" href="/">
-    <span class="seal" aria-hidden="true">沿</span>
-    <span>
+<header class="folio">
+  <div class="folio-inner">
+    <a class="brand" href="/">
       <span class="brand-name">前沿动态</span>
       <span class="brand-sub">开发者的每日科技速递</span>
-    </span>
-  </a>
-  <nav aria-label="主导航">
-    <a href="/" aria-current={current === 'today' ? 'page' : undefined}>今日</a>
-    <a href="/archive/" aria-current={current === 'archive' ? 'page' : undefined}>归档</a>
-    <a href="/search/" aria-current={current === 'search' ? 'page' : undefined}>检索</a>
-  </nav>
-  <button type="button" id="theme-toggle" aria-label="切换浅色或深色模式">
-    <span class="when-light">深色</span>
-    <span class="when-dark">浅色</span>
-  </button>
+    </a>
+    <nav aria-label="主导航">
+      <a href="/" aria-current={current === 'today' ? 'page' : undefined}>今日</a>
+      <a href="/archive/" aria-current={current === 'archive' ? 'page' : undefined}>归档</a>
+      <a href="/search/" aria-current={current === 'search' ? 'page' : undefined}>检索</a>
+      <button type="button" id="theme-toggle" aria-label="切换浅色或深色模式">
+        <span class="when-light">深色</span>
+        <span class="when-dark">浅色</span>
+      </button>
+    </nav>
+  </div>
 </header>
