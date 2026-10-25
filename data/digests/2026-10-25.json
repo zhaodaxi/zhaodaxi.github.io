@@ -1,0 +1,1593 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Shanghai",
+  "generatedAt": "2026-10-25T01:49:34.588Z",
+  "items": [
+    {
+      "title": "baseVultra: Compact Nonlinear Recurrence with Reallocated Capacity",
+      "url": "https://arxiv.org/abs/2610.30154",
+      "summary": "Nonlinear recurrent networks remain useful for streaming sequence modeling, yet gated cell design is still dominated by LSTM and GRU. We study whether recurrent computation can be reallocated away from gate transforms and toward candidate generation. We propose baseVultra, a compact recurrent cell that concentrates the dense recurrent budget on a single H x…",
+      "publishedAt": "2026-10-24T04:00:00.000Z",
+      "author": "Linke Zhang",
+      "tags": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "1f3dc93fdcc8618b"
+    },
+    {
+      "title": "Lighthouse: On Building a Trustworthy Digital Assistant for Exploring History with Civil Rights Archives",
+      "url": "https://arxiv.org/abs/2610.30158",
+      "summary": "Artificial intelligence (AI), as a decision-support aid, provides new tools for studying history effectively using multimodal data, including text, images, and audio. We present, to our knowledge, the first digital assistant named Lighthouse--commonly called a chatbot--for exploring the Civil Rights period of the United States using data from South Carolina…",
+      "publishedAt": "2026-10-24T04:00:00.000Z",
+      "author": "John A. Aydin, Angelica Williams, Steven Dindl, Nathan Saunders, Kate Boyd, Vandana Srivastava, Biplav Srivastava",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "c0d1207e061d8c85"
+    },
+    {
+      "title": "TauIndianBankBench: Procedure-Aware, Action-Oriented Evaluation of Tool-Using Conversational Agents",
+      "url": "https://arxiv.org/abs/2610.30161",
+      "summary": "Many Indian banks serve customers through FAQ pages and scripted chatbots. Assistants based on language models could respond faster and carry out requests such as blocking a card, but only if they give correct information and follow the bank's rules. These rules prescribe a procedure, a set of required steps, such as obtaining a closure quote before closing…",
+      "publishedAt": "2026-10-24T04:00:00.000Z",
+      "author": "Krishanu Adhikary, Prashant Devadiga",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "4841ec6bc1c79ed8"
+    },
+    {
+      "title": "FusionEval: Benchmarking Model Fusion for Large Language Models",
+      "url": "https://arxiv.org/abs/2610.30162",
+      "summary": "Model fusion aims to integrate the capabilities of multi-expert models into a single model. Existing evaluations offer limited coverage of reasoning with long chains of thought and tool use, while strong average performance can mask substantial losses in individual expert capabilities. We introduce FusionEval, a benchmark that provides controlled expert poo…",
+      "publishedAt": "2026-10-24T04:00:00.000Z",
+      "author": "Shuo Cai, Yanggan Gu, Yuhang Liu, Su Lu, Yuanyi Wang, Yang Yu, Zhen Li, Zhitian Hou, Guanghao Zhu, Ming Li, Hongxia Yang",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "a8c7330885272ade"
+    },
+    {
+      "title": "Measuring Research Progress and Linguistic Inclusion in Low-Resource Languages",
+      "url": "https://arxiv.org/abs/2610.30296",
+      "summary": "Large Language Models (LLMs) have accelerated research on low-resource and multilingual NLP, but their effectiveness in creating an equitable landscape remains unmapped. We analyze 1,158 peer-reviewed open-access papers published between 2020 and 2025, examining research attention to low-resource languages (LRLs) and representation across language and speak…",
+      "publishedAt": "2026-10-24T04:00:00.000Z",
+      "author": "Atnafu Lambebo Tonja, Tadesse Destaw Belay, Jesujoba Oluwadara Alabi, Israel Abebe Azime, Benjamin Rosman, Ehsan Shareghi, Thamar Solorio…",
+      "tags": [
+        "cs.CL"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "db719d6b3d6af6fa"
+    },
+    {
+      "title": "AQL-Lite: Enabling Efficient Knowledge Acquisition for Arabic LLMs via Data-Centric Continual Pretraining",
+      "url": "https://arxiv.org/abs/2610.30344",
+      "summary": "Training Arabic large language models faces challenges from noisy web data, dialectal variation, and the high cost of continual pretraining (CPT). We introduce AQL-Lite (AQL: Arabic Quality Language), a time- and resource-efficient framework for adapting a multilingual LLM to Modern Standard Arabic (MSA). AQL-Lite couples a quality-first curation pipeline (…",
+      "publishedAt": "2026-10-24T04:00:00.000Z",
+      "author": "Houssam Eddine Boukhalfa, Mourad Bouache, Mourad Dahmane",
+      "tags": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "afb163af2fa2f887"
+    },
+    {
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+      "publishedAt": "2026-10-23T17:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "ee4c22366ef7e7ab"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "publishedAt": "2026-10-23T10:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "f8c156dba7886826"
+    },
+    {
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "1a543055a02f9816"
+    },
+    {
+      "title": "Build more responsive apps with the Decisions API",
+      "url": "https://openai.com/index/decisions-api",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "publishedAt": "2026-10-22T19:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "891b7e0bbf66f86d"
+    },
+    {
+      "title": "What FDE means at OpenAI",
+      "url": "https://openai.com/index/forward-deployed-engineering-means",
+      "summary": "What forward deployed engineering means at OpenAI",
+      "publishedAt": "2026-10-22T06:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "6400feb681472530"
+    },
+    {
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026",
+      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Nitin Gajria",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "research",
+      "id": "78cebe09803b5741"
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "summary": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "author": "Koray Kavukcuoglu",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "research",
+      "id": "ed1be8ea5f53c737"
+    },
+    {
+      "title": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "summary": "Playground is a new experimental gaming platform that lets you create, play, and share custom games.",
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "author": "Maryam Karimzadehgan",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "research",
+      "id": "e04d1da693503b0f"
+    },
+    {
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "publishedAt": "2026-10-22T14:30:24.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "8f93170faf71fda6"
+    },
+    {
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "publishedAt": "2026-10-15T16:08:03.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "3b88e63140868036"
+    },
+    {
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "publishedAt": "2026-10-14T02:00:14.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "b76b11a1199f73b7"
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+      "summary": "",
+      "publishedAt": "2026-10-13T19:43:07.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "1dc99b611b2499a3"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+      "summary": "",
+      "publishedAt": "2026-10-13T16:01:58.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "d96a2391b623b2cb"
+    },
+    {
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "summary": "",
+      "publishedAt": "2026-10-23T16:15:50.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "5d794c3788a3a4be"
+    },
+    {
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "summary": "",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "2b3f616d26d343fe"
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "summary": "",
+      "publishedAt": "2026-10-22T22:24:34.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "51888f116f5b0837"
+    },
+    {
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "summary": "",
+      "publishedAt": "2026-10-22T07:51:31.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "0e5fad3ca5f8a881"
+    },
+    {
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "summary": "",
+      "publishedAt": "2026-10-21T18:26:30.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "94a5f6526eada9bc"
+    },
+    {
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones",
+      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI) Claude Opus 5.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code…",
+      "publishedAt": "2026-10-24T03:59:57.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "6e1fc50fabcdd1bd"
+    },
+    {
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter",
+      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Quick Study uses Sobel edge detection , with no external libraries beyond Google Fonts. Tags: tools",
+      "publishedAt": "2026-10-23T21:35:13.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "02a20fdf8ff0273f"
+    },
+    {
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro",
+      "summary": "Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5. Moonshot's own benchmarks show…",
+      "publishedAt": "2026-10-23T19:40:54.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "b5619922e4bc7751"
+    },
+    {
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom",
+      "summary": "OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding-a-bicycle",
+      "publishedAt": "2026-10-22T19:42:26.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "d1cc4ab1d566d815"
+    },
+    {
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "summary": "News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn'…",
+      "publishedAt": "2026-10-22T18:09:56.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "ee487a66d7e4ee85"
+    },
+    {
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher",
+      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+      "publishedAt": "2026-10-22T15:34:13.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "6619134087094c0c"
+    },
+    {
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "url": "https://latent.space/p/ainews-kimi-31",
+      "summary": "2 months ago we covered Z.ai CEO Prof Jie Tang’s prediction that we’d get a Fable-class open weights model by year end . 2 weeks ago Meta achieved a Fable-class model in closed source , but, with 2.5 months left to go, we finally got it - a 2.8T open weights model beating Fable 5.1, not just Fable 5, at that: View post on X ↗ with even better efficiency: View post on X ↗ You can tell Kimi is proud of their latest model by how fancy their landing page is: As usual we don’t get much research deta…",
+      "publishedAt": "2026-10-24T07:18:29.000Z",
+      "author": "swyx .ai",
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "category": "research",
+      "id": "a74122a98f64e132"
+    },
+    {
+      "title": "AI Is Getting Good at Math. Here’s Why.",
+      "url": "https://latent.space/p/ai-is-getting-good-at-math",
+      "summary": "In May, an internal model at OpenAI found a counterexample to Erdős's unit distance conjecture . Open since 1946. Many experts had tried to prove it. OpenAI found a counterexample instead. A month later, OpenAI published a proof of the Cycle Double Cover (CDC) problem , then solutions to ten more open problems by July. And a proof of Navier Stokes in September. Anthropic published a formalization of the fermat's last theorem , and advanced bounds on Reimann's hypothesis . The models are suddenl…",
+      "publishedAt": "2026-10-23T15:19:48.000Z",
+      "author": "Ankit Maloo",
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "category": "research",
+      "id": "c876329152283bdf"
+    },
+    {
+      "title": "[AINews] Black October",
+      "url": "https://latent.space/p/ainews-black-october",
+      "summary": "If you are reading this, you’re receiving this from our new provider, Beehiiv! We are making progress on our redesign — if you have a friend that didn’t receive AINews, please find us in Spam filter and move us out to your Inbox… thank you! AINews is now free… we are building new subscriber benefits soon. We ordinarily try not to repeat title stories if we already covered it, as we did Patch the Planet yesterday and our Cyber trend call in July. But, if the scale is warranted, we also view our…",
+      "publishedAt": "2026-10-23T10:09:29.000Z",
+      "author": "swyx .ai",
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "category": "research",
+      "id": "b11a3832e61f8127"
+    },
+    {
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "url": "https://latent.space/p/modal-d",
+      "summary": "Warm welcome to Basil Chatha , our newest cohost from the Forward Deployed side of the AI Engineering world! We’ll be ramping up a new show with him and couldn’t pass up an interview with Modal’s CEO Eric on the occasion of their monster Series D! Two years ago, we spoke with Erik Bernhardsson about his vision for truly serverless AI infrastructure: developers should be able to run code without provisioning clusters, predicting load, or paying for idle resources. CTO Akshat then joined us to ta…",
+      "publishedAt": "2026-10-22T17:40:57.000Z",
+      "author": "Latent.Space",
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "category": "research",
+      "id": "8347efbf60cad1ff"
+    },
+    {
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "summary": "The geopolitics of open-weight AI are accelerating again this fall, as we would expect with the risks of all AI systems (open and closed) rising rapidly. We’ve seen many news items in the last week showing both the U.S. and Chinese governments positioning themselves for some controls on open models. MOFCOM, the Ministry of Commerce of the People’s Republic of China, released a policy proposal (it’s not yet a law) that would require frontier AI models and some other technologies to get pre-appro…",
+      "publishedAt": "2026-10-20T17:04:21.000Z",
+      "author": "Florian Brand",
+      "sourceId": "interconnects",
+      "sourceName": "Interconnects",
+      "category": "research",
+      "id": "1c230612a088f9ef"
+    },
+    {
+      "title": "Meta shakes up the frontiers, open and closed",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open",
+      "summary": "This has been a week where the balance of American open-weight models took a step change back toward the frontier. Meta took the lead of this charge with Muse Spark Open , which is now the strongest American-made open model by quite some margin, but the addition of Reflection’s first model Beam is also relevant. Without these two models, there would be 20+ open-weight models built and released by Chinese companies better than the best Western models. At the time of writing this, Mistral has als…",
+      "publishedAt": "2026-10-17T14:06:54.000Z",
+      "author": "Nathan Lambert",
+      "sourceId": "interconnects",
+      "sourceName": "Interconnects",
+      "category": "research",
+      "id": "3c78670d23d9d4bb"
+    },
+    {
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it. The explanation I arrived at is that researchers are seeing this massive acceleration in the infra and engineering capabilities of the models. I fully agree that the models will be superhuman distributed GPU engineers in a few years. This will make experimentation and tinkering with the formulation of the model…",
+      "publishedAt": "2026-10-09T21:33:47.000Z",
+      "author": "Nathan Lambert",
+      "sourceId": "interconnects",
+      "sourceName": "Interconnects",
+      "category": "research",
+      "id": "720d85217c3c2ee6"
+    },
+    {
+      "title": "The Cyber Risk Discourse is Broken",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "summary": "I’ve had one too many discussions on the cyber risks of open models — where someone assumes that either banning open models happens in a silo (and bad actors will somehow actually be stopped) or that China is a threat and doesn’t care about AI safety — that I feel we’re going to end up making policy decisions that both limit American AI competitiveness and increases long-term cyber risk. I feel like we’re locked in on a path of lose-lose situation, unless people embrace nuance, trade-offs, and…",
+      "publishedAt": "2026-10-06T14:22:41.000Z",
+      "author": "Nathan Lambert",
+      "sourceId": "interconnects",
+      "sourceName": "Interconnects",
+      "category": "research",
+      "id": "633d6abd309847cd"
+    },
+    {
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have seen me cover this year of AI beginning to operate at the frontier of human science, sometimes autonomously. While we all may quibble over the details, I think it’s evident we’r…",
+      "publishedAt": "2026-10-19T12:31:37.000Z",
+      "author": "Jack Clark",
+      "sourceId": "import-ai",
+      "sourceName": "Import AI",
+      "category": "research",
+      "id": "41c8677062bd4e7a"
+    },
+    {
+      "title": "Import AI 476: Creativity and RSI; worse-than-China open weight models; AI goes to space",
+      "url": "https://jack-clark.net/2026/10/12/import-ai-476-creativity-and-rsi-worse-than-china-open-weight-models-ai-goes-to-space",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now New benchmark shows how AI models lack intuitive visual reasoning: …Humanity’s Sixth Sense highlights some shortcomings of current AI systems… AI startups Elorian and Scale AI have built and released Humanity’s Sixth Sense, a benchmark that “measures how a model interprets and reasons through information a visual sc…",
+      "publishedAt": "2026-10-12T12:30:39.000Z",
+      "author": "Jack Clark",
+      "sourceId": "import-ai",
+      "sourceName": "Import AI",
+      "category": "research",
+      "id": "1ff94489caca3196"
+    },
+    {
+      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+      "url": "https://jack-clark.net/2026/10/05/import-ai-475-swarm-scaling-google-deepmind-watermarks-biology-and-the-ai-science-economy",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now When should you use swarms? When you are in a hurry: …How does swarm scaling work?… Toby Ord has a nice, short post about how to think about swarms in terms of AI capability development. “A good way to see AI swarms is as a new form of inference-scaling,” he says. He does a bit of analysis and his main conclusion is…",
+      "publishedAt": "2026-10-05T12:32:30.000Z",
+      "author": "Jack Clark",
+      "sourceId": "import-ai",
+      "sourceName": "Import AI",
+      "category": "research",
+      "id": "ae4d3dcf7fda80d0"
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last",
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have been extraordinary. But as AI moves from experimentation to production, the question facing enterprise leaders has changed—it’s no longer, “what can the…",
+      "publishedAt": "2026-10-22T21:17:29.000Z",
+      "author": "Anand Logani",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "1f0340c15a9c6be2"
+    },
+    {
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai",
+      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic systems, into lasting value for investors. About the speaker Jing Wang, Principal, Center for AI and Insig…",
+      "publishedAt": "2026-10-22T18:48:04.000Z",
+      "author": "MIT Technology Review Events",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "e0f446591b9f4e55"
+    },
+    {
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead is giving technology the context to act usefully within complex business processes. For Devavrat Shah, chief scient…",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "author": "MIT Technology Review Insights",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "62a31ba8c79308b9"
+    },
+    {
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs to be stored. But data storage is one of the harder infrastructure costs to plan for, and it’s often overlooked in initial AI infrastructure planni…",
+      "publishedAt": "2026-10-22T08:41:18.000Z",
+      "author": "Tim Rausch",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "98bc8365428f7813"
+    },
+    {
+      "title": "The new economics of enterprise AI",
+      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai",
+      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from “can we use it?” to “how efficiently are we using it?” Enterprise AI is going through the same shift. What began as isolated chatbot and copilot experiments is becoming a foundational layer of the business, with models, ag…",
+      "publishedAt": "2026-10-20T15:20:25.000Z",
+      "author": "David Sydow",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "a5615f52ffda9379"
+    },
+    {
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai",
+      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real. But one dead giveaway of AI is when things look too polished and seamless. To counter that, Blue […]",
+      "publishedAt": "2026-10-24T21:29:12.000Z",
+      "author": "Terrence O’Brien",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "88204e2303b2e1c0"
+    },
+    {
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "summary": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - that \"has been significantly modified or generated by artificial intelligence\" to include a label in the same format as […]",
+      "publishedAt": "2026-10-24T18:32:21.000Z",
+      "author": "Terrence O’Brien",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "f6c0a8a3f01db79a"
+    },
+    {
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI paused training its frontier […]",
+      "publishedAt": "2026-10-23T21:11:07.000Z",
+      "author": "Emma Roth",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "806229ba7633e86b"
+    },
+    {
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "summary": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan Thurairatnam. The conversation between […]",
+      "publishedAt": "2026-10-23T19:32:39.000Z",
+      "author": "Jay Peters",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "5ef296dd6d608659"
+    },
+    {
+      "title": "The iPhone Duo should have been an iPad",
+      "url": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "summary": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. On this episode of The Vergecast, David and Nilay […]",
+      "publishedAt": "2026-10-23T17:00:18.000Z",
+      "author": "David Pierce",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "aca0d982eb3e7d85"
+    },
+    {
+      "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 2",
+      "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-2",
+      "summary": "The Global Performance Tuner is a feature for automatic performance tuning released in NVIDIA TensorRT 11.1. It provides automatic, accuracy-aware and...",
+      "publishedAt": "2026-10-23T17:27:52.000Z",
+      "author": "Tanya Lenz",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA Developer",
+      "category": "research",
+      "id": "1456ee151a5392db"
+    },
+    {
+      "title": "Scaling NVIDIA TensorRT Performance Optimization Beyond a Single Build Route with the Global Performance Tuner, Part 1",
+      "url": "https://developer.nvidia.com/blog/scaling-nvidia-tensorrt-performance-optimization-beyond-a-single-build-route-with-the-global-performance-tuner-part-1",
+      "summary": "Deploying a trained neural network involves more than translating each operator into a GPU kernel. It is a compilation problem with many legitimate answers. For...",
+      "publishedAt": "2026-10-23T17:27:35.000Z",
+      "author": "Tanya Lenz",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA Developer",
+      "category": "research",
+      "id": "4dcd06f240ef44ca"
+    },
+    {
+      "title": "Using AI Agents to Teach Robots Like Microduck to Walk in Simulation",
+      "url": "https://developer.nvidia.com/blog/using-ai-agents-to-teach-robots-like-microduck-to-walk-in-simulation",
+      "summary": "Teaching a robot to navigate an obstacle course requires more than a walking policy. It must perceive its surroundings, maintain balance, and adjust its actions...",
+      "publishedAt": "2026-10-23T14:58:32.000Z",
+      "author": "Gabriele Leone",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA Developer",
+      "category": "research",
+      "id": "9794b201a214a494"
+    },
+    {
+      "title": "How to Read Data into GPU Memory in Python with NVIDIA GPUDirect Storage",
+      "url": "https://developer.nvidia.com/blog/how-to-read-data-into-gpu-memory-in-python-with-nvidia-gpudirect-storage",
+      "summary": "GPU applications are processing ever-growing datasets with increasingly powerful accelerators. According to the 2025 Stanford AI Index, compute for notable AI...",
+      "publishedAt": "2026-10-22T16:39:09.000Z",
+      "author": "Tanya Lenz",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA Developer",
+      "category": "research",
+      "id": "d52968d2b0a9b010"
+    },
+    {
+      "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
+      "url": "https://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search",
+      "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its own architecture and often tailored to specific AI workloads. Software is changing just as fast, and AI coding tools now generate in minutes what took months o…",
+      "publishedAt": "2026-07-29T09:00:00.000Z",
+      "author": "",
+      "sourceId": "bair",
+      "sourceName": "BAIR",
+      "category": "research",
+      "id": "34e27efac48e43c9"
+    },
+    {
+      "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+      "url": "https://bair.berkeley.edu/blog/2026/07/26/abbel",
+      "summary": "Overview of ABBEL compared to traditional recursive summarization. Beliefs replace the full interaction history as the agent’s working context, and belief grading improves performance by supervising the contents of each belief state.. As task horizons grow, LLM contexts can’t scale forever. Self-summarization enables concise, interpretable contexts, but at a significant performance cost, especially for human assistance domains where high quality data is scarce, e.g., collaborative code generati…",
+      "publishedAt": "2026-07-26T09:00:00.000Z",
+      "author": "",
+      "sourceId": "bair",
+      "sourceName": "BAIR",
+      "category": "research",
+      "id": "f3e90fbaf2deefd1"
+    },
+    {
+      "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
+      "url": "https://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
+      "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices have fallen between 9x and 900x per year , with a median decline near 50x. Even frontier models are getting dramatically cheaper each generation, with open-sour…",
+      "publishedAt": "2026-07-07T09:00:00.000Z",
+      "author": "",
+      "sourceId": "bair",
+      "sourceName": "BAIR",
+      "category": "research",
+      "id": "263ae964e7f110c1"
+    },
+    {
+      "title": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "publishedAt": "",
+      "metrics": {
+        "language": "JavaScript",
+        "stars": "44,654",
+        "starsToday": "2,264"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "9c15e014464735eb"
+    },
+    {
+      "title": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Rust",
+        "stars": "19,494",
+        "starsToday": "896"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "6eb73169f84ce43f"
+    },
+    {
+      "title": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "summary": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Python",
+        "stars": "3,142",
+        "starsToday": "13"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "a50b0e08dbaee74a"
+    },
+    {
+      "title": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "publishedAt": "",
+      "metrics": {
+        "language": "CSS",
+        "stars": "32,190",
+        "starsToday": "455"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "56ed6f5b1a23b5b5"
+    },
+    {
+      "title": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "summary": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Python",
+        "stars": "44,583",
+        "starsToday": "392"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "98a99d0df7599b35"
+    },
+    {
+      "title": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "summary": "The design language that makes your AI harness better at design.",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Rust",
+        "stars": "86,451",
+        "starsToday": "619"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "ec673bd7694d3a65"
+    },
+    {
+      "title": "pollen-robotics/microduck",
+      "url": "https://github.com/pollen-robotics/microduck",
+      "summary": "A Tiny biped duck robot 🦆",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Rust",
+        "stars": "11,019",
+        "starsToday": "319"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "bd1792110f23d3f6"
+    },
+    {
+      "title": "google-gemini/gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "summary": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "publishedAt": "",
+      "metrics": {
+        "language": "TypeScript",
+        "stars": "108,078",
+        "starsToday": "44"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "24684c1ecca249c0"
+    },
+    {
+      "title": "jbiaojerry/ebook-treasure-chest",
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
+      "summary": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Python",
+        "stars": "22,640",
+        "starsToday": "227"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "5b231a70aa24d081"
+    },
+    {
+      "title": "makecindy/cindy",
+      "url": "https://github.com/makecindy/cindy",
+      "summary": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "publishedAt": "",
+      "metrics": {
+        "language": "TypeScript",
+        "stars": "4,120",
+        "starsToday": "477"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "a012a4c93429343e"
+    },
+    {
+      "title": "How bug bounty sharpens one researcher’s security skills",
+      "url": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills",
+      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team is excited to spotlight another top-performing security researcher from the GitHub Security Bug Bounty Program: @r31n ! As home to the world’s developers, GitHub is dedicated to the security and reliability of the code behind millions of projects, and our Bug Bounty Program remains a cornerstone of that commitment. Collaboration with external researchers is one of the most effective ways to improve security, and every year,…",
+      "publishedAt": "2026-10-22T17:21:30.000Z",
+      "author": "Shilpa Kumari",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "opensource",
+      "id": "8566195c9f888e1f"
+    },
+    {
+      "title": "The bridge to agent-scale Git infrastructure",
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure",
+      "summary": "Over the past year, while Git traffic grew exponentially, 99.99999% of the Git repositories on GitHub began living in two places at once: our own data centers and Azure. The rest are among the busiest on the platform, and they’re held back by just one thing: a 25ms round trip. In an earlier blog post , we laid out the two principles behind our next-generation storage architecture: Minimize coordination Decouple storage from compute In this post, we’ll look at the immediate bridge between our ol…",
+      "publishedAt": "2026-10-21T16:00:00.000Z",
+      "author": "Eleanor White",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "opensource",
+      "id": "885fe3c67de05637"
+    },
+    {
+      "title": "How 3 Java Champions are using GitHub Copilot for increased productivity",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-3-java-champions-are-using-github-copilot-for-increased-productivity",
+      "summary": "AI coding tools can generate code quickly, but speed alone does not solve the hardest software engineering problems. Developers still need to provide context, validate results, protect maintainability, and remain accountable for what ships. To learn how experienced developers strike that balance, we spoke with three Java Champions, all with over a decade of experience in using Java. They shared concrete examples of using GitHub Copilot in production and open source, along with the practices the…",
+      "publishedAt": "2026-10-20T16:05:03.000Z",
+      "author": "Julien Dubois",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "opensource",
+      "id": "c59142aad3a717b8"
+    },
+    {
+      "title": "How to continue a GitHub Copilot app session in VS Code",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
+      "summary": "The agent has finished the bulk of your change. Now you want to inspect one implementation detail, adjust a few lines by hand, and run the project locally before you ship it. But the work is sitting in the GitHub Copilot app … and your editor is where you review diffs, debug code, and make final adjustments. Do you have to choose between staying in the session and starting over in Visual Studio Code? You don’t. You can open the Copilot app session directly in VS Code and continue with its conve…",
+      "publishedAt": "2026-10-19T18:47:22.000Z",
+      "author": "Kayla Cinnamon",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "opensource",
+      "id": "1be45fb0ef68a5f7"
+    },
+    {
+      "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "summary": "",
+      "publishedAt": "2026-10-24T23:11:54.000Z",
+      "author": "gnabgib",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50226419",
+      "metrics": {
+        "points": 155,
+        "comments": 127
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "1369780d96b395d6"
+    },
+    {
+      "title": "Roku developer repositories moved from GitHub to GitLab",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "summary": "",
+      "publishedAt": "2026-10-24T16:06:26.000Z",
+      "author": "cxr",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50222622",
+      "metrics": {
+        "points": 264,
+        "comments": 175
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "c852cf262baca51d"
+    },
+    {
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious",
+      "summary": "",
+      "publishedAt": "2026-10-24T21:47:31.000Z",
+      "author": "ltratt",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50225695",
+      "metrics": {
+        "points": 162,
+        "comments": 123
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "25ee6a576e795dce"
+    },
+    {
+      "title": "The Goose Programming Language",
+      "url": "https://aardappel.github.io/goose",
+      "summary": "",
+      "publishedAt": "2026-10-24T19:06:55.000Z",
+      "author": "bobbydigitales",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50224100",
+      "metrics": {
+        "points": 239,
+        "comments": 163
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "0d165f484c2636ca"
+    },
+    {
+      "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
+      "url": "https://missileer.watch/",
+      "summary": "",
+      "publishedAt": "2026-10-24T19:43:27.000Z",
+      "author": "liotier",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50224422",
+      "metrics": {
+        "points": 116,
+        "comments": 77
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "b5bd5b91cc82828f"
+    },
+    {
+      "title": "Why Gopher in 2026?",
+      "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
+      "summary": "",
+      "publishedAt": "2026-10-24T23:33:19.000Z",
+      "author": "andsoitis",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50226577",
+      "metrics": {
+        "points": 22,
+        "comments": 7
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "ac965a872d542484"
+    },
+    {
+      "title": "Small Programs and Languages",
+      "url": "https://ratfactor.com/cards/pl-small",
+      "summary": "",
+      "publishedAt": "2026-10-24T21:44:23.000Z",
+      "author": "andsoitis",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50225674",
+      "metrics": {
+        "points": 39,
+        "comments": 1
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "8763261ffc09bb09"
+    },
+    {
+      "title": "Show HN: Steal My Bitcoin",
+      "url": "https://stealmybitcoin.com/",
+      "summary": "",
+      "publishedAt": "2026-10-24T20:30:31.000Z",
+      "author": "cloudlandsdev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50224916",
+      "metrics": {
+        "points": 402,
+        "comments": 245
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "1f21a11f54e05b7b"
+    },
+    {
+      "title": "SpeedCrunch 1.1",
+      "url": "https://www.speedcrunch.org/",
+      "summary": "",
+      "publishedAt": "2026-10-24T19:19:43.000Z",
+      "author": "LordNibbler",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50224210",
+      "metrics": {
+        "points": 77,
+        "comments": 10
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "06c86322d22f6657"
+    },
+    {
+      "title": "Reactive Optimizers: rewrite the optimizer's source code during training",
+      "url": "https://xingjianbai.com/reactive-optimizers",
+      "summary": "",
+      "publishedAt": "2026-10-21T22:17:12.000Z",
+      "author": "matt_d",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50188440",
+      "metrics": {
+        "points": 6,
+        "comments": 0
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "4f518f178a0999f4"
+    },
+    {
+      "title": "I Built a Stereo Vision Board for Hardware Hackers",
+      "url": "https://rootkitlabs.com/2026/10/06/i-built-a-stereo-vision-board-for-hardware-hackers",
+      "summary": "",
+      "publishedAt": "2026-10-20T20:45:52.000Z",
+      "author": "machinehum",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50172432",
+      "metrics": {
+        "points": 32,
+        "comments": 0
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "fcfc9eb158052012"
+    },
+    {
+      "title": "The Importance of Limitations for Creativity and Learning",
+      "url": "https://ratfactor.com/cards/limitations",
+      "summary": "",
+      "publishedAt": "2026-10-24T21:42:47.000Z",
+      "author": "andsoitis",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50225663",
+      "metrics": {
+        "points": 27,
+        "comments": 6
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "b9668613fcaa6190"
+    },
+    {
+      "title": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径",
+      "url": "https://www.qbitai.com/2026/10/504901.html",
+      "summary": "10月21日，百度官方公众号发文披露了百度世界2026分论坛的更多议程信息。",
+      "publishedAt": "2026-10-23T07:35:51.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "c4ac36316e691cf2"
+    },
+    {
+      "title": "又一国产决策模型发布！准确率超过微软和Jev等决策模型",
+      "url": "https://www.qbitai.com/2026/10/504879.html",
+      "summary": "10月22日，蚂蚁数科正式发布决策模型 LingDT-Decision-1.0。",
+      "publishedAt": "2026-10-22T09:07:05.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "160745b272351078"
+    },
+    {
+      "title": "特斯拉利润腰斩，一夜跌没“通用汽车”！马斯克：FSD在中国也会遥遥领先",
+      "url": "https://www.qbitai.com/2026/10/504841.html",
+      "summary": "FSD一年增长70万付费用户",
+      "publishedAt": "2026-10-22T07:14:48.000Z",
+      "author": "杰西卡",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "fa4a5c2f085ed7c6"
+    },
+    {
+      "title": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
+      "url": "https://www.qbitai.com/2026/10/504832.html",
+      "summary": "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent",
+      "publishedAt": "2026-10-22T07:11:14.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "fa29e6883e553f4b"
+    },
+    {
+      "title": "谁在给OpenAI供应具身数据？",
+      "url": "https://www.qbitai.com/2026/10/504800.html",
+      "summary": "挤进全球Physical AI核心供应链",
+      "publishedAt": "2026-10-22T07:05:59.000Z",
+      "author": "梦瑶",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "a7aa1c7e1800db87"
+    },
+    {
+      "title": "多智能体协同重构医疗AI！清华AIR孵化：医生AI分身“坐诊”医院",
+      "url": "https://www.qbitai.com/2026/10/504734.html",
+      "summary": "",
+      "publishedAt": "2026-10-21T11:30:59.000Z",
+      "author": "鹭羽",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "8595063ee91256b0"
+    },
+    {
+      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+      "url": "https://www.qbitai.com/2026/10/504730.html",
+      "summary": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
+      "publishedAt": "2026-10-21T09:45:22.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "a44f6705734c112e"
+    },
+    {
+      "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+      "url": "https://www.qbitai.com/2026/10/504653.html",
+      "summary": "世界模型赛道新看点：千诀隐变量可辨识性方向的研究，比LeCun相近工作早一年，不堆画面预测，主打物理规律与跨本体复用。",
+      "publishedAt": "2026-10-21T07:15:05.000Z",
+      "author": "田, 晏林",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "47946aef03434e73"
+    },
+    {
+      "title": "支付宝AI支付发起年度黑客松大赛，邀开发者把AI创意变成生意",
+      "url": "https://www.leiphone.com/category/industrynews/ykWM8XAjpHi0biY1.html",
+      "summary": "从 Vibe Coding 到 Skill、Agent，AI 正打开新一轮创业窗口：一个人也能打造应用，一项技能也能成为产品。随着创作与开发门槛降低，新的机会正在浮现——让自己做出的 AI 产品，成为用户愿意付费的生意。 面向这股浪潮，10月24日，支付宝AI支付联合观猹发起“PAYATHON 2026”年度黑客松，邀请开发者带着应用、Skill 或 Agent 参赛：接入支付，把创意推向真实市场，争夺 20 万元总奖池。报名截至12月1日，线下决赛将于12月26日举行。 这场黑客松不只比创意与技术，更看产品在真实交易中的价值。这也是支付宝AI支付“开发者为先”产品战略的重要举措：通过持续降低AI产品的商业化门槛，让开发者更少为收款、交付与定价发愁，让好项目更快变成好生意。 五大赛道，把作品推向市场 一个独立应用、一项 Agent 技能，都可以成为参赛的起点。本次大赛面向个人开发者与团队，设置五大赛道：应用、技能两大主赛道，以 Vibe Pay、Skill Pay 为核心；围绕Token Pay、Machine Pay 与 Agent Pay，重点探索按量付费、连续订阅以及机器与智能…",
+      "publishedAt": "2026-10-24T08:49:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "035df25d1a0c4c38"
+    },
+    {
+      "title": "“更懂你、会办事”，支付宝携手科大讯飞升级智能座舱服务",
+      "url": "https://www.leiphone.com/category/industrynews/WOl6u17gkYoV3PVr.html",
+      "summary": "10月21日，支付宝车载助手亮相科大讯飞智能汽车产品技术发布会，宣布与讯飞星火智慧座舱战略合作升级，正式启动「讯宝计划」，推动智能座舱从信息交互向生活服务延伸，让车主在车内即可办理更多日常事物。 四大生活服务场景将落地，覆盖出行高频需求 发布会上，支付宝车载助手接入星火智慧座舱3.0的合作成果正式亮相。依托讯飞汽车 Master Agent 的统一调度，双方围绕车主出行生活需求，将推出四大服务场景： 高速无感通行： 用户授权后，可通过支付宝无感扣费，实现快速通行，无需扫码。 停车无感支付： 用户授权后，车辆离场即可完成免密支付。 顺路取快递： 结合回家路线，主动提醒用户顺路取件。 智能点单： 根据预计到店时间、用户口味及优惠信息，支持提前下单、到店取餐。 从理解需求到调用服务、完成支付，双方希望让智能座舱不止能回应用户，更能帮助用户办成事。支付宝的支付能力、生态网络及信用体系，也为车载AI调用生活服务、完成交易提供支撑。 从服务履约到用户运营，携手车企拓展车生活生态 发布会上，支付宝数字车生活总经理韩振威表示，智能座舱的下一阶段，不只是让AI更善于对话，更要让服务真正落地。 围绕这一…",
+      "publishedAt": "2026-10-24T08:43:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "30f5ae162aed9e92"
+    },
+    {
+      "title": "行业第一！百度健康AI服务MAU超5000万，发布好医矩阵和健康相机",
+      "url": "https://www.leiphone.com/category/industrynews/RRFr9U8GKWjNNxfH.html",
+      "summary": "10月24日，百度健康宣布升级文心健康管家，发布「好医矩阵」和「健康相机」。其中好医矩阵包括“好医答、好医加号、好医说、好医榜、好医评”等多项功能，进一步实现AI+真人医生在线问诊与线下就诊等全流程医疗服务的闭环；而全网首发的健康动态视频识别的健康相机，除了支持打字、方言语音、拍照，还支持用户拍摄视频上传、边拍边说等全模态输入的交互方式，进一步降低用户描述健康问题的门槛。 百度健康总经理杨明璐 表示，AI在医疗领域的发展价值，不仅要看服务了多少用户，更要看能否为每一个生命的负责。百度健康持续投入「AI+真人」模式，让诊疗的决定权始终掌握在专业医生手中，赋能但不替代，辅助但不主导，让健康的每一步都有医靠。 发布会上， 中国工程院院士、中国抗癌协会理事长樊代明 分享了《中国肿瘤整合诊治指南》（CACA指南）的研制推广成果，以及协会在肿瘤科普、医学文化建设方面的工作。他提出，AI是医学普惠的放大器：依托百度AI打造的CACA Bot，把厚重的指南变成医患随手可查的工具，让前沿医学触手可及、可信可用。但医学事关生命，AI只可拓展能力边界，不能替代医生判断。人机协同才是正道——AI赋能医学，医…",
+      "publishedAt": "2026-10-24T08:37:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "ff67398c7ed0378b"
+    },
+    {
+      "title": "拼多多紧急捐赠1000万元 驰援西藏那曲抗震救灾",
+      "url": "https://www.leiphone.com/category/industrynews/fSAUfIvqRcaucKO0.html",
+      "summary": "10月22日，西藏那曲市巴青县发生7.0级地震，造成重大人员伤亡及房屋受损。国务院抗震救灾指挥部办公室、应急管理部将国家地震灾害应急响应由四级提升至三级，各项救援工作正全力推进。 为全力支援一线救灾工作，拼多多紧急通过中华慈善总会向灾区捐赠现金1000万元，用于采购救灾物资和设备、安置受灾群众及支持灾后重建。拼多多已成立救援响应专项小组，将持续关注灾情动态，全力配合和支援后续救灾工作。",
+      "publishedAt": "2026-10-24T03:40:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "026ed8db63778fa9"
+    },
+    {
+      "title": "开门红强势爆发！抖音商城双11热卖品牌榜发布",
+      "url": "https://www.leiphone.com/category/industrynews/DsP3dhxSpXEHRNVD.html",
+      "summary": "双11开门红阶段，大促消费热情全面释放，消费券带动成交额破亿的商家数量同比增长200%，宠物、母婴行业成交额过千万商家数同比增长分别为200%、83%，快消行业成交额破亿品牌数量同比增长167%。服饰、快消、耐消等赛道标杆品牌集中爆发，在开门红阶段迎来生意高峰。 10月23日，开门红阶段“热卖品牌榜”正式出炉，立即揭晓双11开门红哪些品牌迎来强势爆发。 服饰赛道热卖品牌榜 秋冬换季叠加户外热潮，服饰赛道竞争激烈 。受“轻户外”生活方式普及与降温节点驱动， 运动户外品类热度持续攀升， CAMEL/骆驼、THE NORTH FACE/北面、pelliot/伯希和位列服饰户外榜前三，adidas/阿迪达斯、Fila/斐乐、NIKE/耐克占据服饰运动榜TOP3。 与此同时，国产品牌与新锐设计力量在细分赛道备受青睐，女装品牌，波斯登、La Chapelle/拉夏贝尔、Marisfrolg玛丝菲尔位列时尚女装榜单前列，AP、LucasEmilyLouie、MSBEAST野兽小姐位列趋势女装榜单前三。男装方面，YAYA/鸭鸭、皮尔卡丹、Romon/罗蒙位列时尚男装榜前三，MBNL-F/秦磊、JY…",
+      "publishedAt": "2026-10-24T02:53:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "f3bc6343334c9b3b"
+    },
+    {
+      "title": "iRTE2026：对话 AI 如何迈向 AGI？声网CEO赵斌给出五级对话能力框架",
+      "url": "https://www.leiphone.com/category/industrynews/nwy00TZXQdwJcSka.html",
+      "summary": "10月23日，iRTE2026实时智能大会在北京举行。声网创始人兼 CEO 赵斌在主论坛发表题为《对话 AGI：实时互动的下一章》的演讲，回顾了过去一年实时互动、对话式 AI 与底层基础设施的关键变化，并提出“五级对话能力”框架，勾勒对话式 AI 从基础应答走向深度理解与关系沟通的演进路径。 赵斌认为，随着 AI 从回答问题走向持续交流、理解上下文并执行任务，实时互动的对象正在从人与人扩展到人与 Agent。实时互动技术的角色也随之延伸：它不仅要让信息传递更稳定、更流畅，还要为 AI 的感知、理解、表达与行动提供实时支撑。 从“问一句答一句”到深度关系沟通：对话 AGI 的五级进化 在赵斌看来，对话式 AI 的进步，不应只用回答速度、语言自然度来衡量。更重要的是，它能否理解对话对象的意图、处境与关系，能否在复杂场景中恰当地表达，并逐步形成长期、深入的理解。 围绕这一判断，赵斌在演讲中提出了 “五级对话能力”框架 ，将对话能力划分为五个层次： L1： 基于自身视角的表达：以自我表达和被动接续为主，实现“问一句、答一句”。 L2： 基于互动规律的表达：从被动回应走向主动表达，让对话更自然…",
+      "publishedAt": "2026-10-24T02:44:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "1e0a318d145f862a"
+    },
+    {
+      "title": "一种远古病毒可能阻碍黑猩猩演化出与人类相似的大脑",
+      "url": "https://www.solidot.org/story?sid=85702",
+      "summary": "人类与黑猩猩虽然差异巨大，但在与共同祖先分化并各自演化了约 500-600 万年后，双方只有 1.2% 的 DNA 不同。而一种远古病毒可能在其中扮演了重要角色，阻碍黑猩猩演化出与人类相似的大脑。大约 400 万年前，逆转录病毒 PTERV1 (Pan troglodytes endogenous retrovirus-1) 感染了黑猩猩但没有感染人类，它对黑猩猩的 DNA 进行了细微的改动，导致黑猩猩的大脑发育方式与人类出现重大差异。至于为何人类未曾感染 PTERV1，一种解释是人类体内的一种独特抗病毒蛋白 TRIM5α 保护了我们免受该病毒的侵害；另一种解释是，该病毒大流行时黑猩猩与人类的祖先生活在不同的地理区域。发表在《Science Advances》期刊上的一项研究未试图解答这一问题，而是揭示了病毒如何改变黑猩猩的大脑。人类和黑猩猩都有名叫 LINC00662 的分子，它为细胞提供构建特定蛋白质的指令。LINC00662 在人类大脑发育的早期阶段非常活跃，它有助于人类脑细胞成熟并生长。病毒的 DNA 则将黑猩猩的 LINC00662 基因失活。实验室研究发现，LINC006…",
+      "publishedAt": "2026-10-24T14:30:32.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "a3eabb77801a2a08"
+    },
+    {
+      "title": "为让数据中心有充足电力 Google 将付钱给其他人少用电",
+      "url": "https://www.solidot.org/story?sid=85701",
+      "summary": "Google 正资助美国规模最大的虚拟电厂项目。该项目通过向家庭和企业提供经济激励，鼓励他们在电力需求高峰期间减少用电量，从而为数据中心提供更多的电网容量。该项目有望在中大西洋地区的 PJM 电网提供 1070 MW 的电力容量——相当于一座大型核反应堆的输出电力。很多削减用电量措施能自动执行，如利用智能恒温器在夏季用电高峰期调低空调运行强度，或者通过电池系统提供临时电力。与 Google 合作的能源服务公司 Voltus 表示，通过聚合成千上万家企业和家庭的用电，该项目能在最需要用电的时候可靠提供大量额外电力容量，而且能在几年内实现。尽管科技公司若想持续建设大型数据中心，最终仍需建造传统的发电厂，但在过渡阶段虚拟电厂方案不失为一种更快捷、更经济且污染更少的选择。",
+      "publishedAt": "2026-10-24T13:50:21.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "a7ac6e466ccbc4d9"
+    },
+    {
+      "title": "研究揭示丹尼索瓦人的长相",
+      "url": "https://www.solidot.org/story?sid=85700",
+      "summary": "中科院研究人员首次揭示出神秘古丹尼索瓦人的形态共性。丹尼索瓦人是一支已灭绝的古老人类支系，2010 年科学家依靠西伯利亚丹尼索瓦洞化石的 DNA 证据发现了这一人群。后续分子证据显示，丹尼索瓦人曾广泛分布在亚洲多地，生存时间大约在距今 30 万年至 4.5 万年前。但他们究竟长什么样？位于河北阳原的许家窑遗址 1976—1979 年共发掘出土包括头骨、下颌骨、牙齿在内的 20 件人类化石，至少代表 16 个不同年龄阶段的个体。许家窑人化石历经十余万年的埋藏，古 DNA 提取近乎无望，研究团队转向古蛋白质组学这一相对新兴的技术路径，从许家窑地点保存的 20 件标本中，无损获取内源性蛋白质开展系统发育研究，以古蛋白质证据明确支持许家窑人属于丹尼索瓦人。在此基础上，研究团队系统总结出丹尼索瓦人在颅骨、下颌骨和牙齿上的典型形态特征。综合研究推测，丹尼索瓦人具有低矮后倾的额头、粗壮眉脊、面部扁平、突颌减弱等面部特征。",
+      "publishedAt": "2026-10-24T13:35:31.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "25ba13c43dafdeea"
+    },
+    {
+      "title": "美光桃园厂工会否决奖金方案",
+      "url": "https://www.solidot.org/story?sid=85699",
+      "summary": "美光桃园厂工会星期五（10月23日）说，会员投票否决公司提出的新利润分享方案，并警告可能采取进一步集体行动，争取更公平的奖金制度。美光过去数周一直与桃园及台中两座工厂的工会就薪酬问题谈判。两个工会共代表两厂 1 万 5000 名员工中的 1 万 2000 人。两个工会此前均要求，公司发放相当于 83 个月薪资的一次性奖金，并建立长期利润分享制度，将营业利润的 15% 用于员工奖金，按季而非按年发放。美光与规模较大的台中厂工会星期三（10月21日）达成协议。根据薪酬和福利改革方案，公司将从 2027 财年起，为全球员工增设季度利润分享奖金，与原有激励奖金计划（IPP）并行，新增奖金以现金和股票各半的方式发放。桃园工会与管理层仍未达成共识，并在星期四举行小规模罢工，向公司施压。工会星期五发表声明说，2300 多名会员中，约七成投票否决了公司星期四提交的利润分享方案。工会警告，可能采取进一步集体行动，争取更公平的利润分享制度，并称“抗争尚未结束，我们也没有放弃”。双方的下一轮协商定于 10 月 27 日举行。",
+      "publishedAt": "2026-10-24T13:14:51.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "98e2b9fc3a359d33"
+    },
+    {
+      "title": "Google 修改隐私条款将 Gmail 和照片数据用于个性化广告",
+      "url": "https://www.solidot.org/story?sid=85698",
+      "summary": "Google 修改了隐私政策，允许将 Gmail 和相册数据用于个性化广告。新政策于 10 月 16 日生效。新政策没有默认启用，而是声明：“我们可能还会根据您的兴趣以及您在 Google 服务中的活动或个性化内容，向您展示个性化广告，具体取决于您的设置。例如，如果在 Google 搜索中搜索“山地自行车”，您可能会在 YouTube 上看到运动装备广告...我们不会根据您在 Google 云端硬盘、Gmail 和 Google 相册中的内容向您展示个性化广告，除非您选择允许其他支持个性化广告的 Google 服务使用这些服务中的数据。”也就是如果用户不希望 Gmail 和 Google 相册中的内容被用于个性化广告需要切断关联服务，方法是：Google 账号 —— 数据和隐私设置——个性化设置——搜索服务个性化——更多个性化智能服务——关联的内容应用，切断 Google Workspace 关联。",
+      "publishedAt": "2026-10-24T12:53:21.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "5e849c6a22434e06"
+    },
+    {
+      "title": "梵高名画《The Starry Night》可能描绘的是真实的夜空",
+      "url": "https://www.solidot.org/story?sid=85697",
+      "summary": "梵高于 1889 年创作的名画《The Starry Night》可能描绘的是 1889 年 7 月 22 日法国真实的夜空。《The Starry Night》被普遍认为风格化地呈现了梵高在法国普罗旺斯圣雷米的窗外看到的景象。争议在于这片夜空究竟是这位后印象派画家自己的幻想，即象征性表达，还是真实的天文观察结果。此外这幅画的具体创作日期也无法确定。为解决这一问题，韩国庆熙大学的研究人员开发了一个框架，将天文学模拟结果与星象位置测量数据、历史天气记录，以及梵高的信件结合起来。研究人员根据描绘这片景色的早期素描重建了画中的窄视场。他们发现，下蛾眉月、金星，以及金牛座的毕星团或许肉眼可见于 1889 年 7 月 22 日的黎明前后，并且其构型与画中的排列大体相符。历史气象记录显示，1889 年 7月 22 日前后的夜空清澈到足以看见这一天文排列。此外梵高信件中频繁提及的蝉表明当时气候炎热，这也更贴近 1889 年 7 月的历史温度。",
+      "publishedAt": "2026-10-23T12:01:50.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "b8d9f391956f400e"
+    },
+    {
+      "title": "希腊通过法案禁止 15 岁以下儿童使用社媒",
+      "url": "https://www.solidot.org/story?sid=85696",
+      "summary": "希腊议会周五通过了一项法案，禁止 15 岁以下的儿童使用社媒平台。此举旨在回应公众对社交媒体会对未成年人的健康与安全产生负面影响之日益增长的担忧。禁令将于 2027 年 1 月 1 日生效。澳大利亚是首个通过立法限制未成年人使用社媒的国家。法国也曾通过类似法律，但于 8 月被宪法委员会裁定无效。希腊总理基 Kyriakos Mitsotakis 表示，社媒平台有 2 个半月的时间制定方案，核实用户年龄并保护其隐私。希腊政府表示，将支持家长共同遏制“无限滚动”现象——这种行为会导致儿童睡眠不足、注意力难以集中，挤占与朋友相处的时间。",
+      "publishedAt": "2026-10-23T11:07:11.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "19bed4a6de03cbca"
+    },
+    {
+      "title": "宫本茂成为首位获得日本文化勋章的游戏从业者",
+      "url": "https://www.solidot.org/story?sid=85695",
+      "summary": "日本文部科学省公布了 2026 年度文化勋章获得者名单，任天堂首席游戏设计师及代表董事宫本茂位列其中， 成为首位获得文化勋章的游戏从业者。文化勋章旨在表彰在文化发展方面做出特别显著贡献的人士，自 1937 年设立以来，获得者包括了画家横山大观、诺贝尔物理学奖得主汤川秀树、棒球明星王贞治和长岛茂雄等。宫本茂在记者会上表示：“游戏并非由我一人独自完成，而是与众多伙伴共同创造的成果。我是怀着代表大家的心情来接受这份荣誉的。”",
+      "publishedAt": "2026-10-23T10:03:59.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "a3ea30491470c12b"
+    },
+    {
+      "title": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
+      "url": "https://www.infoq.cn/article/BHWP4JJDeExZZWsifFlg",
+      "summary": "",
+      "publishedAt": "2026-10-25T09:06:00.000Z",
+      "author": "作者：Michael Redlich",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "25ea5857d6803c9b"
+    },
+    {
+      "title": "React 19.3 新增 browser() API，使“仅客户端渲染”成为一等公民",
+      "url": "https://www.infoq.cn/article/jNX6EAzqP34xRjqUMU1N",
+      "summary": "",
+      "publishedAt": "2026-10-24T13:00:00.000Z",
+      "author": "作者：Daniel Curtis",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "e33a2a442728089a"
+    },
+    {
+      "title": "何时应使用 Liquid Clustering？湖仓布局策略基准测试",
+      "url": "https://www.infoq.cn/article/lkefSu7SjjIHL1Fmk0Pv",
+      "summary": "",
+      "publishedAt": "2026-10-24T10:00:00.000Z",
+      "author": "作者： Kushal Kumar Vishwakarma",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "f94e3b8fea94587b"
+    },
+    {
+      "title": "智源众智 FlagOS 2.2 让前沿模型与多元算力协同演进",
+      "url": "https://www.infoq.cn/article/mhdJwMMzYFedMFHKfHWs",
+      "summary": "",
+      "publishedAt": "2026-10-23T19:40:29.000Z",
+      "author": "智源研究院",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "fb9cb441bbde4f53"
+    },
+    {
+      "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+      "url": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791",
+      "summary": "",
+      "publishedAt": "2026-10-23T17:54:19.000Z",
+      "author": "李冬梅",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "3500860765ca37dc"
+    },
+    {
+      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
+      "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok",
+      "summary": "",
+      "publishedAt": "2026-10-23T17:53:09.000Z",
+      "author": "李冬梅",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "c5bfe8fd56fcf73e"
+    },
+    {
+      "title": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase",
+      "url": "https://www.oschina.net/news/503191",
+      "summary": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 develop。** main： 截至目前最稳定的版本，推荐安装此版本。 next： 包含即将发布的新功能，经过初步测试的版本，可能存在部分已知或未知问题。主要面向测试用户，用于收集反馈和进一步优化功能。适合愿意提前体验...",
+      "publishedAt": "2026-10-23T15:16:49.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "d92f65c7a9ccc372"
+    },
+    {
+      "title": "2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛名单公布",
+      "url": "https://www.oschina.net/news/503189",
+      "summary": "2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 10 月 29 日在上海张江人工智能创新小镇参加总决赛。 现将入围名单按报名时间顺序公示如下： 项目名称 团队负责人 代码仓库地址 实时交互数字人引擎 李恒中 https://gitee.com/lipku/LiveTalking RapidOCR 王佳华...",
+      "publishedAt": "2026-10-23T12:37:01.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "50d66c283acb9583"
+    },
+    {
+      "title": "Arc 浏览器将于 12 月 22 日停止服务",
+      "url": "https://www.oschina.net/news/503188",
+      "summary": "据官方公告，Arc 浏览器将于 12 月 22 日停止服务。The Browser Company 给出了完整时间线：10 月 22 日起停止创建新账号，11 月 23 日起停用部分功能，12 月 22 日应用无法启动、Arc 账户被停用，个人数据在 30 天内删除。 关停前的用户迁移路径也已明确：Arc 的数据导出功能会把用户无缝带到 Dia——The Browser Compa...",
+      "publishedAt": "2026-10-23T10:42:39.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "0a644dc71bf17892"
+    },
+    {
+      "title": "热潮、分歧与落地：世界模型需要一场真实场景赛 ｜第五届琶洲算法大赛世界模型生态合作赛决赛开启",
+      "url": "https://my.oschina.net/u/4518156/blog/19781504",
+      "summary": "这并非一个普通的地方性赛事，相反，其在业内的知名度很高。琶洲算法大赛创办于 2022 年，由广州市人民政府主办。办到今年已经是第五届，报名队伍突破 10100 支，覆盖 80 多个国家和地区，海外队伍超过 1100 支。",
+      "publishedAt": "2026-10-23T10:30:45.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "dc8a567478a7db8d"
+    },
+    {
+      "title": "Android 手机成功运行原版 iOS 16.5",
+      "url": "https://www.oschina.net/news/503181",
+      "summary": "iOS 16.5 的锁屏、桌面、控制中心、设置，全部跑在一台安卓手机上。启动链路是 launchd → backboardd → SpringBoard，跟真机别无二致——因为这套用户空间就是 iOS 16.5 原版，一个字节没改。 这是 OOSEX GANG 的 HackiOS 项目：让 Apple 开源的内核 XNU（xnu-8796.121.2，即 iOS 16.5 的内核）在安卓硬件上启动，再跑...",
+      "publishedAt": "2026-10-23T08:57:50.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "e64888dd81a732f8"
+    },
+    {
+      "title": "【AI 智能运维平台】本周更新：WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析",
+      "url": "https://www.oschina.net/news/503179",
+      "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。 📢 【平台 · 本周更新速递】 🔷 平台 • WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析 🛠 系统管理 • 新增通知渠道查询与消息投递 ...",
+      "publishedAt": "2026-10-23T07:59:54.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "de86c55bfe1f3331"
+    }
+  ],
+  "reports": [
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI",
+      "category": "papers",
+      "status": "error",
+      "count": 0,
+      "message": "no new arXiv submissions for cs.AI"
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "name": "arXiv cs.LG",
+      "category": "papers",
+      "status": "error",
+      "count": 0,
+      "message": "no new arXiv submissions for cs.LG"
+    },
+    {
+      "id": "arxiv-cs-cl",
+      "name": "arXiv cs.CL",
+      "category": "papers",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "category": "research",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "category": "research",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "category": "research",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "category": "research",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "import-ai",
+      "name": "Import AI",
+      "category": "research",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "mit-tech-review",
+      "name": "MIT Technology Review",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "the-verge-ai",
+      "name": "The Verge AI",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA Developer",
+      "category": "research",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "bair",
+      "name": "BAIR",
+      "category": "research",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "github-trending",
+      "name": "GitHub Trending",
+      "category": "opensource",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "category": "opensource",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "category": "community",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "category": "cn",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "id": "leiphone",
+      "name": "雷峰网",
+      "category": "cn",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "solidot",
+      "name": "Solidot",
+      "category": "cn",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "id": "infoq-cn",
+      "name": "InfoQ 中文",
+      "category": "cn",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "oschina",
+      "name": "开源中国",
+      "category": "cn",
+      "status": "ok",
+      "count": 6
+    }
+  ]
+}
