@@ -120,13 +120,14 @@ import Base from '../layouts/Base.astro';
       link.append(highlight(row.t, tokens));
       heading.append(link);
 
-      item.append(meta, heading);
+      item.append(heading);
       if (row.x) {
         const summary = document.createElement('p');
         summary.className = 'summary';
         summary.append(highlight(row.x, tokens));
         item.append(summary);
       }
+      item.append(meta);
       list.append(item);
     }
     results.append(list);
