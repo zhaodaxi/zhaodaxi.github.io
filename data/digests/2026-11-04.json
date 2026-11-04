@@ -1,0 +1,1815 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Shanghai",
+  "generatedAt": "2026-11-04T03:24:48.656Z",
+  "items": [
+    {
+      "title": "A Generalized Sparse Fuzzy Clustering Framework with Automated Cluster Cardinality Estimation Ability",
+      "url": "https://arxiv.org/abs/2611.00159",
+      "summary": "Fuzzy clustering provides a robust framework for handling ambiguous and overlapping data boundaries, yet its traditional formulation generates entirely dense membership assignments that limit noise resilience and prevent estimating the true number of clusters, when it is unknown. To address these limitations, we introduce in this paper the Generalized Spars…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "George Stamatelis, Konstantinos Koutroumbas",
+      "tags": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "6dea643d43183551"
+    },
+    {
+      "title": "Learning to bid and bundle: a posterior-sampling agent for online retail",
+      "url": "https://arxiv.org/abs/2611.00165",
+      "summary": "An online retailer launching a perishable product bids for sponsored-search clicks, discounts a bundle with an always-stocked staple and displays its remaining stock, which raises willingness to pay. It knows neither how clicks respond to its bid nor how strong and dispersed its market is, and learns both over repeated seasons from data its own decisions ce…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Hadi Mohammadi (Utrecht University)",
+      "tags": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "66078168dc1304ce"
+    },
+    {
+      "title": "Early Stopping in Large Reasoning Models: A Survey and Empirical Audit of Efficiency and Reliability",
+      "url": "https://arxiv.org/abs/2611.00166",
+      "summary": "Large reasoning models can improve accuracy by generating longer reasoning traces, but some of this computation may be unnecessary. Early-stopping methods aim to stop once enough reasoning is available to answer. Evaluating these methods requires accounting for the cost of deciding when to stop and the reliability of the resulting answer. We evaluate differ…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Quang Hung Nguyen, Hanh Nguyen, Thanh Tam Nguyen, Quoc Viet Hung Nguyen, Trinh Pham, Thanh Trung Huynh",
+      "tags": [
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "ad6788a6f79328b2"
+    },
+    {
+      "title": "PatchScout: Thematic Web Data Collection via Information Foraging",
+      "url": "https://arxiv.org/abs/2611.00169",
+      "summary": "Researchers often need web corpora that are not answers to a single query, but reusable collections of documents spanning many decentralized sources. We refer to this problem as thematic web data collection: assembling semantically relevant documents that share a common theme but are scattered across heterogeneous and structurally disconnected regions of th…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Michael West, Eduard Dragut",
+      "tags": [
+        "cs.AI",
+        "cs.IR"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "07159714c466a3c7"
+    },
+    {
+      "title": "Reimagining Text-to-SQL: A Survey of Large Language Model Architectures and Strategies",
+      "url": "https://arxiv.org/abs/2611.00171",
+      "summary": "Text-to-SQL systems translate natural language questions into executable SQL queries, democratizing access to relational data. Early approaches relied on handcrafted rules and template matching, while subsequent neural methods introduced encoder-decoder architectures, schema linking, and constrained decoding to handle increasingly complex queries. The emerg…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Shikhar Dave, Bhaskarjit Sarmah, Stefano Pasquali",
+      "tags": [
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "314f23b30b1f6e9b"
+    },
+    {
+      "title": "AuroraWorld: Structured 4D World Modeling for Exo-to-Ego Video Generation in Robot Manipulation",
+      "url": "https://arxiv.org/abs/2611.00177",
+      "summary": "Egocentric observations provide a robot-centric view of manipulation processes, capturing contact interactions and object-state changes that are important for visuomotor policy learning but difficult to observe from external cameras. However, collecting such data at scale remains expensive due to additional hardware requirements and platform-specific deploy…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Hao Xue, Peng-Fei Zhang, Ying Cheng, Lanyun Zhu, Lei Zhu, Heng Tao Shen",
+      "tags": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "7dd9677362f1004d"
+    },
+    {
+      "title": "Neurons Are All You Need",
+      "url": "https://arxiv.org/abs/2611.00186",
+      "summary": "For decades, artificial neural networks have operated under the assumption that durable, learned capability resides exclusively in adaptive synaptic parameters, primarily due to the established neurobiology of synaptic connectivity. This design forces models to remain stateless during deployment, incurring well-known limitations such as catastrophic forgett…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Joseph B. Alzagatiti, Alain C. Glanzman, Perry A. Demsko, Pablo I. Salanova, David L. Glanzman",
+      "tags": [
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "0b5407eb32008ea4"
+    },
+    {
+      "title": "MemU-Bench: Benchmarking GUI Agents on Long-Horizon User Interactions",
+      "url": "https://arxiv.org/abs/2611.00191",
+      "summary": "Existing Graphical User Interface (GUI) benchmarks predominantly rely on precise and stateless user instructions. In everyday usage, however, instructions are often \\emph{vague and history-dependent}: users omit the exact details of their past operations because they no longer remember them, leaving the agent to recover the missing context from long and noi…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Yizhou Liu, Zhengxi Lu, Fei Tang, Yiwen Qiu, Yong Du, Tongbo Chen, Bofan Chen, Tao Jiang, Wenhao Xu, Yunfeng Shu, Wenqi Zhang, Weiming Lu…",
+      "tags": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "sourceId": "arxiv-cs-ai",
+      "sourceName": "arXiv cs.AI",
+      "category": "papers",
+      "id": "8e856ecf4cf11072"
+    },
+    {
+      "title": "Output-Aware Block Influence: Jacobian-Lens Weighting for Depth Pruning",
+      "url": "https://arxiv.org/abs/2611.00015",
+      "summary": "Depth pruning removes entire transformer blocks and therefore depends on a reliable criterion for identifying which blocks can be removed. Block Influence (BI) ranks blocks by how minimally they rotate the hidden state. However, local redundancy does not necessarily imply downstream irrelevance. We address this limitation using the Jacobian Lens (J-Lens) ne…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Kyle Lemoi, Jonathan Yong, Shubhankar Tripathy, Priestley Fernandes, Anirban Majumder, Zarreen Reza",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-lg",
+      "sourceName": "arXiv cs.LG",
+      "category": "papers",
+      "id": "91d93eed9d7b9557"
+    },
+    {
+      "title": "FB-MOAC: A Reinforcement Learning Algorithm for Forward-Backward Markov Decision Processes",
+      "url": "https://arxiv.org/abs/2611.00130",
+      "summary": "Reinforcement learning (RL) algorithms are effective in solving problems that can be modeled as Markov decision processes (MDPs). These algorithms primarily target forward MDPs whose dynamics evolve over time from an initial state. However, several important problems in different scenarios including stochastic control and network systems exhibit both a forw…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Mohsen Amidzadeh, Mario Di Francesco",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-lg",
+      "sourceName": "arXiv cs.LG",
+      "category": "papers",
+      "id": "20a41b281380bd08"
+    },
+    {
+      "title": "Interpretable structural temperature scaling for calibrating graph neural networks and point-cloud segmentation",
+      "url": "https://arxiv.org/abs/2611.00175",
+      "summary": "Graph-aware calibrators make graph neural networks (GNNs) more trustworthy by predicting a temperature for each node, usually with auxiliary networks whose decisions are hard to inspect. We propose Interpretable Structural Temperature Scaling (ISTS), a twelve-parameter linear model that sets each node's temperature from named descriptors of its confidence,…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Chenyi Huang",
+      "tags": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "sourceId": "arxiv-cs-lg",
+      "sourceName": "arXiv cs.LG",
+      "category": "papers",
+      "id": "b12123df8c5123d7"
+    },
+    {
+      "title": "ProLand: A New Infeasible Manifold Optimization Method for LoRA Fine-Tuning",
+      "url": "https://arxiv.org/abs/2611.00236",
+      "summary": "Low-rank adaptation (LoRA) enables parameter-efficient fine-tuning but can suffer from redundant basis directions. Constraining the basis factor to the Stiefel manifold addresses this redundancy through orthonormality. Landing methods allow temporarily infeasible iterates to explore a neighborhood of the manifold while progressively restoring orthogonality…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Chenyu Zhou, Yuxuan Zeng, Qi Deng, Dongdong Ge, Yinyu Ye",
+      "tags": [
+        "cs.LG",
+        "math.OC",
+        "stat.ML"
+      ],
+      "sourceId": "arxiv-cs-lg",
+      "sourceName": "arXiv cs.LG",
+      "category": "papers",
+      "id": "11aa924d9d104768"
+    },
+    {
+      "title": "IsoAlign: Isoform-Aware DNA-Protein Alignment via Joint-Embedding Predictive Architectures",
+      "url": "https://arxiv.org/abs/2611.00241",
+      "summary": "Genomic foundation models (GFMs) have emerged as a powerful paradigm for learning DNA sequence representations, yet existing self-supervised pretraining strategies overlook alternative splicing and underperform compared to specialized models. To address this gap, we introduce IsoAlign, a multimodal framework that grounds genomic pretraining in isoform-aware…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Niousha Sadjadi, Arman Seyed-Ahmadi, Tony Tu, Micaela Elisa Consens, Kerr Ding, Alif Munim, Lila Kari, Zehui Li, Barry B. Rubin, Bo Wang,…",
+      "tags": [
+        "cs.LG"
+      ],
+      "sourceId": "arxiv-cs-lg",
+      "sourceName": "arXiv cs.LG",
+      "category": "papers",
+      "id": "732a12aee22ff899"
+    },
+    {
+      "title": "KINDER: Kernel-based Independence for Fair Representation Learning via Prototype-space Erasure",
+      "url": "https://arxiv.org/abs/2611.00264",
+      "summary": "Concept erasure is a prominent approach to achieving fairness in machine learning through the removal of sensitive attributes from learned representations. Prior concept erasure methods typically define debiasing indirectly through the failure of a chosen adversary, probe, or fairness penalty, which makes the target of erasure dependent on a particular deco…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Abtin Mogharabin, Alp Toykan Kaplan, Jiaee Cheong, Sinan Kalkan",
+      "tags": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "sourceId": "arxiv-cs-lg",
+      "sourceName": "arXiv cs.LG",
+      "category": "papers",
+      "id": "a5cc203ebc017d9e"
+    },
+    {
+      "title": "DELBERT-2: Pretrained Fingerprint Language Models for DEL Protein Binder Prediction",
+      "url": "https://arxiv.org/abs/2611.00281",
+      "summary": "We present DELBERT-2, a pretrained fingerprint language model that converts sparse molecular fingerprints into unified token sequences using a ModernBERT encoder trained with masked language modelling on 2.5M molecules from the AIRCHECK DEL corpus. We evaluate across six targets (WDR91, WDR12, SETDB1, PLCZ1, LRRK2, DCAF7) under three out-of-distribution (OO…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Bing Hu, Sun Sun, Shaik Salman Basha, Anita Layton, Helen Chen",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-lg",
+      "sourceName": "arXiv cs.LG",
+      "category": "papers",
+      "id": "6b7dfc465635d2e4"
+    },
+    {
+      "title": "OCELOT: Planetary-Scale Species Distribution Modeling with Satellite Foundation Embeddings",
+      "url": "https://arxiv.org/abs/2611.00284",
+      "summary": "Large-scale repositories of species observations now contain billions of occurrence records from around the world, but these sightings cluster heavily in human-accessible areas. Existing models use only a small fraction of these records and are not evaluated on extrapolating to remote, unvisited regions--where species distribution models can be used as geog…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Bart van Merri\\\"enboer, Lauren Harrell, Keith Anderson, Burcu Karagol Ayan, Elise Kleeman, Tom Denton, Drew Purves",
+      "tags": [
+        "cs.LG"
+      ],
+      "sourceId": "arxiv-cs-lg",
+      "sourceName": "arXiv cs.LG",
+      "category": "papers",
+      "id": "6ca44218a2f8cf09"
+    },
+    {
+      "title": "From Fragmentation to Fusion: A Survey and Roadmap for Omnimodal Embeddings",
+      "url": "https://arxiv.org/abs/2611.00172",
+      "summary": "Embedding models underpin virtually every modern AI system, from search engines to recommendation systems. Despite shared mathematical foundations, research on embedding models remains fragmented by modality: the communities develop largely in isolation, seldom exchanging insights. We argue that this fragmentation obscures a deeper convergence. Driven by co…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Ziyin Zhang, Yuyu Guo, Ying Zhang, Siqiao Xue, Zihan Liao, Jin Qin, Wenjie Yang, Siyuan Yang, Shijie Li, Cheng Chen, Hao Wu, Zhaoyang Zhu…",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "a1fb1ffce70d2bd0"
+    },
+    {
+      "title": "MEMENTO: Learning Context Management for Long Context Processing Agents",
+      "url": "https://arxiv.org/abs/2611.00244",
+      "summary": "LLM agents that operate over long inputs must perform context management: deciding what to retain in a fixed-size context window. A common approach is compaction, where the model replaces its history with a self-generated note. Yet off-the-shelf agentic models, including GPT-5.5 and GLM-5.3, often write ineffective notes, and reinforcement learning (RL) alo…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Yunfan Zhang, Taehoon Hwang, Kathleen McKeown, Smaranda Muresan",
+      "tags": [
+        "cs.CL",
+        "cs.IR"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "27cfd0e5680dd2de"
+    },
+    {
+      "title": "Cross-Lingual Persona Effects in LLM Negotiation",
+      "url": "https://arxiv.org/abs/2611.00300",
+      "summary": "Tell an LLM negotiator to be \"headstrong\" and it should hold firm on price, but does that instruction retain the same behavior in every language? To test this, we use identical buyer and seller instances of Gemini 3.6 Flash to negotiate the same 12 CraigslistBargain scenarios in English and Korean. The pilot-scale 2 x 2 x 3 design crosses interaction langua…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Saehee Eom, Tejas Khandwekar",
+      "tags": [
+        "cs.CL"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "85760e02a097442b"
+    },
+    {
+      "title": "GAVAGAI: Referential Alignment for Infant-Scale Vision-Language Models via Balanced Optimal Transport",
+      "url": "https://arxiv.org/abs/2611.00319",
+      "summary": "A child learns which words name which things from roughly 100 million words of input. Vision-language models trained at a comparable scale bind words to referents far less reliably, and we argue that part of the gap is structural: the usual next-token captioning objective has no variable standing for \"this word refers to that region,\" so training applies no…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Rajdeep Pal, Jotiraditya Banerjee, Saptarshi Pani",
+      "tags": [
+        "cs.CL"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "c994c3d20296fa28"
+    },
+    {
+      "title": "Queering the Audits: Community-Based Auditing of AI Harms to Queer Communities",
+      "url": "https://arxiv.org/abs/2611.00345",
+      "summary": "AI systems embed majority-group defaults into training data, evaluation metrics, and category definitions, producing documented harms for queer communities including erasure, misclassification, and discrimination. Standard technical audits often rely on aggregate measures and cannot detect harms that be come visible only through the lived experience of affe…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Organizers of QueerInAI, :, A Pranav, Alissa A. Valentine, Alex Markham, Beckett LeClair, Tereza Blazkova, Ekaterina Kornilitsina, Sofie…",
+      "tags": [
+        "cs.CL",
+        "cs.CY"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "9724b7b8549d33ee"
+    },
+    {
+      "title": "Cross-Prompt Reuse of Entity-Replacement Responses",
+      "url": "https://arxiv.org/abs/2611.00352",
+      "summary": "With model weights fixed, we measure how much of an entity-replacement response transfers between English factual questions, beyond whether answers change. We add the hidden-state change from two source questions to a target question about the same entity, comparing the predicted log-probability shift between two relations' published answers, given known an…",
+      "publishedAt": "2026-11-03T05:00:00.000Z",
+      "author": "Jinkun Chen, Xuemin Yu, Sijia Han, Vlado Keselj",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "sourceId": "arxiv-cs-cl",
+      "sourceName": "arXiv cs.CL",
+      "category": "papers",
+      "id": "14c1f2f1f90c6885"
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "25493a43cba550c7"
+    },
+    {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "34e7d62615202d0d"
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "fc87a45dcfbf03d4"
+    },
+    {
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "019edb616369c332"
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "author": "",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "category": "research",
+      "id": "277870ffc8d71544"
+    },
+    {
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "summary": "Here are Google’s latest AI updates from October 2026",
+      "publishedAt": "2026-11-02T17:45:00.000Z",
+      "author": "Blog Team",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "research",
+      "id": "996c88dfa31d64c0"
+    },
+    {
+      "title": "Our newest AI Quest: Mapping the human brain",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks",
+      "summary": "Learn AI literacy via Google’s latest AI Quests lesson on neuroscience, “Polar Peaks.”",
+      "publishedAt": "2026-10-26T16:00:00.000Z",
+      "author": "Ronit Levavi Morad",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "research",
+      "id": "9a15b40232fdbf82"
+    },
+    {
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026",
+      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "author": "Nitin Gajria",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "category": "research",
+      "id": "78cebe09803b5741"
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "publishedAt": "2026-11-03T17:01:49.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "23c4f130369cb972"
+    },
+    {
+      "title": "Speeding up planning decisions with AI",
+      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai",
+      "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "publishedAt": "2026-10-30T14:18:30.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "59623d61a7aaaf73"
+    },
+    {
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "summary": "",
+      "publishedAt": "2026-10-28T17:00:58.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "3e32bae570ff21ee"
+    },
+    {
+      "title": "Genie 4: A new generation of world simulation",
+      "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "publishedAt": "2026-10-27T16:01:38.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "e960e8891f7d7ad8"
+    },
+    {
+      "title": "Beyond tree cover: mapping the world’s forest types",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+      "publishedAt": "2026-10-22T14:30:24.000Z",
+      "author": "",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "category": "research",
+      "id": "8f93170faf71fda6"
+    },
+    {
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "summary": "",
+      "publishedAt": "2026-11-03T17:15:21.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "8d86676710497099"
+    },
+    {
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "summary": "",
+      "publishedAt": "2026-11-03T16:35:36.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "4d3938441f216409"
+    },
+    {
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "summary": "",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "63945bc794809749"
+    },
+    {
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "summary": "",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "a6f54d325d31634f"
+    },
+    {
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "summary": "",
+      "publishedAt": "2026-10-30T17:57:24.000Z",
+      "author": "",
+      "sourceId": "huggingface",
+      "sourceName": "Hugging Face",
+      "category": "research",
+      "id": "037154e824aaff25"
+    },
+    {
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a \"blog post\", but it's paper-shaped) found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw weights of a machine learning model - literally a text description of the model containing a bunch of floating point numbers. I've been playing with…",
+      "publishedAt": "2026-11-03T16:29:48.000Z",
+      "author": "theanonymousone",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "b5cba0d011349b3b",
+      "metrics": {
+        "points": 512,
+        "comments": 165
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50355251"
+    },
+    {
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location",
+      "summary": "Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cross reference them against ADS-B data to find the exact location of the video based on their speed, distance, and gaps between different flights. Via Lobste.rs Tags: privacy , youtube",
+      "publishedAt": "2026-11-03T05:32:25.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "46933a36d2603a0b"
+    },
+    {
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter",
+      "summary": "I sent out the October edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: The October inflection point for vibe game development The vulnerability apocalypse gets hot LLM releases API credits for $100+/month subscriptions What I'm using right now My software releases My September newsletter can now be seen here , as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsle…",
+      "publishedAt": "2026-11-03T05:28:59.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "449ed68b90056fbb"
+    },
+    {
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm",
+      "summary": "Release: llm 0.37 There's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes. I added gpt-6.1-sol and gpt-6.1-terra , plus a new llm openai endpoint add command to make it easier to configure additional models that use OpenAI-compatible endpoints. I switched the default model (if you have not set your own default) to gpt-6-luna - half the price of the previous default, gpt-5.6-luna . LLM's support for embedd…",
+      "publishedAt": "2026-11-02T23:49:30.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "9d52bf97ae057251"
+    },
+    {
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+      "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis , and then to experiment with Claude's new Code Interpreter . I decided to try running those numbers again to see what had changed over the past year, and in doing so learned…",
+      "publishedAt": "2026-11-02T13:31:26.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "1e75cc35b491a310"
+    },
+    {
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+      "summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories. But... some…",
+      "publishedAt": "2026-11-01T23:24:22.000Z",
+      "author": "",
+      "sourceId": "simon-willison",
+      "sourceName": "Simon Willison",
+      "category": "research",
+      "id": "e2f2cd3ee0a6015b"
+    },
+    {
+      "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
+      "url": "https://latent.space/p/ainews-llms-can-read-write-neural-network-weights-weight-space-programming-cuts-autoresearch-out-of",
+      "summary": "Amid a deepening bear market for AI/tech (worthy of dark humor ) with Anthropic bonds receiving a “junk” rating and OpenAI fundraise headlines , we continue to see very surprising capability finds in the community, such as today. The best way to put today’s blockbuster paper in context is to recall Karpathy’s autoresearch from a mere 8 months ago , which presaged a summer of recursive self improvement fears : Abstractly, the demonstration is that you can take a sufficiently smart model and thro…",
+      "publishedAt": "2026-11-03T05:35:00.000Z",
+      "author": "swyx .ai",
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "category": "research",
+      "id": "22262baef95a2fe5"
+    },
+    {
+      "title": "Building AI for Lawyers - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building-ai-for-lawyers-jacob-lauritzen-cto-of-legora",
+      "summary": "In this episode, we chat with Jacob Lauritzen, CTO of Legora, following the announcement of their $550M Series E at an $8.8B valuation a couple weeks ago. We talk about what it takes to build AI agents for lawyers and what other people building agents can learn from that work. Legora started in a Stockholm basement with a simple product: ChatGPT, Swedish law, and a search tool. Jacob had already been through YC with his own startup when he helped Max Junestrand with the application for Leya (no…",
+      "publishedAt": "2026-11-02T23:01:02.000Z",
+      "author": "Basil Chatha",
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "category": "research",
+      "id": "c90b220cbc29d50e"
+    },
+    {
+      "title": "Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://latent.space/p/building_legal_agents_when_you_can_t_see_the_data_-_jacob_lauritzen_cto_of_legora",
+      "summary": "Legora can’t read a single trace of what its agent does for a lawyer. The data belongs to the law firm’s clients. How do you build and test an agent when you can’t see its work? Jacob Lauritzen is the CTO of Legora, one of the fastest-growing companies in legal tech history. The team started in a Stockholm basement with ChatGPT, Swedish law, and a search tool. Today, a lawyer can use Legora to draft and edit Word documents, review 10,000 contracts in a single table, or run due diligence. The ag…",
+      "publishedAt": "2026-11-02T22:54:03.000Z",
+      "author": "Latent.Space",
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "category": "research",
+      "id": "3343cd5df22c7f0b"
+    },
+    {
+      "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
+      "url": "https://latent.space/p/arca",
+      "summary": "At AI Engineer New York this month, we sat down with Aman Singh , the lead AI Engineer at Arca , an “AI-native” company providing wealth management services. We discovered that while agents do most of the background work in the firm, there are guardrails in place to ensure that human advisors are making the final decisions. The goal is for AI to guide the process; or as Singh nicely put it, “agents prompt people more than people prompt agents.” Arca recently raised $48.5 Million in a round led…",
+      "publishedAt": "2026-10-31T16:05:00.000Z",
+      "author": "Richard MacManus",
+      "sourceId": "latent-space",
+      "sourceName": "Latent Space",
+      "category": "research",
+      "id": "bc32ee5792888774"
+    },
+    {
+      "title": "Was I wrong about open models & cyber risks?",
+      "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
+      "summary": "Last week coined the term “ Black October “ after an onslaught of critical vulnerability disclosures, including PHP2Shell and a long-standing GitLab bug, signified the moment when the cyber risks of AI models started to materialize. It seemed like the news cycle had stabilized a bit when I started writing this, but then there was news about another major crypto security incident at Binance . The crypto industry has a very long history of hacks , so it’s not the best industry to indicate vulnera…",
+      "publishedAt": "2026-10-30T17:36:56.000Z",
+      "author": "Nathan Lambert",
+      "sourceId": "interconnects",
+      "sourceName": "Interconnects",
+      "category": "research",
+      "id": "a39ec51951b1f56f"
+    },
+    {
+      "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+      "summary": "Hill-climbing is easy, knowing what to hill-climb is hard. Making scores go up is expensive , but we have a much clearer playbook for it than we do for creating meaningful benchmarks at the true frontier of AI today. Independent evaluation of language models is under-appreciated in how hard of a task it is. These groups are not just taking current models and certifying their scores, which is a technically involved task. This is their job if AI progress is slow. When AI progress is as fast as it…",
+      "publishedAt": "2026-10-28T12:58:39.000Z",
+      "author": "Nathan Lambert",
+      "sourceId": "interconnects",
+      "sourceName": "Interconnects",
+      "category": "research",
+      "id": "b3879531c686967a"
+    },
+    {
+      "title": "Podcast: Kimi K3.1 Pro, the new cyber reality, and Muse musings",
+      "url": "https://www.interconnects.ai/p/podcast-kimi-k31-pro-the-new-cyber",
+      "summary": "We — Nathan and Florian — wanted to discuss all the messy trade-offs of a busy week in AI and ask all the pressing questions like: Why did Kimi K3.1 Pro have a mixed reaction with such incredible benchmarks? Will it be adopted? Were we wrong about the risks of open-weight models and cybersecurity? Why do cyber experts discuss recent events so differently than AI experts? What comes next in the few months? What will change our minds? We will write more about this subject, but wanted to bring you…",
+      "publishedAt": "2026-10-25T11:49:00.000Z",
+      "author": "Nathan Lambert",
+      "sourceId": "interconnects",
+      "sourceName": "Interconnects",
+      "category": "research",
+      "id": "efba2a6bb2e2d487"
+    },
+    {
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "url": "https://www.interconnects.ai/p/latest-open-artifacts-25-deepseek",
+      "summary": "The geopolitics of open-weight AI are accelerating again this fall, as we would expect with the risks of all AI systems (open and closed) rising rapidly. We’ve seen many news items in the last week showing both the U.S. and Chinese governments positioning themselves for some controls on open models. MOFCOM, the Ministry of Commerce of the People’s Republic of China, released a policy proposal (it’s not yet a law) that would require frontier AI models and some other technologies to get pre-appro…",
+      "publishedAt": "2026-10-20T17:04:21.000Z",
+      "author": "Florian Brand",
+      "sourceId": "interconnects",
+      "sourceName": "Interconnects",
+      "category": "research",
+      "id": "1c230612a088f9ef"
+    },
+    {
+      "title": "Import AI 479: Spacewar; low-latency tasks versus LLMs; Genie 4",
+      "url": "https://jack-clark.net/2026/11/02/import-ai-479-spacewar-low-latency-tasks-versus-llms-genie-4",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now LLMs are very bad at low-latency tasks: …Realtime-Bench says it’ll be a while till AI systems can play games or do online auctions for you… Researchers have built Realtime-Bench, “a suite of carefully curated dynamic tasks where delayed actions directly affect success”. The test helps evaluate how well modern, gener…",
+      "publishedAt": "2026-11-02T14:30:54.000Z",
+      "author": "Jack Clark",
+      "sourceId": "import-ai",
+      "sourceName": "Import AI",
+      "category": "research",
+      "id": "a7d06db3298395c6"
+    },
+    {
+      "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
+      "url": "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now How math could help alignment: …What the “industrialization of mathematics” means for safety… AI safety startup Resolution (formerly known as Sequent, Import AI 461 ) has published work on how it has automatically formalized some mathematical statements related to statistical learning theory. Specifically, the team…",
+      "publishedAt": "2026-10-26T12:31:52.000Z",
+      "author": "Jack Clark",
+      "sourceId": "import-ai",
+      "sourceName": "Import AI",
+      "category": "research",
+      "id": "e582ebff7b0ffb61"
+    },
+    {
+      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
+      "url": "https://jack-clark.net/2026/10/19/import-ai-477-in-which-i-tell-the-imf-the-singularity-has-begun",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now Here’s a speech I gave on Saturday the 17th of October at the IMF meeting in Bangkok. This speech is inspired by the megatrend readers have seen me cover this year of AI beginning to operate at the frontier of human science, sometimes autonomously. While we all may quibble over the details, I think it’s evident we’r…",
+      "publishedAt": "2026-10-19T12:31:37.000Z",
+      "author": "Jack Clark",
+      "sourceId": "import-ai",
+      "sourceName": "Import AI",
+      "category": "research",
+      "id": "41c8677062bd4e7a"
+    },
+    {
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment",
+      "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law, hack into unauthorized servers, or release poison gas into major cities and kill us all. Until now, this work has mostly focused on trying to peer into an AI’s “brain”…",
+      "publishedAt": "2026-11-03T10:43:41.000Z",
+      "author": "Amit Katwala",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "02e27e157aee1f32"
+    },
+    {
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That term beat out other contenders, including “Extreme Intelligence” and “Supreme Intelligence,” offered by the president in a poll on X a co…",
+      "publishedAt": "2026-11-03T04:18:47.000Z",
+      "author": "James O'Donnell",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "71a4c090b35f6b7e"
+    },
+    {
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics",
+      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate leaves much to be desired. Fewer than half of agent-generated insights at the organizations surveyed for this report lead to business improvement. And whi…",
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "author": "MIT Technology Review Insights",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "50ff78f7dca03e61"
+    },
+    {
+      "title": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships",
+      "summary": "When a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to correct errors. A single task can use 10 to 50 times more tokens than a basic chat prompt. The more useful the agent becomes, the more calls it makes. With per-token pricing, the workflows creating the most value can also become the most expensive. The financial pressure is already visible. Uber reportedly exhausted its entire 2026 AI budget by…",
+      "publishedAt": "2026-11-02T13:10:32.000Z",
+      "author": "Affan Syed",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "027a3d6f0922533b"
+    },
+    {
+      "title": "The agentic web is here",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here",
+      "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web” : an internet designed to be navigated by autonomous software agents that could address our every need, without requiring us to muck about with browsers and search engines ourselves. To illustrate what this might look like, Berners-Lee and his colleagues t…",
+      "publishedAt": "2026-11-02T09:35:19.000Z",
+      "author": "Grace Huckins",
+      "sourceId": "mit-tech-review",
+      "sourceName": "MIT Technology Review",
+      "category": "research",
+      "id": "a6731fc1d3ffa407"
+    },
+    {
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "url": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
+      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent […]",
+      "publishedAt": "2026-11-04T00:42:10.000Z",
+      "author": "Jay Peters",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "8b6f4bfb0fe178f1"
+    },
+    {
+      "title": "Please stop asking me when the AI bubble will pop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025826/ai-bubble-pimco-apollo-bonds",
+      "summary": "People, including on this staff, keep asking me with varying degrees of excitement or trepidation when the AI bubble will burst. I'll tell you what I tell them: If I knew that, I would make a life-changing bet on the market, levered up as far as I could, and then, after I made my money, […]",
+      "publishedAt": "2026-11-03T23:37:45.000Z",
+      "author": "Elizabeth Lopatto",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "5b85cd1b6c8fe4b0"
+    },
+    {
+      "title": "Those Jeff Bezos hair transplant photos are very fake",
+      "url": "https://www.theverge.com/tech/1025745/fake-jeff-bezos-hair-replacement-photos-debunk",
+      "summary": "Amazon founder Jeff Bezos and actor Jason Statham have a distinctive feature in common: They're both famously bald, and that definitely hasn't changed in the last few days. However, there are some images of the two men circulating around X, Threads, and Bluesky in which they both have substantially more hair than their usual shaved […]",
+      "publishedAt": "2026-11-03T21:01:07.000Z",
+      "author": "Jess Weatherbed",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "22148550d33b2e9d"
+    },
+    {
+      "title": "Apple starts giving Siri AI access to third-party apps",
+      "url": "https://www.theverge.com/tech/1025694/apple-siri-ai-third-party-apps",
+      "summary": "Apple will now let Siri AI perform actions across third-party apps. As part of the iOS 27.3 update rolling out on Tuesday, Apple announced developers can now integrate Siri AI's new features in \"all apps,\" allowing the voice assistant to draw on a user's personal context, process natural language prompts, and use on-screen awareness to […]",
+      "publishedAt": "2026-11-03T20:16:17.000Z",
+      "author": "Emma Roth",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "d4ed9f39f605d668"
+    },
+    {
+      "title": "Apple’s latest watchOS beta includes its new always-on Audio Intelligence features",
+      "url": "https://www.theverge.com/tech/1025002/apple-watch-audio-intelligence-watchos-beta",
+      "summary": "Starting today, Siri can tune into the Apple Watch's mic with Audio Intelligence features that are available in the new watchOS 27.3 developer beta rolling out now. The two new additions are Siri Recap, which uses \"ambient listening\" to generate summaries of your conversation, and Live Rewind, which generates text transcripts of the last 15 […]",
+      "publishedAt": "2026-11-03T18:31:00.000Z",
+      "author": "Stevie Bonifield",
+      "sourceId": "the-verge-ai",
+      "sourceName": "The Verge AI",
+      "category": "research",
+      "id": "5074a863befce54f"
+    },
+    {
+      "title": "Diagnose Distributed AI Workload Failures with NVIDIA Attribution",
+      "url": "https://developer.nvidia.com/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution",
+      "summary": "In distributed AI workloads, a single error can produce a cascade of symptoms. A GPU or fabric event may surface as NCCL errors on other ranks, scheduler state...",
+      "publishedAt": "2026-11-02T23:39:34.000Z",
+      "author": "Elizabeth Goodman",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA Developer",
+      "category": "research",
+      "id": "0dde73a752eec265"
+    },
+    {
+      "title": "Keep Distributed Training Running with Automated Workload Recovery",
+      "url": "https://developer.nvidia.com/blog/keep-distributed-training-running-with-automated-workload-recovery",
+      "summary": "As distributed AI training scales, failures across hardware and software dependencies increasingly disrupt training progress, making fast, reliable recovery...",
+      "publishedAt": "2026-11-02T22:43:05.000Z",
+      "author": "Elizabeth Goodman",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA Developer",
+      "category": "research",
+      "id": "6d49bd650ae9b86b"
+    },
+    {
+      "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
+      "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one",
+      "summary": "Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking,...",
+      "publishedAt": "2026-11-02T18:00:00.000Z",
+      "author": "Shara Tibken",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA Developer",
+      "category": "research",
+      "id": "6663ba9af98ba4a1"
+    },
+    {
+      "title": "Build World Models for Interactive Simulation with NVIDIA Cosmos",
+      "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos",
+      "summary": "Physical AI developers working with world models face two distinct challenges: adapting models to their sensors, tasks, and data, and getting those models into...",
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "author": "Elizabeth Goodman",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA Developer",
+      "category": "research",
+      "id": "a840098ac4436b98"
+    },
+    {
+      "title": "From CUDA to MLX: How K-Search Brings Decades of Kernel Expertise to Apple Silicon",
+      "url": "https://bair.berkeley.edu/blog/2026/07/29/cuda-to-mlx-k-search",
+      "summary": "Figure 1: CUDA-to-MLX optimization translation map. CUDA optimization knowledge can be translated into architecture-native MLX strategies rather than copied instruction-for-instruction. We face a new epoch in computing. Hardware is changing rapidly — not just faster GPUs, but a growing range of chips from different vendors, each with its own architecture and often tailored to specific AI workloads. Software is changing just as fast, and AI coding tools now generate in minutes what took months o…",
+      "publishedAt": "2026-07-29T09:00:00.000Z",
+      "author": "",
+      "sourceId": "bair",
+      "sourceName": "BAIR",
+      "category": "research",
+      "id": "34e27efac48e43c9"
+    },
+    {
+      "title": "Teaching LLMs to Update Beliefs for Efficient Long-Horizon Interaction",
+      "url": "https://bair.berkeley.edu/blog/2026/07/26/abbel",
+      "summary": "Overview of ABBEL compared to traditional recursive summarization. Beliefs replace the full interaction history as the agent’s working context, and belief grading improves performance by supervising the contents of each belief state.. As task horizons grow, LLM contexts can’t scale forever. Self-summarization enables concise, interpretable contexts, but at a significant performance cost, especially for human assistance domains where high quality data is scarce, e.g., collaborative code generati…",
+      "publishedAt": "2026-07-26T09:00:00.000Z",
+      "author": "",
+      "sourceId": "bair",
+      "sourceName": "BAIR",
+      "category": "research",
+      "id": "f3e90fbaf2deefd1"
+    },
+    {
+      "title": "Intelligence is Free, Now What? Data Systems for, of, and by Agents",
+      "url": "https://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what",
+      "summary": "... government of the people, by the people, for the people ... — Abraham Lincoln, Gettysburg Address (1863) The cost of AI is dropping rapidly. GPT-4-class capabilities cost roughly $30 per million tokens in early 2023; today the same runs under $1 , and some providers are pushing costs below $0.10 . Across benchmarks, inference prices have fallen between 9x and 900x per year , with a median decline near 50x. Even frontier models are getting dramatically cheaper each generation, with open-sour…",
+      "publishedAt": "2026-07-07T09:00:00.000Z",
+      "author": "",
+      "sourceId": "bair",
+      "sourceName": "BAIR",
+      "category": "research",
+      "id": "263ae964e7f110c1"
+    },
+    {
+      "title": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "publishedAt": "",
+      "metrics": {
+        "language": "TypeScript",
+        "stars": "112,053",
+        "starsToday": "1,139"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "853c63f738f0cecf"
+    },
+    {
+      "title": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "summary": "Computer use CLI for AI agents",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Rust",
+        "stars": "13,076",
+        "starsToday": "3,791"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "23746973c38c4e68"
+    },
+    {
+      "title": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "summary": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Rust",
+        "stars": "10,573",
+        "starsToday": "438"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "d2a13eb5e04b724b"
+    },
+    {
+      "title": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "summary": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+      "publishedAt": "",
+      "metrics": {
+        "language": "C",
+        "stars": "47,316",
+        "starsToday": "802"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "8a70d410b1973fe6"
+    },
+    {
+      "title": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "summary": "Skills for Real Engineers. Straight from my .agents directory.",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Shell",
+        "stars": "311,616",
+        "starsToday": "1,164"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "637c99109af31ed2"
+    },
+    {
+      "title": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "summary": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Python",
+        "stars": "38,886",
+        "starsToday": "701"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "3db40af345d5afa2"
+    },
+    {
+      "title": "spotify/portal-ai-plugins",
+      "url": "https://github.com/spotify/portal-ai-plugins",
+      "summary": "",
+      "publishedAt": "",
+      "metrics": {
+        "language": "TypeScript",
+        "stars": "3,075",
+        "starsToday": "91"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "b1b37e496770ef69"
+    },
+    {
+      "title": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
+      "summary": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Java",
+        "stars": "28,902",
+        "starsToday": "482"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "f1be994a135041f0"
+    },
+    {
+      "title": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "summary": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Python",
+        "stars": "16,612",
+        "starsToday": "228"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "df77d7d30024cf6f"
+    },
+    {
+      "title": "anomalyco/hex",
+      "url": "https://github.com/anomalyco/hex",
+      "summary": "Local voice dictation for mac, windows and linux",
+      "publishedAt": "",
+      "metrics": {
+        "language": "Rust",
+        "stars": "4,669",
+        "starsToday": "410"
+      },
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "category": "opensource",
+      "id": "18c9f57686a48c3b"
+    },
+    {
+      "title": "Arnis turns any place on Earth into a Minecraft world",
+      "url": "https://github.blog/open-source/maintainers/arnis-turns-any-place-on-earth-into-a-minecraft-world",
+      "summary": "Louis Erbkamm knows his way around Arnis, the smallest town in Germany, but he’s never set foot in it. I know where the shops are. Where the boats are… I know the city pretty well, but I haven’t been there yet. Louis Erbkamm, maintainer of Arnis Arnis is also the name of his open source project, which takes real-world data from OpenStreetMap and other sources to turn places you know into Minecraft worlds you can freely explore. Since Louis started Arnis in 2022, it’s reached close to 900,000 do…",
+      "publishedAt": "2026-11-03T16:00:00.000Z",
+      "author": "Alex Perrault",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "opensource",
+      "id": "20ff7d9385ef646d"
+    },
+    {
+      "title": "Game Off 2026: The theme is SHIFT",
+      "url": "https://github.blog/open-source/gaming/game-off-2026-the-theme-is-shift",
+      "summary": "It’s time to make Shift happen. Game Off , GitHub’s annual month-long game jam, returns for its 14th year this November. Thousands of developers have joined us over the years to make everything from polished platformers to wonderfully weird experiments. Whether you’re making your first game or your fiftieth, we’d love for you to join us. The theme for Game Off 2026 is SHIFT ! Shift gears. Shift perspectives. Shift dimensions. Shift bits. Work the night shift. Or make a game where the only butto…",
+      "publishedAt": "2026-11-01T21:36:00.000Z",
+      "author": "Lee Reilly",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "opensource",
+      "id": "3e4cd1e3871dc6c4"
+    },
+    {
+      "title": "GitHub Universe 2026: Evolving every layer of the stack",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack",
+      "summary": "Our jobs as developers are changing. In a couple of years, we’ve gone from writing every line of code to working with AI assistants to orchestrating fleets of agents. But the goal hasn’t changed: ship completed software work. A feature, a bug fix, a security fix. Completed work, not more code, is the output that matters. Today at GitHub Universe , we shared our vision for GitHub as the most comprehensive software delivery system in the world. We introduced products that bring that vision to lif…",
+      "publishedAt": "2026-10-28T16:09:28.000Z",
+      "author": "Jay Parikh",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "opensource",
+      "id": "59f92a9af33d7787"
+    },
+    {
+      "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
+      "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
+      "summary": "Developers pushed code to GitHub 17.9 billion times in the past 12 months, more than in 2024 and 2025 combined. Behind that number are developers building what interests them and what their communities need. In Nepal, one developer built a flood bulletin on GitHub Pages with verified information on roads, rescue, weather, and power. It has since grown into Gati , a Nepali-first relay of official disaster alerts that runs on GitHub Pages and Actions. Elsewhere, developers at NASA’s Jet Propulsio…",
+      "publishedAt": "2026-10-28T16:07:40.000Z",
+      "author": "GitHub Staff",
+      "sourceId": "github-blog",
+      "sourceName": "GitHub Blog",
+      "category": "opensource",
+      "id": "bc75ed686e56f082"
+    },
+    {
+      "title": "The Internals of PostgreSQL",
+      "url": "https://www.interdb.jp/pg/index.html",
+      "summary": "",
+      "publishedAt": "2026-11-03T21:51:06.000Z",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50358702",
+      "metrics": {
+        "points": 154,
+        "comments": 7
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "f8808f7846e2d0c8"
+    },
+    {
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack",
+      "summary": "",
+      "publishedAt": "2026-11-02T16:29:19.000Z",
+      "author": "xx_ns",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50339288",
+      "metrics": {
+        "points": 646,
+        "comments": 271
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "5fc6be8f903ae4e0"
+    },
+    {
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com/",
+      "summary": "",
+      "publishedAt": "2026-11-03T16:47:29.000Z",
+      "author": "nharada",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50354358",
+      "metrics": {
+        "points": 426,
+        "comments": 157
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "db83d0eb2b26ea41"
+    },
+    {
+      "title": "Giant canyon on Mars is still tectonically active",
+      "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
+      "summary": "",
+      "publishedAt": "2026-11-04T01:40:42.000Z",
+      "author": "gmays",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50360573",
+      "metrics": {
+        "points": 20,
+        "comments": 0
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "ca10698a8b03ed08"
+    },
+    {
+      "title": "C++26 Disapproved",
+      "url": "https://andreasfertig.com/blog/2026/11/cpp26-dis-failed-how-does-cpp-survive",
+      "summary": "",
+      "publishedAt": "2026-11-04T00:33:22.000Z",
+      "author": "thatxliner",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50360164",
+      "metrics": {
+        "points": 41,
+        "comments": 7
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "b967640c7e4eb7b3"
+    },
+    {
+      "title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+      "url": "https://hackertv.org/",
+      "summary": "",
+      "publishedAt": "2026-11-03T01:18:09.000Z",
+      "author": "dsalzman",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50346755",
+      "metrics": {
+        "points": 212,
+        "comments": 43
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "34c66b47dd0c5af8"
+    },
+    {
+      "title": "Safari introduces Adaptive Dark Mode in 27.3",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode",
+      "summary": "",
+      "publishedAt": "2026-11-03T21:39:05.000Z",
+      "author": "paddingtone",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50358562",
+      "metrics": {
+        "points": 325,
+        "comments": 189
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "a42ee61cf827eb37"
+    },
+    {
+      "title": "Arrows to arrows, categories to queries (2025)",
+      "url": "https://reasonablypolymorphic.com/blog/arrows-to-arrows",
+      "summary": "",
+      "publishedAt": "2026-11-04T03:11:27.000Z",
+      "author": "firstbase",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50361107",
+      "metrics": {
+        "points": 4,
+        "comments": 0
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "d530cb8f4881c828"
+    },
+    {
+      "title": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
+      "url": "https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026",
+      "summary": "",
+      "publishedAt": "2026-11-02T04:31:20.000Z",
+      "author": "zdw",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50333131",
+      "metrics": {
+        "points": 131,
+        "comments": 21
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "298d75a5463a0eb8"
+    },
+    {
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "summary": "",
+      "publishedAt": "2026-11-02T14:02:42.000Z",
+      "author": "bookofjoe",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50336918",
+      "metrics": {
+        "points": 402,
+        "comments": 174
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "9c79addb856a9fb1"
+    },
+    {
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "summary": "",
+      "publishedAt": "2026-11-03T21:40:53.000Z",
+      "author": "ibobev",
+      "discussionUrl": "https://news.ycombinator.com/item?id=50358582",
+      "metrics": {
+        "points": 259,
+        "comments": 45
+      },
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "category": "community",
+      "id": "01b1e45f222dec5e"
+    },
+    {
+      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
+      "url": "https://www.qbitai.com/2026/11/507533.html",
+      "summary": "长视频记忆精度飙升，问答时延最高降97%",
+      "publishedAt": "2026-11-04T02:49:02.000Z",
+      "author": "思邈",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "5b01ae374245c41b"
+    },
+    {
+      "title": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "url": "https://www.qbitai.com/2026/11/507507.html",
+      "summary": "AI接管调度运营，仓库越干越聪明",
+      "publishedAt": "2026-11-03T13:57:11.000Z",
+      "author": "梦瑶",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "4152846453ddc050"
+    },
+    {
+      "title": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池",
+      "url": "https://www.qbitai.com/2026/11/507473.html",
+      "summary": "两位CTO，关起门来吵架",
+      "publishedAt": "2026-11-03T12:57:35.000Z",
+      "author": "杰西卡",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "e912fc3e83d99d18"
+    },
+    {
+      "title": "模型谁都买得到，拉开差距的是AI生产力系统",
+      "url": "https://www.qbitai.com/2026/11/507448.html",
+      "summary": "AI的下一程是生产力系统之争",
+      "publishedAt": "2026-11-03T11:13:49.000Z",
+      "author": "十三",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "b3550eeb7288f41f"
+    },
+    {
+      "title": "纯语音Personal Agent来了！或许，这就是乔布斯心中的Siri",
+      "url": "https://www.qbitai.com/2026/11/507419.html",
+      "summary": "终于，有了一个可以触摸的起点",
+      "publishedAt": "2026-11-03T06:55:30.000Z",
+      "author": "Jay",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "46dd08eeb28b4345"
+    },
+    {
+      "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
+      "url": "https://www.qbitai.com/2026/11/507410.html",
+      "summary": "TeleAI智慧看护助手",
+      "publishedAt": "2026-11-03T06:29:11.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "dd33c33d3df8b935"
+    },
+    {
+      "title": "AI数据平台OceanBase获世界互联网大会杰出贡献奖",
+      "url": "https://www.qbitai.com/2026/11/507405.html",
+      "summary": "11月3日上午，2026世界互联网大会在浙江乌镇开幕。",
+      "publishedAt": "2026-11-03T05:59:05.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "1b2c69747b6d113c"
+    },
+    {
+      "title": "小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”",
+      "url": "https://www.qbitai.com/2026/11/507396.html",
+      "summary": "11月3日，小米方面披露，小米集团获得2026世界互联网大会“杰出贡献奖”创新突破类奖项",
+      "publishedAt": "2026-11-03T05:16:35.000Z",
+      "author": "量子位的朋友们",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "category": "cn",
+      "id": "5b40f65844d3d67a"
+    },
+    {
+      "title": "实测苹果智能Beta，千问 APP 成为Siri外援，可接力处理任务",
+      "url": "https://www.leiphone.com/category/industrynews/jtrZN12WvcYpqi1q.html",
+      "summary": "11月4日凌晨，苹果智能随最新iOS 开发者 Beta 版开放测试，用户可以在Siri、写作工具及视觉智能中，直接调用千问的文本与图像理解、内容生成等能力。记者体验发现，用户可以在iPhone上进行基础的问答、图文分析和内容生成，进一步的需求点击后可以直接跳转到千问APP，对话信息自动同步，体验丝滑。",
+      "publishedAt": "2026-11-04T00:03:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "80ad20dc8deb3238"
+    },
+    {
+      "title": "青奥会结束后，阿里云想在非洲留下一朵「云」",
+      "url": "https://www.leiphone.com/category/industrynews/dhQud8FAggk62CZ2.html",
+      "summary": "一场赛事结束了，一朵“国家云”的故事才刚刚开始。 10月31日，2026年达喀尔青年奥林匹克运动会在塞内加尔开幕，这是奥林匹克运动首次走进非洲。 阿里云为这场体育盛会提供云计算和人工智能技术支持，并为塞内加尔打造首个奥运专有云底座，支撑赛事运营。 依托阿里云在全球的数据中心，全球观众将通过OBS Cloud云转播观看到运动员的精彩表现；基于视频生成模型万相创作的AI鼓乐表演，也在开幕式亮相。 据雷峰网了解，除了云转播之外，达喀尔青奥会的核心业务系统均部署于阿里云为本次赛事打造的奥运专有云底座上，包括赛事票务、注册、赛程查询等应用，以及赛事导览、运动员服务等业务。 赛事结束后，这朵“赛事云”将整体移交给塞内加尔，转为“国家云”平台，继续服务当地数字化转型。 一场赛事带来的，可能不只是一笔云服务订单。赛事结束后，如果这朵云能够持续运转、承载当地政府和企业的业务， 阿里云就有机会从赛事技术服务商，进一步成为当地数字基础设施建设的参与者。 要让这朵云持续运转，考验的是阿里云的本地化能力。 在非洲“造云”，不只是把国内的云搬过去 达喀尔青奥会项目中，阿里云克服了不少难关。 最直接的挑战来自基础…",
+      "publishedAt": "2026-11-03T15:20:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "f1ccbfc0524355fe"
+    },
+    {
+      "title": "拓竹年度机皇 H3C 发布：9 头闪切、6 秒换头，开启多色多材料新时代",
+      "url": "https://www.leiphone.com/category/industrynews/xBbVCZ6pFQNa7XzR.html",
+      "summary": "2026 年 11 月 3 日，拓竹正式发布第三代旗舰 3D 打印机 H3C，标准套装起售价 16,499 元，首发期间直降 1,000 元，叠加国家补贴后到手价可低至 13,999 元。H3C 以 Swaptek™ 多头闪切系统、顶置一体化 AMS 3H 供料系统与可变线径挤出机三大核心技术的协同，一举在消费级市场实现了两项行业首创——稳定打印最软耗材 75A TPU，并让叠色打印真正可用。拓竹 H3C 让每一位用户在家也能轻松打出视觉绚烂、触感多元、比肩工业级品质的好产品。 H3C整机 多头闪切：最多打印头 × 最快换头，多色多材料打印依然省心 H3C 首发搭载 Swaptek™ 多头闪切系统，集成了行业最多的九个打印头，每个打印头独立进料、可支持独立主动预加热，使各通道耗材始终保持装载状态，切换时无需切断、回抽或重新送料。H3C 由此实现 6 秒内完成换头、换料、继续打印的流程，为消费级行业最快。与此同时，由于摒弃了传统方案反复抽送耗材的流程，单次换料仅产生 38mg 废料，多色多材料的切换浪费被尽可能压缩。在工具头的升级减重、微米级精度补偿与全自动校准系统的共同保障下，H3C…",
+      "publishedAt": "2026-11-03T15:13:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "e997ce7698583d14"
+    },
+    {
+      "title": "AI教AI开车！百度Apollo World世界模型叩开无人驾驶产业“AGI时刻”",
+      "url": "https://www.leiphone.com/category/industrynews/NVxn28w1vAG2qbFy.html",
+      "summary": "“世界模型，重点不是渲染的画质是否好看，而是模拟器是否能忠实还原现实物理规律和行为的因果”。11月3日，在深圳举行的百度AI Day·Apollo专场上，百度Apollo首次披露面向物理AI的智能体驱动全模态世界模型Apollo World，并提出世界模型“2+3”判断标准。目前，该模型已用于萝卜快跑全球化测试与验证，助力无人驾驶规模化落地。 百度智能驾驶事业群组(IDG)首席架构师、IDG技术委员会主席王亮表示，世界模型不能只做“生成炫酷视频的画师”，更要成为验证无人驾驶安全性的“考官”。萝卜快跑是中国唯一以端到端技术规模化运行 L4 无人驾驶的出行平台，端到端全无人运营超百万公里，Apollo World为其提供虚拟训练环境，帮助“学生” AI Driver学习、验证和迭代。 “Apollo World将虚拟场景内所有交通参与者建模为具备决策与交互能力的AI智能体，支持无人车在虚拟城市任意起终点通行，打造提前验证‘无限未来’的虚拟场景订单。”百度智能驾驶事业群组(IDG)杰出架构师、世界模型负责人杨泽进一步介绍。此外，Apollo World的技术栈还可拓展至机器人等更广泛的物理…",
+      "publishedAt": "2026-11-03T13:59:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "6033c9af9692a54b"
+    },
+    {
+      "title": "中国开源走向物理世界，蚂蚁灵波携机器人通用大脑亮相乌镇",
+      "url": "https://www.leiphone.com/category/industrynews/ADcxxdwtaojQvzhp.html",
+      "summary": "11月2日至5日，2026年世界互联网大会乌镇峰会在浙江乌镇举行，本届峰会的主题为“开源开放 共建共享——携手构建网络空间命运共同体”。蚂蚁集团旗下具身智能公司蚂蚁灵波，携全栈开源的机器人通用大脑亮相乌镇，展示模型研发、开源协作以及场景应用的新进展。 今天，开源正从语言、代码和内容生成，延伸至机器人对物理世界的感知、预测与行动。与数字世界不同，机器人本体千差万别，任务场景高度分散，许多团队不得不为每一种构型、每一个场景从头训练“大脑”。 对此，灵波给出的路径是开放的具身基础模型。目前，灵波已向全球开源覆盖空间智能、灵巧操作与环境反馈的核心模型，围绕让机器人“看得更清楚、想得更明白、干得更利索”构建全栈能力，让同一套智能在不同机器人构型、任务和场景中复用。 蚂蚁灵波大脑全栈2.0模型矩阵 据统计，LingBot系列模型开源9个月来，下载量已突破220万，GitHub Star数超过3.3万，相关工作被 Physical Intelligence、Generalist AI 等全球友商引用。这套来自中国的机器人大脑，已走进全球科研与工程体系：斯坦福大学OpenWAM项目复用并适配了Lin…",
+      "publishedAt": "2026-11-03T13:41:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "76bedc9bb5fccb36"
+    },
+    {
+      "title": "腾讯12.8亿用户蝉联中国互联网第一，绿泡泡月活破1.5亿，手游top10独占8款",
+      "url": "https://www.leiphone.com/category/industrynews/TIDTmVxPQiwSHe8f.html",
+      "summary": "11 月 3 日，QuestMobile发布最新《中国移动互联网秋季大报告》。报告显示，截至 2026 年 9 月，腾讯控股以 12.80 亿去重总用户量（APP + 小程序）位列中国互联网公司用户规模榜首，第九年蝉联榜首，霸主地位稳固。 短剧业务是本次报告的关注重点。腾讯旗下嵌入微信生态的绿泡泡短剧2026年9月月活跃用户规模达到 1.56 亿，登顶微信小程序短剧月活榜。该产品依托微信社交关系链与视频号导流快速起量，目前体量已是短剧行业第二名，增长速度很快。 游戏业务方面，2026 年 9 月手机游戏 App 月活跃用户 TOP10 中，腾讯独占 8 款，合计月活约 3.41 亿。其中，王者荣耀以 1.29 亿月活位居全行业第二，仅次于乐元素开心消消乐的 1.61 亿；三角洲行动、和平精英分别以 6675 万、3547 万月活位列第三、第四。报告同时提到，名古屋亚运会期间，王者荣耀以庞大玩家基数成为电竞项目顶流。 报告指出，短剧视频与短视频已成为驱动全网用户时长增长的核心引擎，增长贡献率达 111.5%。依托微信社交与私域流量，小程序短剧起量迅猛，短剧业务正成为腾讯盘活流量矩阵的重…",
+      "publishedAt": "2026-11-03T10:59:00.000Z",
+      "author": "",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "category": "cn",
+      "id": "85de2d361cc9a1b8"
+    },
+    {
+      "title": "纽约时报等起诉 Brave 绕过付费墙抓取内容并提供给 AI 公司",
+      "url": "https://www.solidot.org/story?sid=85788",
+      "summary": "《纽约时报》、《芝加哥论坛报》和《奥兰多哨兵报》等美国出版商起诉 Brave Software，指控其未经许可抓取网站内容，并帮助用户绕过付费墙。Brave Software 被控将其抓取内容的索引数据库 Brave Index 提供给 Anthropic、Perplexity、Mistral、xAI 和 Cohere 等 AI 公司，通过 Paywall blocker 功能帮助用户绕过数百家新闻媒体的付费墙。《纽约时报》发言人 Graham James 在一份声明中表示：“我们支持合乎道德且负责任的使用与开发 AI，但 Brave 公然蔑视现行版权法，对《纽约时报》多次要求其停止侵权行为的诉求置之不理。我们提起此项诉讼，旨在追究 Brave 的责任——它窃取了我们的内容，不仅用于支撑其自身产品，还将其提供给部分全球最知名、资源最雄厚的生成式 AI 公司。”",
+      "publishedAt": "2026-11-03T16:58:29.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "37045003cecccafa"
+    },
+    {
+      "title": "Google 将对拒绝 AI 的美国学校关闭搜索",
+      "url": "https://www.solidot.org/story?sid=85787",
+      "summary": "Google 宣布美国 K-12 学校学生使用的软件将默认关闭所有 AI 功能，除非学校管理人员自己选择启用。此举旨在回应教育工作者和家长的诉求，他们希望在孩子与 AI 互动上有更多的掌控权。今天 AI 功能已成为 Google 商用搜索引擎的标配，Google 负责教育的副总裁 Chris Phillips 表示，搜索与 AI 已深度融合，如果学校禁用了 AI，那么学生将无法使用搜索。美国 K-12 学校广泛使用 Google 的软件，包括 Gmail、Docs 以及作业平台 Classroom。Google 的 Chromebook 是美国学校最广泛使用的笔记本电脑。",
+      "publishedAt": "2026-11-03T16:33:42.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "f811e21f25863514"
+    },
+    {
+      "title": "Fedora Linux 45 释出",
+      "url": "https://www.solidot.org/story?sid=85786",
+      "summary": "Fedora Linux 项目释出了 v45。Fedora Linux 项目同时释出了 Fedora Workstation、Fedora KDE Plasma Desktop、Fedora Server、Fedora Cloud、Fedora CoreOS 和 Fedora IoT，以及 Atomic Desktops 等众多衍生版本。Fedora Linux 45 的主要变化包括：支持通过 Anaconda 或 Kickstart 在 Stratis 存储上进行安装，移除 NetworkManager 不再维护的 VPN 插件，GNOME 和 KDE ​​Plasma 桌面环境的最新版本，完善 Wayland 支持，改进分数缩放，gcc 16.2、binutils 2.47、glibc 2.44、gdb 17.2、Fontconfig 2.18、LLVM 23 等开发工具的新版本。更多变化可浏览 ChangeSet。",
+      "publishedAt": "2026-11-03T16:22:33.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "1dbf82f53c3403c6"
+    },
+    {
+      "title": "科学家发现 1.15 亿年前的恐龙红细胞",
+      "url": "https://www.solidot.org/story?sid=85785",
+      "summary": "血细胞并不容易形成化石。大多数血细胞在死亡后不久便会分解，这使得找到令人信服的、非常古老的血液痕迹非常困难。然而澳大利亚科廷大学的研究团队在 PNAS 上发表论文称，凭借多条证据，他们在巴西一只 1.15 亿年前的恐龙遗骸中发现了最古老的红细胞化石。这项研究的对象是巴西恐龙“阿拉塔龙”的骨骼化石。研究人员估计，这只恐龙体长约 3 米、重约 34 公斤，死亡后遗体沉入水底，微生物生长并将其掩埋，从而保存了下来。在显微镜下，研究人员在这只恐龙的骨骼中发现化石细胞的迹象：这些结构呈圆形，中心凹陷，每个细胞平均长 23 微米、宽 20 微米，嵌在曾经让血管穿过骨骼的通道中。下一步则是寻找化学线索，以证明这些结构确实含有血细胞，而不仅仅是形似血细胞的矿物质。在他们进行的近 30 项试验中，有一项是将骨样本研磨成粉后用激光照射，从样本散射回来的光显示出血红素的存在。血红素是一种环状化合物，其中的铁元素有助于红细胞运输氧气。研究人员还发现了大量降解形式的血红素。",
+      "publishedAt": "2026-11-03T09:54:53.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "0dc1c8475cb8ec28"
+    },
+    {
+      "title": "Enlightenment 0.28.0 释出，初步支持 BSD",
+      "url": "https://www.solidot.org/story?sid=85783",
+      "summary": "轻量级桌面环境 Enlightenment 项目释出了 v0.28.0。主要变化包括：初步支持 NetBSD，支持 Network Manager，原生支持 PipeWire，新的剪贴板管理器，电池管理、AC 轮询等相关代码进行重写，新增设置电池阈值和支持 ACPI 电源配置等等，以及大量 bug 修复和更改。",
+      "publishedAt": "2026-11-03T08:16:40.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "733a2c5158b9393d"
+    },
+    {
+      "title": "全球加速发展核电",
+      "url": "https://www.solidot.org/story?sid=85782",
+      "summary": "全球在建核电站已增至 79 个机组，达到 40 年来的高水平。据世界核协会统计，2026 年全球有 11 个新核电机组开工建设，截至 10 月 16 日，在建核电机组数量达到 79 个。这是 1986 年（91 个）以来的高位。1986 年是切尔诺贝利核电站事故发生的年份，此后全球新建核电机组数量有所减少。如果将预计未来 15 年内投入运营的正在规划的核电机组也计算在内，数量将达到 201 个。目前全球在运核电机组共有 443 个。即使考虑到因老化而退役的核电机组，到 2040 年前后，全球在运核电机组数量仍有可能超过 600 个。目前全球在建的79个核电机组中，仅中国就有38个，约占总数的一半，其次是印度（8个）和俄罗斯（7个）。从处于规划阶段的核电机组来看，中国同样遥遥领先，达到 42 个，其次是俄罗斯（23个）和印度（14个）。",
+      "publishedAt": "2026-11-03T07:41:34.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "42a7897b95a42eee"
+    },
+    {
+      "title": "Tor Browser 16.0 释出",
+      "url": "https://www.solidot.org/story?sid=85781",
+      "summary": "，它是首个基于 Firefox ESR 153 的稳定版本。主要变化包括：Linux 版本支持 64 位 ARM 架构，重新设计设置，名为通用窗口标题（generic window titles）的功能有助于防止其它应用窥探用户的浏览器活动，Android 版本使用 Google 的 Material Design 3 更新了界面，停止支持 32 位 x86 Linux 系统，等等。更多变化可浏览更新日志。",
+      "publishedAt": "2026-11-03T07:10:27.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "bc78a153f5561f4f"
+    },
+    {
+      "title": "Swift 天文台将于 11 月 4 日重返大气层",
+      "url": "https://www.solidot.org/story?sid=85780",
+      "summary": "拯救失败的 NASA Neil Gehrels Swift 天文台将于 11 月 4 日重返大气层。但目前还不清楚其坠落地点以及它会有哪些组件会在穿过大气层后仍然幸存下来。Swift 天文台重 1.5 吨，于 2004 年发射升空，旨在研究高能伽马射线暴的起源。过去 22 年受大气阻力的影响 Swift 天文台的轨道高度在缓慢下降，过去两年活跃的太阳活动加速了其坠落。今年 7 月 NASA 曾尝试了一次拯救任务，但任务失败。10 月 20 日其轨道高度降至 275 公里，其使命正式结束。Swift 天文台的轨道经过了澳大利亚、非洲、印度、东南亚以及中南美洲上空，最有可能的坠落地点是海洋。",
+      "publishedAt": "2026-11-03T06:48:25.000Z",
+      "author": "",
+      "sourceId": "solidot",
+      "sourceName": "Solidot",
+      "category": "cn",
+      "id": "1c4b86485bb99afb"
+    },
+    {
+      "title": "大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
+      "url": "https://www.infoq.cn/article/bFKTeyCOlydWMYi91H4q",
+      "summary": "",
+      "publishedAt": "2026-11-04T11:02:34.000Z",
+      "author": "姚戈",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "2346e7ecf61cc41d"
+    },
+    {
+      "title": "给 AI 业务单独划一块地：帆软怎么重新安排事、人和组织｜AICon北京",
+      "url": "https://www.infoq.cn/article/BGkTakB51rl6ybIh4sYJ",
+      "summary": "",
+      "publishedAt": "2026-11-04T10:00:00.000Z",
+      "author": "AICon 全球人工智能开发与应用大会",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "61f6e23aa05ea876"
+    },
+    {
+      "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu",
+      "summary": "",
+      "publishedAt": "2026-11-03T21:26:32.000Z",
+      "author": "蔡芳芳",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "dec8b17a8b038c21"
+    },
+    {
+      "title": "AI 改变的是数据接口，而不是查询引擎",
+      "url": "https://www.infoq.cn/article/fvNWWYEmke5xJVsHEIIi",
+      "summary": "",
+      "publishedAt": "2026-11-03T17:07:00.000Z",
+      "author": "作者：Peihao Yuan",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "45b7073946e7d5ba"
+    },
+    {
+      "title": "前迪士尼 AI 高管出任 CPO，Utopai Studios 技术布局再提速",
+      "url": "https://www.infoq.cn/article/z1ZeGD2FDqi6xLvSJjSl",
+      "summary": "",
+      "publishedAt": "2026-11-03T16:11:29.000Z",
+      "author": "Utopai Studios",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "f15c11ee552a2f11"
+    },
+    {
+      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
+      "url": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC",
+      "summary": "",
+      "publishedAt": "2026-11-03T15:40:16.000Z",
+      "author": "作者：尚旭春",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "category": "cn",
+      "id": "facbeadf384fbb65"
+    },
+    {
+      "title": "Apache SeaTunnel 社区 2026 年 10 月贡献总结报告",
+      "url": "https://www.oschina.net/news/503381",
+      "summary": "> 数据范围：本报告基于 apache/seatunnel 仓库 dev 分支的合并提交记录，统计窗口为 2026-10-01 至 2026-10-31（UTC），覆盖完整自然月。 一、本月社区整体贡献数据 1.1 数据概览 指标 2026 年 10 月 合并提交数 282 活跃贡献者 54 日均提交数 9.1 代码新增行 122,120 代码删除行 6,094 新增连接器 6 OptionRule 声明式...",
+      "publishedAt": "2026-11-04T02:16:53.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "55b0194c3c3b4fa3"
+    },
+    {
+      "title": "Skyeye 云企业级AI+零代码智能制造系统-AI应用 - v4.1.10发布",
+      "url": "https://www.oschina.net/news/503380",
+      "summary": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant Design Vue 的零代码平台开发模式。包含 100 多种电子流程，CRM、PM、ERP、MES、ADM、OA、EHR、AI、项目、商城、财务、多班次考勤、薪资、招聘、云售后、论坛、问卷、报表设计、工作流、Saas 等功能。打造全网首套零代码、AI应用最广...",
+      "publishedAt": "2026-11-04T02:09:26.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "dfef7d692c9ccfb7"
+    },
+    {
+      "title": "Nginx 配置没人敢动？这台服务器的 SSL 证书续期，我终于不用手动了",
+      "url": "https://www.oschina.net/news/503375",
+      "summary": "Nginx 配置没人敢动？老系统的 SSL 证书续期，真的不应该这么折腾 做运维久了，应该都遇到过这种服务器。 一台 Linux 服务器，上面跑着几十个网站，Nginx 配置文件堆了好几层目录。主配置文件里面 include 了一堆子配置，有些站点的配置甚至已经不知道是谁写的、为什么这么写。 有些是五六年前留下来的老系统，有些经过好...",
+      "publishedAt": "2026-11-03T14:30:28.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "effb1ef9a66363bd"
+    },
+    {
+      "title": "AI 训练 AI！百度首次披露 Apollo World 世界模型，让无人驾驶突破“不可能三角”",
+      "url": "https://www.oschina.net/news/503374",
+      "summary": "“世界模型，重点不是渲染的画质是否好看，而是模拟器是否能忠实还原现实物理规律和行为的因果”。11月3日，在深圳举行的百度AI Day·Apollo专场上，百度Apollo首次披露面向物理AI的智能体驱动全模态世界模型Apollo World，并提出世界模型 “2+3”判断标准。目前，该模型已用于萝卜快跑全球化测试与验证，助力无人驾驶规...",
+      "publishedAt": "2026-11-03T11:50:21.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "a498d6c7b8a592b3"
+    },
+    {
+      "title": "qModel 算法模型平台开源版 v1.4.3 版本发布：支持 API 获取输入参数，提升模型输出可读性",
+      "url": "https://www.oschina.net/news/503372",
+      "summary": "模型能够成功接入，并不代表调用体验已经足够顺畅。 在实际使用中，一个 API 模型往往不仅由算法工程师维护，还会被系统开发、业务分析等不同角色调用。输入参数较多时，需要反复对照接口文档填写；返回结果包含多层 JSON 结构时，又需要额外确认每个字段具体代表什么。 这些问题不会直接导致模型“不能用”，但会增加模...",
+      "publishedAt": "2026-11-03T07:20:31.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "d8128d247935ce92"
+    },
+    {
+      "title": "Jync v1.11.0 · MongoDB 专属迁移",
+      "url": "https://www.oschina.net/news/503368",
+      "summary": "「专属迁移」新增 MongoDB → MongoDB 与 MongoDB → KingbaseES 两种整库一次性复制，与实时同步、ETL 完全隔离；ES / OpenSearch → Easysearch 的行为保持不变。 新增 MongoDB → MongoDB：使用随包内置的原生 mongodb-driver-sync，自动发现集合并按模式筛选；复制集合选项（cappe...",
+      "publishedAt": "2026-11-03T05:33:51.000Z",
+      "author": "",
+      "sourceId": "oschina",
+      "sourceName": "开源中国",
+      "category": "cn",
+      "id": "2c2bfc56b4f0c997"
+    }
+  ],
+  "reports": [
+    {
+      "id": "arxiv-cs-ai",
+      "name": "arXiv cs.AI",
+      "category": "papers",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "id": "arxiv-cs-lg",
+      "name": "arXiv cs.LG",
+      "category": "papers",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "id": "arxiv-cs-cl",
+      "name": "arXiv cs.CL",
+      "category": "papers",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "category": "research",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "simon-willison",
+      "name": "Simon Willison",
+      "category": "research",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "latent-space",
+      "name": "Latent Space",
+      "category": "research",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "category": "research",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "import-ai",
+      "name": "Import AI",
+      "category": "research",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "mit-tech-review",
+      "name": "MIT Technology Review",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "the-verge-ai",
+      "name": "The Verge AI",
+      "category": "research",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA Developer",
+      "category": "research",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "bair",
+      "name": "BAIR",
+      "category": "research",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "github-trending",
+      "name": "GitHub Trending",
+      "category": "opensource",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "github-blog",
+      "name": "GitHub Blog",
+      "category": "opensource",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "category": "community",
+      "status": "ok",
+      "count": 12
+    },
+    {
+      "id": "qbitai",
+      "name": "量子位",
+      "category": "cn",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "id": "leiphone",
+      "name": "雷峰网",
+      "category": "cn",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "solidot",
+      "name": "Solidot",
+      "category": "cn",
+      "status": "ok",
+      "count": 8
+    },
+    {
+      "id": "infoq-cn",
+      "name": "InfoQ 中文",
+      "category": "cn",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "oschina",
+      "name": "开源中国",
+      "category": "cn",
+      "status": "ok",
+      "count": 6
+    }
+  ]
+}
