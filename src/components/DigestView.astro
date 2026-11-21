@@ -22,30 +22,51 @@ const groups = categories
   }))
   .filter((group) => group.items.length > 0);
 
-const lede = [
+const ledeEditorial = [
+  generated ? `更新于 ${generated}` : '每日更新',
+  `收录 ${formatCount(digest.items.length)} 条`,
+  `${formatCount(ok.length)} 个来源有更新`,
+  empty.length ? `${formatCount(empty.length)} 个近期没有新内容` : '',
+  failed.length ? `${formatCount(failed.length)} 个这次没有返回` : '',
+].filter(Boolean).join(' · ');
+
+const ledeOriginalParts = [
   `收录 ${formatCount(digest.items.length)} 条。`,
   `${formatCount(ok.length)} 个来源有更新`,
   empty.length ? `${formatCount(empty.length)} 个近期没有新内容` : '',
   failed.length ? `${formatCount(failed.length)} 个这次没有返回` : '',
 ].filter(Boolean);
-
-const ledeText = `${lede[0]}${lede.slice(1).join('，')}。`;
+const ledeOriginal = `${ledeOriginalParts[0]}${ledeOriginalParts.slice(1).join('，')}。`;
 ---
 
 <div class="shell">
   <header class="mast">
-    <p class="kicker">北京时间 · {generated ? `更新于 ${generated}` : '每日更新'}</p>
-    <h1>{date.short}<span>{date.weekday}</span></h1>
-    <p class="lede">{ledeText}</p>
+    <p class="kicker" data-themes="original">北京时间 · {generated ? `更新于 ${generated}` : '每日更新'}</p>
+    <h1>
+      <span class="date-full" data-themes="editorial">{date.label}</span>
+      <span class="date-short" data-themes="original">{date.short}</span>
+      <span class="weekday">{date.weekday}</span>
+    </h1>
+    <p class="lede" data-themes="editorial">{ledeEditorial}</p>
+    <p class="lede" data-themes="original">{ledeOriginal}</p>
     {notice && <p class="notice">{notice}</p>}
   </header>
+
+  <nav class="jump jump-bar" data-themes="editorial" aria-label="分类">
+    {groups.map((group) => (
+      <a href={`#cat-${group.category.id}`}>
+        {group.category.name}
+        <span>{group.items.length}</span>
+      </a>
+    ))}
+  </nav>
 
   <div class="layout">
     <div class="feed">
       {groups.map((group, index) => (
         <section class="section" id={`cat-${group.category.id}`} aria-labelledby={`heading-${group.category.id}`}>
           <header class="section-h">
-            <span class="idx">{String(index + 1).padStart(2, '0')}</span>
+            <span class="idx" data-themes="original">{String(index + 1).padStart(2, '0')}</span>
             <h2 id={`heading-${group.category.id}`}>{group.category.name}</h2>
             <span class="count">{group.items.length}</span>
             <span class="desc">{group.category.description}</span>
@@ -53,6 +74,13 @@ const ledeText = `${lede[0]}${lede.slice(1).join('，')}。`;
           <ul class="items">
             {group.items.map((item) => (
               <li class="item" id={`item-${item.id}`}>
+                <h3>
+                  <a href={item.url} target="_blank" rel="noopener noreferrer">
+                    {item.title}
+                    <span class="sr">（在新标签页打开）</span>
+                  </a>
+                </h3>
+                {(item.summaryZh || item.summary) && <p class="summary">{item.summaryZh || item.summary}</p>}
                 <div class="item-meta">
                   <span class="source">{item.sourceName}</span>
                   {item.publishedAt && (
@@ -61,15 +89,19 @@ const ledeText = `${lede[0]}${lede.slice(1).join('，')}。`;
                     </time>
                   )}
                   {item.summaryZh && <span class="badge">中文摘要</span>}
+                  {item.author && <span data-themes="editorial">{item.author}</span>}
+                  {item.tags?.map((tag) => <span data-themes="editorial">{tag}</span>)}
+                  {item.metrics?.language && <span data-themes="editorial">{item.metrics.language}</span>}
+                  {item.metrics?.starsToday && <span data-themes="editorial">今日 {item.metrics.starsToday} 星</span>}
+                  {item.metrics?.stars && !item.metrics.starsToday && <span data-themes="editorial">{item.metrics.stars} 星</span>}
+                  {item.metrics?.points != null && <span data-themes="editorial">{formatCount(item.metrics.points)} 分</span>}
+                  {item.discussionUrl && (
+                    <a data-themes="editorial" href={item.discussionUrl} target="_blank" rel="noopener noreferrer">
+                      {item.metrics?.comments != null ? `${formatCount(item.metrics.comments)} 条讨论` : '讨论'}
+                    </a>
+                  )}
                 </div>
-                <h3>
-                  <a href={item.url} target="_blank" rel="noopener noreferrer">
-                    {item.title}
-                    <span class="sr">（在新标签页打开）</span>
-                  </a>
-                </h3>
-                {(item.summaryZh || item.summary) && <p class="summary">{item.summaryZh || item.summary}</p>}
-                <div class="item-foot">
+                <div class="item-foot" data-themes="original">
                   {item.author && <span>{item.author}</span>}
                   {item.tags?.map((tag) => <span class="pill">{tag}</span>)}
                   {item.metrics?.language && <span class="pill">{item.metrics.language}</span>}
@@ -90,7 +122,7 @@ const ledeText = `${lede[0]}${lede.slice(1).join('，')}。`;
     </div>
 
     <aside class="health" aria-label="本期来源">
-      <nav class="side-block" aria-label="分类">
+      <nav class="side-block" data-themes="original" aria-label="分类">
         <h2>分类</h2>
         <div class="jump">
           {groups.map((group) => (
@@ -101,7 +133,6 @@ const ledeText = `${lede[0]}${lede.slice(1).join('，')}。`;
           ))}
         </div>
       </nav>
-
       <div class="side-block">
         <h2>来源</h2>
         <p>
